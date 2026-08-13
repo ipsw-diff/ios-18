@@ -1,0 +1,29 @@
+{
+  "device": "iPhone17,1",
+  "from": {
+    "build": "22E5232a",
+    "input": "iPhone17,1_18.4_22E5232a_Restore.ipsw",
+    "version": "18.4"
+  },
+  "id": "ios-18.4-22E5232a-22E239",
+  "major_version": 18,
+  "payload": {
+    "entrypoint": "diffs/18_4_22E5232a__vs_18_4_22E239/README.md",
+    "git_tree": "c56cb59964c28fdc69e6c96941d8a1009b567942",
+    "logical_bytes": 1215461,
+    "path": "diffs/18_4_22E5232a__vs_18_4_22E239",
+    "tracked_file_count": 937
+  },
+  "platform": "iOS",
+  "schema_version": 1,
+  "source": {
+    "commit": "d881e84676308404c6947d0218c11f347a6f3a89",
+    "path": "18_4_22E5232a__vs_18_4_22E239",
+    "repository": "https://github.com/blacktop/ipsw-diffs"
+  },
+  "to": {
+    "build": "22E239",
+    "input": "iPhone17,1_18.4_22E239_Restore.ipsw",
+    "version": "18.4"
+  }
+}

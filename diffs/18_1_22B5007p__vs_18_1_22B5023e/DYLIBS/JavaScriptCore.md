@@ -1,0 +1,676 @@
+## JavaScriptCore
+
+> `/System/Library/Frameworks/JavaScriptCore.framework/JavaScriptCore`
+
+```diff
+
+-619.1.22.4.0
+-  __TEXT.__text: 0x15b3960
++619.1.26.20.1
++  __TEXT.__text: 0x15bf8d0
+   __TEXT.__jsc_int: 0x7749c
+-  __TEXT.__auth_stubs: 0x2ce0
++  __TEXT.__auth_stubs: 0x2d30
+   __TEXT.__objc_methlist: 0x9cc
+-  __TEXT.__cstring: 0xbd028
+-  __TEXT.__const: 0x80e98
+-  __TEXT.__gcc_except_tab: 0x1e94
++  __TEXT.__cstring: 0xbe0a7
++  __TEXT.__const: 0x80b78
++  __TEXT.__gcc_except_tab: 0x1ec0
+   __TEXT.__oslogstring: 0x565
+-  __TEXT.__unwind_info: 0x1678
++  __TEXT.__unwind_info: 0x1698
+   __TEXT.__eh_frame: 0x48
+   __TEXT.__objc_classname: 0xee
+   __TEXT.__objc_methname: 0x1db6
+   __TEXT.__objc_methtype: 0xf90
+   __TEXT.__objc_stubs: 0x1960
+   __DATA_CONST.__got: 0x2b0
+-  __DATA_CONST.__const: 0x135f0
++  __DATA_CONST.__const: 0x13740
+   __DATA_CONST.__objc_classlist: 0x58
+   __DATA_CONST.__objc_protolist: 0x18
+   __DATA_CONST.__objc_imageinfo: 0x8
+   __DATA_CONST.__objc_selrefs: 0x8c0
+   __DATA_CONST.__objc_protorefs: 0x8
+   __DATA_CONST.__objc_superrefs: 0x40
+-  __DATA_CONST.__jsc_ops: 0x30c0
+-  __AUTH_CONST.__auth_got: 0x1680
+-  __AUTH_CONST.__auth_ptr: 0xb8
+-  __AUTH_CONST.__const: 0x39f60
++  __DATA_CONST.__jsc_ops: 0x31b0
++  __AUTH_CONST.__auth_got: 0x16a8
++  __AUTH_CONST.__auth_ptr: 0xc0
++  __AUTH_CONST.__const: 0x39e60
+   __AUTH_CONST.__cfstring: 0xfc0
+   __AUTH_CONST.__objc_const: 0x1170
+   __AUTH.__objc_data: 0xa0
+   __AUTH.__data: 0xa0
+   __DATA.__objc_ivar: 0x80
+-  __DATA.__data: 0x4a8
+-  __DATA.__common: 0x1888
+-  __DATA.__bss: 0x299
++  __DATA.__data: 0x6b8
++  __DATA.__common: 0x1878
++  __DATA.__bss: 0x2dd
+   __DATA_DIRTY.__objc_ivar: 0x8
+   __DATA_DIRTY.__objc_data: 0x2d0
+-  __DATA_DIRTY.__data: 0x16448
+-  __DATA_DIRTY.__bss: 0x28e1
++  __DATA_DIRTY.__data: 0x163b8
++  __DATA_DIRTY.__bss: 0x28f9
+   __DATA_DIRTY.__common: 0xfe9c
+   - /System/Library/Frameworks/BrowserEngineCore.framework/BrowserEngineCore
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libicucore.A.dylib
+   - /usr/lib/libobjc.A.dylib
+-  Functions: 42945
+-  Symbols:   36297
+-  CStrings:  18750
++  Functions: 42845
++  Symbols:   36255
++  CStrings:  18850
+ 
+Symbols:
++ _CFStringGetRangeOfCharacterClusterAtIndex
++ _CFStringTokenizerGetCurrentTokenRange
++ _CFStringTokenizerGoToTokenAtIndex
++ _CFStringTokenizerSetString
++ __ZN3JSC13JSMapIterator14finishCreationEPNS_14JSGlobalObjectEPNS_5JSMapENS_13IterationKindE
++ __ZN3JSC13JSSetIterator14finishCreationEPNS_14JSGlobalObjectEPNS_5JSSetENS_13IterationKindE
++ __ZN3JSC20JSImmutableButterfly6s_infoE
++ __ZN3JSC2VM28orderedHashTableSentinelSlowEv
++ __ZN3JSC2VM32orderedHashTableDeletedValueSlowEv
++ __ZN3JSC7Symbols21mapStoragePrivateNameE
++ __ZN3JSC7Symbols21setStoragePrivateNameE
++ __ZN3JSC7Symbols25mapIteratorKeyPrivateNameE
++ __ZN3JSC7Symbols25setIteratorKeyPrivateNameE
++ __ZN3JSC7Symbols27mapIterationNextPrivateNameE
++ __ZN3JSC7Symbols27mapIteratorValuePrivateNameE
++ __ZN3JSC7Symbols27setIterationNextPrivateNameE
++ __ZN3JSC7Symbols28mapIterationEntryPrivateNameE
++ __ZN3JSC7Symbols28setIterationEntryPrivateNameE
++ __ZN3JSC7Symbols31mapIterationEntryKeyPrivateNameE
++ __ZN3JSC7Symbols31setIterationEntryKeyPrivateNameE
++ __ZN3JSC7Symbols32mapIteratorFieldEntryPrivateNameE
++ __ZN3JSC7Symbols32setIteratorFieldEntryPrivateNameE
++ __ZN3JSC7Symbols33mapIterationEntryValuePrivateNameE
++ __ZN3JSC7Symbols34mapIteratorFieldStoragePrivateNameE
++ __ZN3JSC7Symbols34setIteratorFieldStoragePrivateNameE
++ __ZN3JSC7Symbols35orderedHashTableSentinelPrivateNameE
++ __ZN3JSC7Symbols41mapIteratorFieldIteratedObjectPrivateNameE
++ __ZN3JSC7Symbols41setIteratorFieldIteratedObjectPrivateNameE
++ __ZN3WTF22setSDKAlignedBehaviorsENS_6BitSetILm93EjEE
++ __ZN9Inspector15RemoteInspector21connectToWebInspectorEv
++ _ubrk_isBoundary
+- __ZN3JSC13JSMapIterator14finishCreationERNS_2VMEPNS_5JSMapENS_13IterationKindE
+- __ZN3JSC13JSSetIterator10createPairEPNS_14JSGlobalObjectENS_7JSValueES3_
+- __ZN3JSC13JSSetIterator14finishCreationERNS_2VMEPNS_5JSSetENS_13IterationKindE
+- __ZN3JSC28getHashMapBucketKeyClassInfoEv
+- __ZN3JSC2VM21sentinelMapBucketSlowEv
+- __ZN3JSC2VM21sentinelSetBucketSlowEv
+- __ZN3JSC33getHashMapBucketKeyValueClassInfoEv
+- __ZN3JSC4Heap18mapBucketSpaceSlowEv
+- __ZN3JSC4Heap18setBucketSpaceSlowEv
+- __ZN3JSC7Symbols23mapBucketKeyPrivateNameE
+- __ZN3JSC7Symbols23setBucketKeyPrivateNameE
+- __ZN3JSC7Symbols24mapBucketHeadPrivateNameE
+- __ZN3JSC7Symbols24mapBucketNextPrivateNameE
+- __ZN3JSC7Symbols24setBucketHeadPrivateNameE
+- __ZN3JSC7Symbols24setBucketNextPrivateNameE
+- __ZN3JSC7Symbols25mapBucketValuePrivateNameE
+- __ZN3JSC7Symbols28sentinelMapBucketPrivateNameE
+- __ZN3JSC7Symbols28sentinelSetBucketPrivateNameE
+- __ZN3JSC7Symbols36mapIteratorFieldMapBucketPrivateNameE
+- __ZN3JSC7Symbols36setIteratorFieldSetBucketPrivateNameE
+- __ZN3JSC8GCClient4Heap18mapBucketSpaceSlowEv
+- __ZN3JSC8GCClient4Heap18setBucketSpaceSlowEv
+- __ZN3WTF22setSDKAlignedBehaviorsENS_6BitSetILm92EjEE
+CStrings:
++ "           /*"
++ "    ((a) | ((b) << 1) | ((c) << 2) | ((d) << 3) | ((e) << 4) | ((f) << 5) | ((g) << 6) | ((h) << 7))"
++ " %!c(MISSING)"
++ " *"
++ " *    documentation and/or other materials provided with the distribution."
++ " *    notice, this list of conditions and the following disclaimer in the"
++ " *    notice, this list of conditions and the following disclaimer."
++ " * 1. Redistributions of source code must retain the above copyright"
++ " * 2. Redistributions in binary form must reproduce the above copyright"
++ " * AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO,"
++ " * ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF"
++ " * BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR"
++ " * CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF"
++ " * CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE)"
++ " * Copyright (C) 2005-2024 Apple Inc. All rights reserved."
++ " * Copyright (C) 2011-2024 Google Inc. All rights reserved."
++ " * INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN"
++ " * PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL APPLE INC. OR ITS CONTRIBUTORS"
++ " * Redistribution and use in source and binary forms, with or without"
++ " * SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS"
++ " * THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR"
++ " * THE POSSIBILITY OF SUCH DAMAGE."
++ " * THIS SOFTWARE IS PROVIDED BY APPLE INC. AND ITS CONTRIBUTORS ``AS IS''"
++ " * are met:"
++ " * modification, are permitted provided that the following conditions"
++ " */"
++ "#define B(a, b, c, d, e, f, g, h) \\"
++ "#include \"BreakLines.h\""
++ "#include \"config.h\""
++ "#include <wtf/ASCIICType.h>"
++ "#include <wtf/StdLibExtras.h>"
++ "#include <wtf/unicode/CharacterNames.h>"
++ "#undef B"
++ "%!s(MISSING)%!u(MISSING)"
++ "(\n) {\n"
++ "(nullptr)"
++ "(value->type() == Int32 && value->child(0)->type() == Int64)"
++ "),B("
++ ")},"
++ "./runtime/ButterflyInlines.h"
++ "./runtime/ExceptionScope.h"
++ "./runtime/GetPutInfo.h"
++ "./runtime/JSArrayInlines.h"
++ "/*"
++ "/* %!X(MISSING) %!c(MISSING) */ {B("
++ "// Pack 8 bits into one byte"
++ "// This file is generated from JSC's $vm.dumpLineBreakData()"
++ "/AppleInternal/Library/BuildRoots/6bc26dac-5425-11ef-9730-5a7ac3341c94/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.1.Internal.sdk/usr/local/include/wtf/Assertions.h"
++ "/AppleInternal/Library/BuildRoots/6bc26dac-5425-11ef-9730-5a7ac3341c94/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.1.Internal.sdk/usr/local/include/wtf/ConcurrentPtrHashSet.h"
++ "/AppleInternal/Library/BuildRoots/6bc26dac-5425-11ef-9730-5a7ac3341c94/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.1.Internal.sdk/usr/local/include/wtf/Deque.h"
++ "/AppleInternal/Library/BuildRoots/6bc26dac-5425-11ef-9730-5a7ac3341c94/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.1.Internal.sdk/usr/local/include/wtf/IndexMap.h"
++ "/AppleInternal/Library/BuildRoots/6bc26dac-5425-11ef-9730-5a7ac3341c94/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.1.Internal.sdk/usr/local/include/wtf/JSONValues.h"
++ "/AppleInternal/Library/BuildRoots/6bc26dac-5425-11ef-9730-5a7ac3341c94/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.1.Internal.sdk/usr/local/include/wtf/LazyRef.h"
++ "/AppleInternal/Library/BuildRoots/6bc26dac-5425-11ef-9730-5a7ac3341c94/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.1.Internal.sdk/usr/local/include/wtf/LazyUniqueRef.h"
++ "/AppleInternal/Library/BuildRoots/6bc26dac-5425-11ef-9730-5a7ac3341c94/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.1.Internal.sdk/usr/local/include/wtf/Liveness.h"
++ "/AppleInternal/Library/BuildRoots/6bc26dac-5425-11ef-9730-5a7ac3341c94/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.1.Internal.sdk/usr/local/include/wtf/LockAlgorithmInlines.h"
++ "/AppleInternal/Library/BuildRoots/6bc26dac-5425-11ef-9730-5a7ac3341c94/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.1.Internal.sdk/usr/local/include/wtf/NaturalLoops.h"
++ "/AppleInternal/Library/BuildRoots/6bc26dac-5425-11ef-9730-5a7ac3341c94/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.1.Internal.sdk/usr/local/include/wtf/ObjectIdentifier.h"
++ "/AppleInternal/Library/BuildRoots/6bc26dac-5425-11ef-9730-5a7ac3341c94/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.1.Internal.sdk/usr/local/include/wtf/RedBlackTree.h"
++ "/AppleInternal/Library/BuildRoots/6bc26dac-5425-11ef-9730-5a7ac3341c94/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.1.Internal.sdk/usr/local/include/wtf/SinglyLinkedListWithTail.h"
++ "/AppleInternal/Library/BuildRoots/6bc26dac-5425-11ef-9730-5a7ac3341c94/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.1.Internal.sdk/usr/local/include/wtf/StdLibExtras.h"
++ "/AppleInternal/Library/BuildRoots/6bc26dac-5425-11ef-9730-5a7ac3341c94/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.1.Internal.sdk/usr/local/include/wtf/ThreadSafeWeakHashSet.h"
++ "/AppleInternal/Library/BuildRoots/6bc26dac-5425-11ef-9730-5a7ac3341c94/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.1.Internal.sdk/usr/local/include/wtf/ThreadSpecific.h"
++ "/AppleInternal/Library/BuildRoots/6bc26dac-5425-11ef-9730-5a7ac3341c94/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.1.Internal.sdk/usr/local/include/wtf/TrailingArray.h"
++ "/AppleInternal/Library/BuildRoots/6bc26dac-5425-11ef-9730-5a7ac3341c94/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.1.Internal.sdk/usr/local/include/wtf/text/StringBuilder.h"
++ "/AppleInternal/Library/BuildRoots/6bc26dac-5425-11ef-9730-5a7ac3341c94/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.1.Internal.sdk/usr/local/include/wtf/text/StringConcatenate.h"
++ "/AppleInternal/Library/BuildRoots/6bc26dac-5425-11ef-9730-5a7ac3341c94/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.1.Internal.sdk/usr/local/include/wtf/text/StringImpl.h"
++ "ChangePrototype"
++ "Check wether the current entryKey is a deleted one."
++ "Compute the bucketCount = Capacity / LoadFactor and bucketIndex = hashTableStartIndex + (hash & bucketCount - 1)."
++ "Didn't find a matched entryKey."
++ "Done, either found or not found."
++ "Get the JSImmutableButterfly first."
++ "Get the entryKey JSValue."
++ "Get the entryKeyIndex JSValue."
++ "JSMapIterationEntryIntrinsic"
++ "JSMapIterationEntryKeyIntrinsic"
++ "JSMapIterationEntryValueIntrinsic"
++ "JSMapIterationNextIntrinsic"
++ "JSMapIteratorFields"
++ "JSMapIteratorKeyIntrinsic"
++ "JSMapIteratorNextIntrinsic"
++ "JSMapIteratorValueIntrinsic"
++ "JSMapStorageIntrinsic"
++ "JSMap_butterfly"
++ "JSSetIterationEntryIntrinsic"
++ "JSSetIterationEntryKeyIntrinsic"
++ "JSSetIterationNextIntrinsic"
++ "JSSetIteratorFields"
++ "JSSetIteratorKeyIntrinsic"
++ "JSSetIteratorNextIntrinsic"
++ "JSSetStorageIntrinsic"
++ "JSSet_butterfly"
++ "LValue JSC::FTL::(anonymous namespace)::LowerDFGToB3::emitCodeBasedOnEndiannessBranch(LValue, const F1 &, const F2 &) [F1 = (lambda at /Library/Caches/com.apple.xbs/Sources/JavaScriptCore/Source/JavaScriptCore/ftl/FTLLowerDFGToB3.cpp:18063:45), F2 = (lambda at /Library/Caches/com.apple.xbs/Sources/JavaScriptCore/Source/JavaScriptCore/ftl/FTLLowerDFGToB3.cpp:18069:42)]"
++ "LValue JSC::FTL::(anonymous namespace)::LowerDFGToB3::emitCodeBasedOnEndiannessBranch(LValue, const F1 &, const F2 &) [F1 = (lambda at /Library/Caches/com.apple.xbs/Sources/JavaScriptCore/Source/JavaScriptCore/ftl/FTLLowerDFGToB3.cpp:18100:49), F2 = (lambda at /Library/Caches/com.apple.xbs/Sources/JavaScriptCore/Source/JavaScriptCore/ftl/FTLLowerDFGToB3.cpp:18103:46)]"
++ "LValue JSC::FTL::(anonymous namespace)::LowerDFGToB3::emitCodeBasedOnEndiannessBranch(LValue, const F1 &, const F2 &) [F1 = (lambda at /Library/Caches/com.apple.xbs/Sources/JavaScriptCore/Source/JavaScriptCore/ftl/FTLLowerDFGToB3.cpp:18123:45), F2 = (lambda at /Library/Caches/com.apple.xbs/Sources/JavaScriptCore/Source/JavaScriptCore/ftl/FTLLowerDFGToB3.cpp:18127:42)]"
++ "LValue JSC::FTL::(anonymous namespace)::LowerDFGToB3::emitCodeBasedOnEndiannessBranch(LValue, const F1 &, const F2 &) [F1 = (lambda at /Library/Caches/com.apple.xbs/Sources/JavaScriptCore/Source/JavaScriptCore/ftl/FTLLowerDFGToB3.cpp:18152:45), F2 = (lambda at /Library/Caches/com.apple.xbs/Sources/JavaScriptCore/Source/JavaScriptCore/ftl/FTLLowerDFGToB3.cpp:18156:42)]"
++ "MapIterationEntry"
++ "MapIterationEntryKey"
++ "MapIterationEntryValue"
++ "MapIterationNext"
++ "MapIteratorKey"
++ "MapIteratorNext"
++ "MapIteratorObject"
++ "MapIteratorValue"
++ "MapKeyIndex"
++ "MapStorage"
++ "MapValue"
++ "Now the current entryKey is not a deleted value. Then check whether it matches the target key."
++ "OOB"
++ "SetIteratorObject"
++ "Stitch"
++ "T *WTF::ThreadSafeWeakHashSet<JSC::DeferredWorkTimer::TicketData>::const_iterator::get() const [T = JSC::DeferredWorkTimer::TicketData]"
++ "Table type should be funcref or anyref, got "
++ "Tag "
++ "The current entryKey doesn't match the target key. Then, get the next entry in the chain and continue."
++ "The slow path should call the operation."
++ "TruncHigh"
++ "Try to find the matched entryKey in the chain located in the bucketIndex."
++ "UAF"
++ "] = {"
++ "]["
++ "auto JSC::FTL::(anonymous namespace)::LowerDFGToB3::compileCallOrConstructVarargsSpread()::(anonymous class)::operator()(auto, Node *) const [self:auto = std::reference_wrapper<const WTF::RecursableLambda<(lambda at /Library/Caches/com.apple.xbs/Sources/JavaScriptCore/Source/JavaScriptCore/ftl/FTLLowerDFGToB3.cpp:11857:70)>>]"
++ "auto JSC::FTL::(anonymous namespace)::LowerDFGToB3::compileForwardVarargsWithSpread()::(anonymous class)::operator()(auto, Node *, LValue) const [self:auto = std::reference_wrapper<const WTF::RecursableLambda<(lambda at /Library/Caches/com.apple.xbs/Sources/JavaScriptCore/Source/JavaScriptCore/ftl/FTLLowerDFGToB3.cpp:12887:47)>>]"
++ "bool JSC::disableProfilerWithRespectToCount(unsigned int &, const Func &) [Func = (lambda at ./runtime/VM.cpp:1255:32)]"
++ "bool JSC::disableProfilerWithRespectToCount(unsigned int &, const Func &) [Func = (lambda at ./runtime/VM.cpp:1274:39)]"
++ "calling "
++ "const uint8_t BreakLines::LineBreakTable::breakTable["
++ "const_iterator &WTF::ThreadSafeWeakHashSet<JSC::DeferredWorkTimer::TicketData>::const_iterator::operator++() [T = JSC::DeferredWorkTimer::TicketData]"
++ "dumpLineBreakData"
++ "generated stirng is too long"
++ "long-range UAF"
++ "mapIterationEntry"
++ "mapIterationEntryKey"
++ "mapIterationEntryValue"
++ "mapIterationNext"
++ "mapIteratorFieldEntry"
++ "mapIteratorFieldIteratedObject"
++ "mapIteratorFieldStorage"
++ "mapIteratorKey"
++ "mapIteratorValue"
++ "mapStorage"
++ "namespace WebCore {"
++ "orderedHashTableSentinel"
++ "ref.as_non_null ref to type "
++ "setIterationEntry"
++ "setIterationEntryKey"
++ "setIterationNext"
++ "setIteratorFieldEntry"
++ "setIteratorFieldIteratedObject"
++ "setIteratorFieldStorage"
++ "setIteratorKey"
++ "setStorage"
++ "static ElementType *JSC::LazyProperty<JSC::JSGlobalObject, JSC::GetterSetter>::callFunc(const Initializer &) [OwnerType = JSC::JSGlobalObject, ElementType = JSC::GetterSetter, Func = (lambda at ./runtime/JSGlobalObject.cpp:925:9)]"
++ "static ElementType *JSC::LazyProperty<JSC::JSGlobalObject, JSC::IntlCollator>::callFunc(const Initializer &) [OwnerType = JSC::JSGlobalObject, ElementType = JSC::IntlCollator, Func = (lambda at ./runtime/JSGlobalObject.cpp:1355:9)]"
++ "static ElementType *JSC::LazyProperty<JSC::JSGlobalObject, JSC::IntlNumberFormat>::callFunc(const Initializer &) [OwnerType = JSC::JSGlobalObject, ElementType = JSC::IntlNumberFormat, Func = (lambda at ./runtime/JSGlobalObject.cpp:1366:9)]"
++ "static ElementType *JSC::LazyProperty<JSC::JSGlobalObject, JSC::JSCell>::callFunc(const Initializer &) [OwnerType = JSC::JSGlobalObject, ElementType = JSC::JSCell, Func = (lambda at ./runtime/JSGlobalObject.cpp:1504:5)]"
++ "static ElementType *JSC::LazyProperty<JSC::JSGlobalObject, JSC::JSCell>::callFunc(const Initializer &) [OwnerType = JSC::JSGlobalObject, ElementType = JSC::JSCell, Func = (lambda at ./runtime/JSGlobalObject.cpp:1516:81)]"
++ "static ElementType *JSC::LazyProperty<JSC::JSGlobalObject, JSC::JSCell>::callFunc(const Initializer &) [OwnerType = JSC::JSGlobalObject, ElementType = JSC::JSCell, Func = (lambda at ./runtime/JSGlobalObject.cpp:1519:81)]"
++ "static ElementType *JSC::LazyProperty<JSC::JSGlobalObject, JSC::JSCell>::callFunc(const Initializer &) [OwnerType = JSC::JSGlobalObject, ElementType = JSC::JSCell, Func = (lambda at ./runtime/JSGlobalObject.cpp:1522:94)]"
++ "static ElementType *JSC::LazyProperty<JSC::JSGlobalObject, JSC::JSCell>::callFunc(const Initializer &) [OwnerType = JSC::JSGlobalObject, ElementType = JSC::JSCell, Func = (lambda at ./runtime/JSGlobalObject.cpp:1525:95)]"
++ "static ElementType *JSC::LazyProperty<JSC::JSGlobalObject, JSC::JSCell>::callFunc(const Initializer &) [OwnerType = JSC::JSGlobalObject, ElementType = JSC::JSCell, Func = (lambda at ./runtime/JSGlobalObject.cpp:1528:88)]"
++ "static ElementType *JSC::LazyProperty<JSC::JSGlobalObject, JSC::JSCell>::callFunc(const Initializer &) [OwnerType = JSC::JSGlobalObject, ElementType = JSC::JSCell, Func = (lambda at ./runtime/JSGlobalObject.cpp:1531:93)]"
++ "static ElementType *JSC::LazyProperty<JSC::JSGlobalObject, JSC::JSCell>::callFunc(const Initializer &) [OwnerType = JSC::JSGlobalObject, ElementType = JSC::JSCell, Func = (lambda at ./runtime/JSGlobalObject.cpp:1534:92)]"
++ "static ElementType *JSC::LazyProperty<JSC::JSGlobalObject, JSC::JSCell>::callFunc(const Initializer &) [OwnerType = JSC::JSGlobalObject, ElementType = JSC::JSCell, Func = (lambda at ./runtime/JSGlobalObject.cpp:1537:94)]"
++ "static ElementType *JSC::LazyProperty<JSC::JSGlobalObject, JSC::JSCell>::callFunc(const Initializer &) [OwnerType = JSC::JSGlobalObject, ElementType = JSC::JSCell, Func = (lambda at ./runtime/JSGlobalObject.cpp:1540:98)]"
++ "static ElementType *JSC::LazyProperty<JSC::JSGlobalObject, JSC::JSCell>::callFunc(const Initializer &) [OwnerType = JSC::JSGlobalObject, ElementType = JSC::JSCell, Func = (lambda at ./runtime/JSGlobalObject.cpp:1543:100)]"
++ "static ElementType *JSC::LazyProperty<JSC::JSGlobalObject, JSC::JSCell>::callFunc(const Initializer &) [OwnerType = JSC::JSGlobalObject, ElementType = JSC::JSCell, Func = (lambda at ./runtime/JSGlobalObject.cpp:1546:94)]"
++ "static ElementType *JSC::LazyProperty<JSC::JSGlobalObject, JSC::JSCell>::callFunc(const Initializer &) [OwnerType = JSC::JSGlobalObject, ElementType = JSC::JSCell, Func = (lambda at ./runtime/JSGlobalObject.cpp:1549:95)]"
++ "static ElementType *JSC::LazyProperty<JSC::JSGlobalObject, JSC::JSCell>::callFunc(const Initializer &) [OwnerType = JSC::JSGlobalObject, ElementType = JSC::JSCell, Func = (lambda at ./runtime/JSGlobalObject.cpp:1552:98)]"
++ "static ElementType *JSC::LazyProperty<JSC::JSGlobalObject, JSC::JSCell>::callFunc(const Initializer &) [OwnerType = JSC::JSGlobalObject, ElementType = JSC::JSCell, Func = (lambda at ./runtime/JSGlobalObject.cpp:1555:93)]"
++ "static ElementType *JSC::LazyProperty<JSC::JSGlobalObject, JSC::JSCell>::callFunc(const Initializer &) [OwnerType = JSC::JSGlobalObject, ElementType = JSC::JSCell, Func = (lambda at ./runtime/JSGlobalObject.cpp:1558:92)]"
++ "static ElementType *JSC::LazyProperty<JSC::JSGlobalObject, JSC::JSCell>::callFunc(const Initializer &) [OwnerType = JSC::JSGlobalObject, ElementType = JSC::JSCell, Func = (lambda at ./runtime/JSGlobalObject.cpp:1561:88)]"
++ "static ElementType *JSC::LazyProperty<JSC::JSGlobalObject, JSC::JSCell>::callFunc(const Initializer &) [OwnerType = JSC::JSGlobalObject, ElementType = JSC::JSCell, Func = (lambda at ./runtime/JSGlobalObject.cpp:1564:86)]"
++ "static ElementType *JSC::LazyProperty<JSC::JSGlobalObject, JSC::JSCell>::callFunc(const Initializer &) [OwnerType = JSC::JSGlobalObject, ElementType = JSC::JSCell, Func = (lambda at ./runtime/JSGlobalObject.cpp:1568:90)]"
++ "static ElementType *JSC::LazyProperty<JSC::JSGlobalObject, JSC::JSCell>::callFunc(const Initializer &) [OwnerType = JSC::JSGlobalObject, ElementType = JSC::JSCell, Func = (lambda at ./runtime/JSGlobalObject.cpp:1571:96)]"
++ "static ElementType *JSC::LazyProperty<JSC::JSGlobalObject, JSC::JSCell>::callFunc(const Initializer &) [OwnerType = JSC::JSGlobalObject, ElementType = JSC::JSCell, Func = (lambda at ./runtime/JSGlobalObject.cpp:1574:89)]"
++ "static ElementType *JSC::LazyProperty<JSC::JSGlobalObject, JSC::JSCell>::callFunc(const Initializer &) [OwnerType = JSC::JSGlobalObject, ElementType = JSC::JSCell, Func = (lambda at ./runtime/JSGlobalObject.cpp:1577:88)]"
++ "static ElementType *JSC::LazyProperty<JSC::JSGlobalObject, JSC::JSCell>::callFunc(const Initializer &) [OwnerType = JSC::JSGlobalObject, ElementType = JSC::JSCell, Func = (lambda at ./runtime/JSGlobalObject.cpp:1581:91)]"
++ "static ElementType *JSC::LazyProperty<JSC::JSGlobalObject, JSC::JSCell>::callFunc(const Initializer &) [OwnerType = JSC::JSGlobalObject, ElementType = JSC::JSCell, Func = (lambda at ./runtime/JSGlobalObject.cpp:1584:92)]"
++ "static ElementType *JSC::LazyProperty<JSC::JSGlobalObject, JSC::JSCell>::callFunc(const Initializer &) [OwnerType = JSC::JSGlobalObject, ElementType = JSC::JSCell, Func = (lambda at ./runtime/JSGlobalObject.cpp:1588:94)]"
++ "static ElementType *JSC::LazyProperty<JSC::JSGlobalObject, JSC::JSCell>::callFunc(const Initializer &) [OwnerType = JSC::JSGlobalObject, ElementType = JSC::JSCell, Func = (lambda at ./runtime/JSGlobalObject.cpp:1591:110)]"
++ "static ElementType *JSC::LazyProperty<JSC::JSGlobalObject, JSC::JSCell>::callFunc(const Initializer &) [OwnerType = JSC::JSGlobalObject, ElementType = JSC::JSCell, Func = (lambda at ./runtime/JSGlobalObject.cpp:1594:99)]"
++ "static ElementType *JSC::LazyProperty<JSC::JSGlobalObject, JSC::JSCell>::callFunc(const Initializer &) [OwnerType = JSC::JSGlobalObject, ElementType = JSC::JSCell, Func = (lambda at ./runtime/JSGlobalObject.cpp:1597:94)]"
++ "static ElementType *JSC::LazyProperty<JSC::JSGlobalObject, JSC::JSCell>::callFunc(const Initializer &) [OwnerType = JSC::JSGlobalObject, ElementType = JSC::JSCell, Func = (lambda at ./runtime/JSGlobalObject.cpp:1600:100)]"
++ "static ElementType *JSC::LazyProperty<JSC::JSGlobalObject, JSC::JSCell>::callFunc(const Initializer &) [OwnerType = JSC::JSGlobalObject, ElementType = JSC::JSCell, Func = (lambda at ./runtime/JSGlobalObject.cpp:1603:119)]"
++ "static ElementType *JSC::LazyProperty<JSC::JSGlobalObject, JSC::JSCell>::callFunc(const Initializer &) [OwnerType = JSC::JSGlobalObject, ElementType = JSC::JSCell, Func = (lambda at ./runtime/JSGlobalObject.cpp:1606:96)]"
++ "static ElementType *JSC::LazyProperty<JSC::JSGlobalObject, JSC::JSCell>::callFunc(const Initializer &) [OwnerType = JSC::JSGlobalObject, ElementType = JSC::JSCell, Func = (lambda at ./runtime/JSGlobalObject.cpp:1609:91)]"
++ "static ElementType *JSC::LazyProperty<JSC::JSGlobalObject, JSC::JSCell>::callFunc(const Initializer &) [OwnerType = JSC::JSGlobalObject, ElementType = JSC::JSCell, Func = (lambda at ./runtime/JSGlobalObject.cpp:1612:88)]"
++ "static ElementType *JSC::LazyProperty<JSC::JSGlobalObject, JSC::JSCell>::callFunc(const Initializer &) [OwnerType = JSC::JSGlobalObject, ElementType = JSC::JSCell, Func = (lambda at ./runtime/JSGlobalObject.cpp:1615:93)]"
++ "static ElementType *JSC::LazyProperty<JSC::JSGlobalObject, JSC::JSCell>::callFunc(const Initializer &) [OwnerType = JSC::JSGlobalObject, ElementType = JSC::JSCell, Func = (lambda at ./runtime/JSGlobalObject.cpp:1618:102)]"
++ "static ElementType *JSC::LazyProperty<JSC::JSGlobalObject, JSC::JSCell>::callFunc(const Initializer &) [OwnerType = JSC::JSGlobalObject, ElementType = JSC::JSCell, Func = (lambda at ./runtime/JSGlobalObject.cpp:1621:88)]"
++ "static ElementType *JSC::LazyProperty<JSC::JSGlobalObject, JSC::JSCell>::callFunc(const Initializer &) [OwnerType = JSC::JSGlobalObject, ElementType = JSC::JSCell, Func = (lambda at ./runtime/JSGlobalObject.cpp:1624:88)]"
++ "static ElementType *JSC::LazyProperty<JSC::JSGlobalObject, JSC::JSCell>::callFunc(const Initializer &) [OwnerType = JSC::JSGlobalObject, ElementType = JSC::JSCell, Func = (lambda at ./runtime/JSGlobalObject.cpp:1627:93)]"
++ "static ElementType *JSC::LazyProperty<JSC::JSGlobalObject, JSC::JSCell>::callFunc(const Initializer &) [OwnerType = JSC::JSGlobalObject, ElementType = JSC::JSCell, Func = (lambda at ./runtime/JSGlobalObject.cpp:1630:81)]"
++ "static ElementType *JSC::LazyProperty<JSC::JSGlobalObject, JSC::JSCell>::callFunc(const Initializer &) [OwnerType = JSC::JSGlobalObject, ElementType = JSC::JSCell, Func = (lambda at ./runtime/JSGlobalObject.cpp:1633:93)]"
++ "static ElementType *JSC::LazyProperty<JSC::JSGlobalObject, JSC::JSCell>::callFunc(const Initializer &) [OwnerType = JSC::JSGlobalObject, ElementType = JSC::JSCell, Func = (lambda at ./runtime/JSGlobalObject.cpp:1636:89)]"
++ "static ElementType *JSC::LazyProperty<JSC::JSGlobalObject, JSC::JSCell>::callFunc(const Initializer &) [OwnerType = JSC::JSGlobalObject, ElementType = JSC::JSCell, Func = (lambda at ./runtime/JSGlobalObject.cpp:1639:90)]"
++ "static ElementType *JSC::LazyProperty<JSC::JSGlobalObject, JSC::JSCell>::callFunc(const Initializer &) [OwnerType = JSC::JSGlobalObject, ElementType = JSC::JSCell, Func = (lambda at ./runtime/JSGlobalObject.cpp:1642:90)]"
++ "static ElementType *JSC::LazyProperty<JSC::JSGlobalObject, JSC::JSCell>::callFunc(const Initializer &) [OwnerType = JSC::JSGlobalObject, ElementType = JSC::JSCell, Func = (lambda at ./runtime/JSGlobalObject.cpp:1645:105)]"
++ "static ElementType *JSC::LazyProperty<JSC::JSGlobalObject, JSC::JSCell>::callFunc(const Initializer &) [OwnerType = JSC::JSGlobalObject, ElementType = JSC::JSCell, Func = (lambda at ./runtime/JSGlobalObject.cpp:1648:93)]"
++ "static ElementType *JSC::LazyProperty<JSC::JSGlobalObject, JSC::JSCell>::callFunc(const Initializer &) [OwnerType = JSC::JSGlobalObject, ElementType = JSC::JSCell, Func = (lambda at ./runtime/JSGlobalObject.cpp:1651:91)]"
++ "static ElementType *JSC::LazyProperty<JSC::JSGlobalObject, JSC::JSCell>::callFunc(const Initializer &) [OwnerType = JSC::JSGlobalObject, ElementType = JSC::JSCell, Func = (lambda at ./runtime/JSGlobalObject.cpp:1654:90)]"
++ "static ElementType *JSC::LazyProperty<JSC::JSGlobalObject, JSC::JSCell>::callFunc(const Initializer &) [OwnerType = JSC::JSGlobalObject, ElementType = JSC::JSCell, Func = (lambda at ./runtime/JSGlobalObject.cpp:1657:89)]"
++ "static ElementType *JSC::LazyProperty<JSC::JSGlobalObject, JSC::JSCell>::callFunc(const Initializer &) [OwnerType = JSC::JSGlobalObject, ElementType = JSC::JSCell, Func = (lambda at ./runtime/JSGlobalObject.cpp:1660:97)]"
++ "static ElementType *JSC::LazyProperty<JSC::JSGlobalObject, JSC::JSCell>::callFunc(const Initializer &) [OwnerType = JSC::JSGlobalObject, ElementType = JSC::JSCell, Func = (lambda at ./runtime/JSGlobalObject.cpp:1663:87)]"
++ "static ElementType *JSC::LazyProperty<JSC::JSGlobalObject, JSC::JSCell>::callFunc(const Initializer &) [OwnerType = JSC::JSGlobalObject, ElementType = JSC::JSCell, Func = (lambda at ./runtime/JSGlobalObject.cpp:1666:96)]"
++ "static ElementType *JSC::LazyProperty<JSC::JSGlobalObject, JSC::JSCell>::callFunc(const Initializer &) [OwnerType = JSC::JSGlobalObject, ElementType = JSC::JSCell, Func = (lambda at ./runtime/JSGlobalObject.cpp:1669:103)]"
++ "static ElementType *JSC::LazyProperty<JSC::JSGlobalObject, JSC::JSCell>::callFunc(const Initializer &) [OwnerType = JSC::JSGlobalObject, ElementType = JSC::JSCell, Func = (lambda at ./runtime/JSGlobalObject.cpp:1672:97)]"
++ "static ElementType *JSC::LazyProperty<JSC::JSGlobalObject, JSC::JSCell>::callFunc(const Initializer &) [OwnerType = JSC::JSGlobalObject, ElementType = JSC::JSCell, Func = (lambda at ./runtime/JSGlobalObject.cpp:1675:86)]"
++ "static ElementType *JSC::LazyProperty<JSC::JSGlobalObject, JSC::JSCell>::callFunc(const Initializer &) [OwnerType = JSC::JSGlobalObject, ElementType = JSC::JSCell, Func = (lambda at ./runtime/JSGlobalObject.cpp:1680:90)]"
++ "static ElementType *JSC::LazyProperty<JSC::JSGlobalObject, JSC::JSCell>::callFunc(const Initializer &) [OwnerType = JSC::JSGlobalObject, ElementType = JSC::JSCell, Func = (lambda at ./runtime/JSGlobalObject.cpp:1683:86)]"
++ "static ElementType *JSC::LazyProperty<JSC::JSGlobalObject, JSC::JSCell>::callFunc(const Initializer &) [OwnerType = JSC::JSGlobalObject, ElementType = JSC::JSCell, Func = (lambda at ./runtime/JSGlobalObject.cpp:1686:93)]"
++ "static ElementType *JSC::LazyProperty<JSC::JSGlobalObject, JSC::JSCell>::callFunc(const Initializer &) [OwnerType = JSC::JSGlobalObject, ElementType = JSC::JSCell, Func = (lambda at ./runtime/JSGlobalObject.cpp:1689:94)]"
++ "static ElementType *JSC::LazyProperty<JSC::JSGlobalObject, JSC::JSCell>::callFunc(const Initializer &) [OwnerType = JSC::JSGlobalObject, ElementType = JSC::JSCell, Func = (lambda at ./runtime/JSGlobalObject.cpp:1692:93)]"
++ "static ElementType *JSC::LazyProperty<JSC::JSGlobalObject, JSC::JSCell>::callFunc(const Initializer &) [OwnerType = JSC::JSGlobalObject, ElementType = JSC::JSCell, Func = (lambda at ./runtime/JSGlobalObject.cpp:1695:92)]"
++ "static ElementType *JSC::LazyProperty<JSC::JSGlobalObject, JSC::JSCell>::callFunc(const Initializer &) [OwnerType = JSC::JSGlobalObject, ElementType = JSC::JSCell, Func = (lambda at ./runtime/JSGlobalObject.cpp:1700:100)]"
++ "static ElementType *JSC::LazyProperty<JSC::JSGlobalObject, JSC::JSCell>::callFunc(const Initializer &) [OwnerType = JSC::JSGlobalObject, ElementType = JSC::JSCell, Func = (lambda at ./runtime/JSGlobalObject.cpp:1703:99)]"
++ "static ElementType *JSC::LazyProperty<JSC::JSGlobalObject, JSC::JSCell>::callFunc(const Initializer &) [OwnerType = JSC::JSGlobalObject, ElementType = JSC::JSCell, Func = (lambda at ./runtime/JSGlobalObject.cpp:1706:93)]"
++ "static ElementType *JSC::LazyProperty<JSC::JSGlobalObject, JSC::JSCell>::callFunc(const Initializer &) [OwnerType = JSC::JSGlobalObject, ElementType = JSC::JSCell, Func = (lambda at ./runtime/JSGlobalObject.cpp:1711:110)]"
++ "static ElementType *JSC::LazyProperty<JSC::JSGlobalObject, JSC::JSCell>::callFunc(const Initializer &) [OwnerType = JSC::JSGlobalObject, ElementType = JSC::JSCell, Func = (lambda at ./runtime/JSGlobalObject.cpp:1715:102)]"
++ "static ElementType *JSC::LazyProperty<JSC::JSGlobalObject, JSC::JSCell>::callFunc(const Initializer &) [OwnerType = JSC::JSGlobalObject, ElementType = JSC::JSCell, Func = (lambda at ./runtime/JSGlobalObject.cpp:1719:110)]"
++ "static ElementType *JSC::LazyProperty<JSC::JSGlobalObject, JSC::JSCell>::callFunc(const Initializer &) [OwnerType = JSC::JSGlobalObject, ElementType = JSC::JSCell, Func = (lambda at ./runtime/JSGlobalObject.cpp:1724:97)]"
++ "static ElementType *JSC::LazyProperty<JSC::JSGlobalObject, JSC::JSCell>::callFunc(const Initializer &) [OwnerType = JSC::JSGlobalObject, ElementType = JSC::JSCell, Func = (lambda at ./runtime/JSGlobalObject.cpp:1729:87)]"
++ "static ElementType *JSC::LazyProperty<JSC::JSGlobalObject, JSC::JSCell>::callFunc(const Initializer &) [OwnerType = JSC::JSGlobalObject, ElementType = JSC::JSCell, Func = (lambda at ./runtime/JSGlobalObject.cpp:1732:91)]"
++ "static ElementType *JSC::LazyProperty<JSC::JSGlobalObject, JSC::JSCell>::callFunc(const Initializer &) [OwnerType = JSC::JSGlobalObject, ElementType = JSC::JSCell, Func = (lambda at ./runtime/JSGlobalObject.cpp:1737:98)]"
++ "static ElementType *JSC::LazyProperty<JSC::JSGlobalObject, JSC::JSCell>::callFunc(const Initializer &) [OwnerType = JSC::JSGlobalObject, ElementType = JSC::JSCell, Func = (lambda at ./runtime/JSGlobalObject.cpp:1740:94)]"
++ "static ElementType *JSC::LazyProperty<JSC::JSGlobalObject, JSC::JSCell>::callFunc(const Initializer &) [OwnerType = JSC::JSGlobalObject, ElementType = JSC::JSCell, Func = (lambda at ./runtime/JSGlobalObject.cpp:1746:113)]"
++ "static ElementType *JSC::LazyProperty<JSC::JSGlobalObject, JSC::JSCell>::callFunc(const Initializer &) [OwnerType = JSC::JSGlobalObject, ElementType = JSC::JSCell, Func = (lambda at ./runtime/JSGlobalObject.cpp:1749:117)]"
++ "static ElementType *JSC::LazyProperty<JSC::JSGlobalObject, JSC::JSCell>::callFunc(const Initializer &) [OwnerType = JSC::JSGlobalObject, ElementType = JSC::JSCell, Func = (lambda at ./runtime/JSGlobalObject.cpp:1754:105)]"
++ "static ElementType *JSC::LazyProperty<JSC::JSGlobalObject, JSC::JSCell>::callFunc(const Initializer &) [OwnerType = JSC::JSGlobalObject, ElementType = JSC::JSCell, Func = (lambda at ./runtime/JSGlobalObject.cpp:897:93)]"
++ "static ElementType *JSC::LazyProperty<JSC::JSGlobalObject, JSC::JSCell>::callFunc(const Initializer &) [OwnerType = JSC::JSGlobalObject, ElementType = JSC::JSCell, Func = (lambda at ./runtime/JSGlobalObject.cpp:961:5)]"
++ "static ElementType *JSC::LazyProperty<JSC::JSGlobalObject, JSC::JSFunction>::callFunc(const Initializer &) [OwnerType = JSC::JSGlobalObject, ElementType = JSC::JSFunction, Func = (lambda at ./runtime/JSGlobalObject.cpp:1092:9)]"
++ "static ElementType *JSC::LazyProperty<JSC::JSGlobalObject, JSC::JSFunction>::callFunc(const Initializer &) [OwnerType = JSC::JSGlobalObject, ElementType = JSC::JSFunction, Func = (lambda at ./runtime/JSGlobalObject.cpp:1096:9)]"
++ "static ElementType *JSC::LazyProperty<JSC::JSGlobalObject, JSC::JSFunction>::callFunc(const Initializer &) [OwnerType = JSC::JSGlobalObject, ElementType = JSC::JSFunction, Func = (lambda at ./runtime/JSGlobalObject.cpp:875:9)]"
++ "static ElementType *JSC::LazyProperty<JSC::JSGlobalObject, JSC::JSFunction>::callFunc(const Initializer &) [OwnerType = JSC::JSGlobalObject, ElementType = JSC::JSFunction, Func = (lambda at ./runtime/JSGlobalObject.cpp:879:9)]"
++ "static ElementType *JSC::LazyProperty<JSC::JSGlobalObject, JSC::JSFunction>::callFunc(const Initializer &) [OwnerType = JSC::JSGlobalObject, ElementType = JSC::JSFunction, Func = (lambda at ./runtime/JSGlobalObject.cpp:883:9)]"
++ "static ElementType *JSC::LazyProperty<JSC::JSGlobalObject, JSC::JSFunction>::callFunc(const Initializer &) [OwnerType = JSC::JSGlobalObject, ElementType = JSC::JSFunction, Func = (lambda at ./runtime/JSGlobalObject.cpp:888:9)]"
++ "static ElementType *JSC::LazyProperty<JSC::JSGlobalObject, JSC::JSFunction>::callFunc(const Initializer &) [OwnerType = JSC::JSGlobalObject, ElementType = JSC::JSFunction, Func = (lambda at ./runtime/JSGlobalObject.cpp:893:9)]"
++ "static ElementType *JSC::LazyProperty<JSC::JSGlobalObject, JSC::JSInternalPromise>::callFunc(const Initializer &) [OwnerType = JSC::JSGlobalObject, ElementType = JSC::JSInternalPromise, Func = (lambda at ./runtime/JSGlobalObject.cpp:1442:9)]"
++ "static ElementType *JSC::LazyProperty<JSC::JSGlobalObject, JSC::JSModuleLoader>::callFunc(const Initializer &) [OwnerType = JSC::JSGlobalObject, ElementType = JSC::JSModuleLoader, Func = (lambda at ./runtime/JSGlobalObject.cpp:1436:9)]"
++ "static ElementType *JSC::LazyProperty<JSC::JSGlobalObject, JSC::JSTypedArrayViewConstructor>::callFunc(const Initializer &) [OwnerType = JSC::JSGlobalObject, ElementType = JSC::JSTypedArrayViewConstructor, Func = (lambda at ./runtime/JSGlobalObject.cpp:938:9)]"
++ "static ElementType *JSC::LazyProperty<JSC::JSGlobalObject, JSC::JSTypedArrayViewPrototype>::callFunc(const Initializer &) [OwnerType = JSC::JSGlobalObject, ElementType = JSC::JSTypedArrayViewPrototype, Func = (lambda at ./runtime/JSGlobalObject.cpp:931:9)]"
++ "static ElementType *JSC::LazyProperty<JSC::JSGlobalObject, JSC::Structure>::callFunc(const Initializer &) [OwnerType = JSC::JSGlobalObject, ElementType = JSC::Structure, Func = (lambda at ./runtime/JSGlobalObject.cpp:1005:9)]"
++ "static ElementType *JSC::LazyProperty<JSC::JSGlobalObject, JSC::Structure>::callFunc(const Initializer &) [OwnerType = JSC::JSGlobalObject, ElementType = JSC::Structure, Func = (lambda at ./runtime/JSGlobalObject.cpp:1009:9)]"
++ "static ElementType *JSC::LazyProperty<JSC::JSGlobalObject, JSC::Structure>::callFunc(const Initializer &) [OwnerType = JSC::JSGlobalObject, ElementType = JSC::Structure, Func = (lambda at ./runtime/JSGlobalObject.cpp:1015:9)]"
++ "static ElementType *JSC::LazyProperty<JSC::JSGlobalObject, JSC::Structure>::callFunc(const Initializer &) [OwnerType = JSC::JSGlobalObject, ElementType = JSC::Structure, Func = (lambda at ./runtime/JSGlobalObject.cpp:1019:9)]"
++ "static ElementType *JSC::LazyProperty<JSC::JSGlobalObject, JSC::Structure>::callFunc(const Initializer &) [OwnerType = JSC::JSGlobalObject, ElementType = JSC::Structure, Func = (lambda at ./runtime/JSGlobalObject.cpp:1065:9)]"
++ "static ElementType *JSC::LazyProperty<JSC::JSGlobalObject, JSC::Structure>::callFunc(const Initializer &) [OwnerType = JSC::JSGlobalObject, ElementType = JSC::Structure, Func = (lambda at ./runtime/JSGlobalObject.cpp:1069:9)]"
++ "static ElementType *JSC::LazyProperty<JSC::JSGlobalObject, JSC::Structure>::callFunc(const Initializer &) [OwnerType = JSC::JSGlobalObject, ElementType = JSC::Structure, Func = (lambda at ./runtime/JSGlobalObject.cpp:1073:9)]"
++ "static ElementType *JSC::LazyProperty<JSC::JSGlobalObject, JSC::Structure>::callFunc(const Initializer &) [OwnerType = JSC::JSGlobalObject, ElementType = JSC::Structure, Func = (lambda at ./runtime/JSGlobalObject.cpp:1077:9)]"
++ "static ElementType *JSC::LazyProperty<JSC::JSGlobalObject, JSC::Structure>::callFunc(const Initializer &) [OwnerType = JSC::JSGlobalObject, ElementType = JSC::Structure, Func = (lambda at ./runtime/JSGlobalObject.cpp:1082:9)]"
++ "static ElementType *JSC::LazyProperty<JSC::JSGlobalObject, JSC::Structure>::callFunc(const Initializer &) [OwnerType = JSC::JSGlobalObject, ElementType = JSC::Structure, Func = (lambda at ./runtime/JSGlobalObject.cpp:1087:9)]"
++ "static ElementType *JSC::LazyProperty<JSC::JSGlobalObject, JSC::Structure>::callFunc(const Initializer &) [OwnerType = JSC::JSGlobalObject, ElementType = JSC::Structure, Func = (lambda at ./runtime/JSGlobalObject.cpp:1268:9)]"
++ "static ElementType *JSC::LazyProperty<JSC::JSGlobalObject, JSC::Structure>::callFunc(const Initializer &) [OwnerType = JSC::JSGlobalObject, ElementType = JSC::Structure, Func = (lambda at ./runtime/JSGlobalObject.cpp:1272:9)]"
++ "static ElementType *JSC::LazyProperty<JSC::JSGlobalObject, JSC::Structure>::callFunc(const Initializer &) [OwnerType = JSC::JSGlobalObject, ElementType = JSC::Structure, Func = (lambda at ./runtime/JSGlobalObject.cpp:1276:9)]"
++ "static ElementType *JSC::LazyProperty<JSC::JSGlobalObject, JSC::Structure>::callFunc(const Initializer &) [OwnerType = JSC::JSGlobalObject, ElementType = JSC::Structure, Func = (lambda at ./runtime/JSGlobalObject.cpp:1281:9)]"
++ "static ElementType *JSC::LazyProperty<JSC::JSGlobalObject, JSC::Structure>::callFunc(const Initializer &) [OwnerType = JSC::JSGlobalObject, ElementType = JSC::Structure, Func = (lambda at ./runtime/JSGlobalObject.cpp:1287:9)]"
++ "static ElementType *JSC::LazyProperty<JSC::JSGlobalObject, JSC::Structure>::callFunc(const Initializer &) [OwnerType = JSC::JSGlobalObject, ElementType = JSC::Structure, Func = (lambda at ./runtime/JSGlobalObject.cpp:1293:9)]"
++ "static ElementType *JSC::LazyProperty<JSC::JSGlobalObject, JSC::Structure>::callFunc(const Initializer &) [OwnerType = JSC::JSGlobalObject, ElementType = JSC::Structure, Func = (lambda at ./runtime/JSGlobalObject.cpp:1299:9)]"
++ "static ElementType *JSC::LazyProperty<JSC::JSGlobalObject, JSC::Structure>::callFunc(const Initializer &) [OwnerType = JSC::JSGlobalObject, ElementType = JSC::Structure, Func = (lambda at ./runtime/JSGlobalObject.cpp:1305:9)]"
++ "static ElementType *JSC::LazyProperty<JSC::JSGlobalObject, JSC::Structure>::callFunc(const Initializer &) [OwnerType = JSC::JSGlobalObject, ElementType = JSC::Structure, Func = (lambda at ./runtime/JSGlobalObject.cpp:1311:9)]"
++ "static ElementType *JSC::LazyProperty<JSC::JSGlobalObject, JSC::Structure>::callFunc(const Initializer &) [OwnerType = JSC::JSGlobalObject, ElementType = JSC::Structure, Func = (lambda at ./runtime/JSGlobalObject.cpp:1317:9)]"
++ "static ElementType *JSC::LazyProperty<JSC::JSGlobalObject, JSC::Structure>::callFunc(const Initializer &) [OwnerType = JSC::JSGlobalObject, ElementType = JSC::Structure, Func = (lambda at ./runtime/JSGlobalObject.cpp:1323:9)]"
++ "static ElementType *JSC::LazyProperty<JSC::JSGlobalObject, JSC::Structure>::callFunc(const Initializer &) [OwnerType = JSC::JSGlobalObject, ElementType = JSC::Structure, Func = (lambda at ./runtime/JSGlobalObject.cpp:1329:9)]"
++ "static ElementType *JSC::LazyProperty<JSC::JSGlobalObject, JSC::Structure>::callFunc(const Initializer &) [OwnerType = JSC::JSGlobalObject, ElementType = JSC::Structure, Func = (lambda at ./runtime/JSGlobalObject.cpp:1335:9)]"
++ "static ElementType *JSC::LazyProperty<JSC::JSGlobalObject, JSC::Structure>::callFunc(const Initializer &) [OwnerType = JSC::JSGlobalObject, ElementType = JSC::Structure, Func = (lambda at ./runtime/JSGlobalObject.cpp:1381:13)]"
++ "static ElementType *JSC::LazyProperty<JSC::JSGlobalObject, JSC::Structure>::callFunc(const Initializer &) [OwnerType = JSC::JSGlobalObject, ElementType = JSC::Structure, Func = (lambda at ./runtime/JSGlobalObject.cpp:1388:13)]"
++ "static ElementType *JSC::LazyProperty<JSC::JSGlobalObject, JSC::Structure>::callFunc(const Initializer &) [OwnerType = JSC::JSGlobalObject, ElementType = JSC::Structure, Func = (lambda at ./runtime/JSGlobalObject.cpp:1395:13)]"
++ "static ElementType *JSC::LazyProperty<JSC::JSGlobalObject, JSC::Structure>::callFunc(const Initializer &) [OwnerType = JSC::JSGlobalObject, ElementType = JSC::Structure, Func = (lambda at ./runtime/JSGlobalObject.cpp:1402:13)]"
++ "static ElementType *JSC::LazyProperty<JSC::JSGlobalObject, JSC::Structure>::callFunc(const Initializer &) [OwnerType = JSC::JSGlobalObject, ElementType = JSC::Structure, Func = (lambda at ./runtime/JSGlobalObject.cpp:1409:13)]"
++ "static ElementType *JSC::LazyProperty<JSC::JSGlobalObject, JSC::Structure>::callFunc(const Initializer &) [OwnerType = JSC::JSGlobalObject, ElementType = JSC::Structure, Func = (lambda at ./runtime/JSGlobalObject.cpp:1416:13)]"
++ "static ElementType *JSC::LazyProperty<JSC::JSGlobalObject, JSC::Structure>::callFunc(const Initializer &) [OwnerType = JSC::JSGlobalObject, ElementType = JSC::Structure, Func = (lambda at ./runtime/JSGlobalObject.cpp:1423:13)]"
++ "static ElementType *JSC::LazyProperty<JSC::JSGlobalObject, JSC::Structure>::callFunc(const Initializer &) [OwnerType = JSC::JSGlobalObject, ElementType = JSC::Structure, Func = (lambda at ./runtime/JSGlobalObject.cpp:1790:13)]"
++ "static ElementType *JSC::LazyProperty<JSC::JSGlobalObject, JSC::Structure>::callFunc(const Initializer &) [OwnerType = JSC::JSGlobalObject, ElementType = JSC::Structure, Func = (lambda at ./runtime/JSGlobalObject.cpp:1794:13)]"
++ "static ElementType *JSC::LazyProperty<JSC::JSGlobalObject, JSC::Structure>::callFunc(const Initializer &) [OwnerType = JSC::JSGlobalObject, ElementType = JSC::Structure, Func = (lambda at ./runtime/JSGlobalObject.cpp:1798:13)]"
++ "static ElementType *JSC::LazyProperty<JSC::JSGlobalObject, JSC::Structure>::callFunc(const Initializer &) [OwnerType = JSC::JSGlobalObject, ElementType = JSC::Structure, Func = (lambda at ./runtime/JSGlobalObject.cpp:855:9)]"
++ "static ElementType *JSC::LazyProperty<JSC::JSGlobalObject, JSC::Structure>::callFunc(const Initializer &) [OwnerType = JSC::JSGlobalObject, ElementType = JSC::Structure, Func = (lambda at ./runtime/JSGlobalObject.cpp:859:9)]"
++ "static ElementType *JSC::LazyProperty<JSC::JSGlobalObject, JSC::Structure>::callFunc(const Initializer &) [OwnerType = JSC::JSGlobalObject, ElementType = JSC::Structure, Func = (lambda at ./runtime/JSGlobalObject.cpp:863:9)]"
++ "static ElementType *JSC::LazyProperty<JSC::JSGlobalObject, JSC::Structure>::callFunc(const Initializer &) [OwnerType = JSC::JSGlobalObject, ElementType = JSC::Structure, Func = (lambda at ./runtime/JSGlobalObject.cpp:867:9)]"
++ "static ElementType *JSC::LazyProperty<JSC::JSGlobalObject, JSC::Structure>::callFunc(const Initializer &) [OwnerType = JSC::JSGlobalObject, ElementType = JSC::Structure, Func = (lambda at ./runtime/JSGlobalObject.cpp:961:5)]"
++ "static ElementType *JSC::LazyProperty<JSC::JSGlobalObject, JSC::Structure>::callFunc(const Initializer &) [OwnerType = JSC::JSGlobalObject, ElementType = JSC::Structure, Func = (lambda at ./runtime/JSGlobalObject.cpp:972:9)]"
++ "static ElementType *JSC::LazyProperty<JSC::JSGlobalObject, JSC::Structure>::callFunc(const Initializer &) [OwnerType = JSC::JSGlobalObject, ElementType = JSC::Structure, Func = (lambda at ./runtime/JSGlobalObject.cpp:979:9)]"
++ "static ElementType *JSC::LazyProperty<JSC::JSGlobalObject, JSC::Structure>::callFunc(const Initializer &) [OwnerType = JSC::JSGlobalObject, ElementType = JSC::Structure, Func = (lambda at ./runtime/JSGlobalObject.cpp:983:9)]"
++ "static ElementType *JSC::LazyProperty<JSC::JSGlobalObject, JSC::Structure>::callFunc(const Initializer &) [OwnerType = JSC::JSGlobalObject, ElementType = JSC::Structure, Func = (lambda at ./runtime/JSGlobalObject.cpp:987:9)]"
++ "static ElementType *JSC::LazyProperty<JSC::JSGlobalObject, JSC::Structure>::callFunc(const Initializer &) [OwnerType = JSC::JSGlobalObject, ElementType = JSC::Structure, Func = (lambda at ./runtime/JSGlobalObject.cpp:991:9)]"
++ "static ElementType *JSC::LazyProperty<JSC::JSGlobalObject, JSC::Structure>::callFunc(const Initializer &) [OwnerType = JSC::JSGlobalObject, ElementType = JSC::Structure, Func = (lambda at ./runtime/JSGlobalObject.cpp:998:9)]"
++ "static T *WTF::LazyRef<JSC::VM, JSC::Watchdog>::callFunc(OwnerType &, LazyRef<OwnerType, T> &) [OwnerType = JSC::VM, T = JSC::Watchdog, Func = (lambda at ./runtime/VM.cpp:263:30)]"
++ "static T *WTF::LazyUniqueRef<JSC::VM, JSC::HasOwnPropertyCache>::callFunc(OwnerType &, LazyUniqueRef<OwnerType, T> &) [OwnerType = JSC::VM, T = JSC::HasOwnPropertyCache, Func = (lambda at ./runtime/VM.cpp:243:41)]"
++ "static T *WTF::LazyUniqueRef<JSC::VM, JSC::HeapProfiler>::callFunc(OwnerType &, LazyUniqueRef<OwnerType, T> &) [OwnerType = JSC::VM, T = JSC::HeapProfiler, Func = (lambda at ./runtime/VM.cpp:255:34)]"
++ "static T *WTF::LazyUniqueRef<JSC::VM, JSC::MegamorphicCache>::callFunc(OwnerType &, LazyUniqueRef<OwnerType, T> &) [OwnerType = JSC::VM, T = JSC::MegamorphicCache, Func = (lambda at ./runtime/VM.cpp:247:38)]"
++ "static T *WTF::LazyUniqueRef<JSC::VM, JSC::ShadowChicken>::callFunc(OwnerType &, LazyUniqueRef<OwnerType, T> &) [OwnerType = JSC::VM, T = JSC::ShadowChicken, Func = (lambda at ./runtime/VM.cpp:251:35)]"
++ "static T *WTF::LazyUniqueRef<JSC::VM, WTF::AdaptiveStringSearcherTables>::callFunc(OwnerType &, LazyUniqueRef<OwnerType, T> &) [OwnerType = JSC::VM, T = WTF::AdaptiveStringSearcherTables, Func = (lambda at ./runtime/VM.cpp:259:42)]"
++ "std::optional<Wasm::Plan::Error> JSC::LLInt::jitCompileSIMDFunction(Wasm::LLIntCallee *, Wasm::Instance *)"
++ "value->child(0)->type() == Wasm::toB3Type(Wasm::simdScalarType(value->asSIMDValue()->simdLane()))"
++ "value->child(1)->type() == Wasm::toB3Type(Wasm::simdScalarType(value->asSIMDValue()->simdLane()))"
++ "value->type() == Wasm::toB3Type(Wasm::simdScalarType(value->asSIMDValue()->simdLane()))"
++ "void JSC::DFG::SpeculativeJIT::compileGetMapIndexImpl(Node *) [MapOrSet = JSC::JSMap]"
++ "void JSC::DFG::SpeculativeJIT::compileGetMapIndexImpl(Node *) [MapOrSet = JSC::JSSet]"
++ "void JSC::DFG::SpeculativeJIT::compileMapIteratorKey(Node *)"
++ "void JSC::DFG::SpeculativeJIT::compileMapIteratorNext(Node *)"
++ "void JSC::DFG::SpeculativeJIT::compileMapKeyIndex(Node *)"
++ "void JSC::DFG::SpeculativeJIT::compileMapStorage(Node *)"
++ "void JSC::DFG::clobberize(Graph &, Node *, const ReadFunctor &, const WriteFunctor &, const DefFunctor &, const ClobberTopFunctor &) [ReadFunctor = (lambda at /Library/Caches/com.apple.xbs/Sources/JavaScriptCore/Source/JavaScriptCore/dfg/DFGSpeculativeJIT.cpp:2528:43), WriteFunctor = (lambda at /Library/Caches/com.apple.xbs/Sources/JavaScriptCore/Source/JavaScriptCore/dfg/DFGSpeculativeJIT.cpp:2528:61), DefFunctor = (lambda at /Library/Caches/com.apple.xbs/Sources/JavaScriptCore/Source/JavaScriptCore/dfg/DFGSpeculativeJIT.cpp:2528:79), ClobberTopFunctor = (lambda at /Library/Caches/com.apple.xbs/Sources/JavaScriptCore/Source/JavaScriptCore/dfg/DFGSpeculativeJIT.cpp:2519:35)]"
++ "void JSC::DFG::clobberize(Graph &, Node *, const ReadFunctor &, const WriteFunctor &, const DefFunctor &, const ClobberTopFunctor &) [ReadFunctor = (lambda at /Library/Caches/com.apple.xbs/Sources/JavaScriptCore/Source/JavaScriptCore/dfg/DFGSpeculativeJIT.cpp:2571:66), WriteFunctor = (lambda at /Library/Caches/com.apple.xbs/Sources/JavaScriptCore/Source/JavaScriptCore/dfg/DFGSpeculativeJIT.cpp:2571:84), DefFunctor = (lambda at /Library/Caches/com.apple.xbs/Sources/JavaScriptCore/Source/JavaScriptCore/dfg/DFGSpeculativeJIT.cpp:2571:102), ClobberTopFunctor = (lambda at /Library/Caches/com.apple.xbs/Sources/JavaScriptCore/Source/JavaScriptCore/dfg/DFGSpeculativeJIT.cpp:2567:39)]"
++ "void JSC::DFG::clobberize(Graph &, Node *, const ReadFunctor &, const WriteFunctor &, const DefFunctor &, const ClobberTopFunctor &) [ReadFunctor = (lambda at /Library/Caches/com.apple.xbs/Sources/JavaScriptCore/Source/JavaScriptCore/ftl/FTLLowerDFGToB3.cpp:1858:41), WriteFunctor = (lambda at /Library/Caches/com.apple.xbs/Sources/JavaScriptCore/Source/JavaScriptCore/ftl/FTLLowerDFGToB3.cpp:1858:59), DefFunctor = (lambda at /Library/Caches/com.apple.xbs/Sources/JavaScriptCore/Source/JavaScriptCore/ftl/FTLLowerDFGToB3.cpp:1858:77), ClobberTopFunctor = (lambda at /Library/Caches/com.apple.xbs/Sources/JavaScriptCore/Source/JavaScriptCore/ftl/FTLLowerDFGToB3.cpp:1854:39)]"
++ "void JSC::FTL::(anonymous namespace)::LowerDFGToB3::compare(const IntFunctor &, const DoubleFunctor &, C_JITOperation_TT, C_JITOperation_B_GJssJss, S_JITOperation_GJJ) [IntFunctor = (lambda at /Library/Caches/com.apple.xbs/Sources/JavaScriptCore/Source/JavaScriptCore/ftl/FTLLowerDFGToB3.cpp:11256:13), DoubleFunctor = (lambda at /Library/Caches/com.apple.xbs/Sources/JavaScriptCore/Source/JavaScriptCore/ftl/FTLLowerDFGToB3.cpp:11259:13)]"
++ "void JSC::FTL::(anonymous namespace)::LowerDFGToB3::compare(const IntFunctor &, const DoubleFunctor &, C_JITOperation_TT, C_JITOperation_B_GJssJss, S_JITOperation_GJJ) [IntFunctor = (lambda at /Library/Caches/com.apple.xbs/Sources/JavaScriptCore/Source/JavaScriptCore/ftl/FTLLowerDFGToB3.cpp:11270:13), DoubleFunctor = (lambda at /Library/Caches/com.apple.xbs/Sources/JavaScriptCore/Source/JavaScriptCore/ftl/FTLLowerDFGToB3.cpp:11273:13)]"
++ "void JSC::FTL::(anonymous namespace)::LowerDFGToB3::compare(const IntFunctor &, const DoubleFunctor &, C_JITOperation_TT, C_JITOperation_B_GJssJss, S_JITOperation_GJJ) [IntFunctor = (lambda at /Library/Caches/com.apple.xbs/Sources/JavaScriptCore/Source/JavaScriptCore/ftl/FTLLowerDFGToB3.cpp:11284:13), DoubleFunctor = (lambda at /Library/Caches/com.apple.xbs/Sources/JavaScriptCore/Source/JavaScriptCore/ftl/FTLLowerDFGToB3.cpp:11287:13)]"
++ "void JSC::FTL::(anonymous namespace)::LowerDFGToB3::compare(const IntFunctor &, const DoubleFunctor &, C_JITOperation_TT, C_JITOperation_B_GJssJss, S_JITOperation_GJJ) [IntFunctor = (lambda at /Library/Caches/com.apple.xbs/Sources/JavaScriptCore/Source/JavaScriptCore/ftl/FTLLowerDFGToB3.cpp:11298:13), DoubleFunctor = (lambda at /Library/Caches/com.apple.xbs/Sources/JavaScriptCore/Source/JavaScriptCore/ftl/FTLLowerDFGToB3.cpp:11301:13)]"
++ "void JSC::FTL::(anonymous namespace)::LowerDFGToB3::compileGetMapIndexImpl() [MapOrSet = JSC::JSMap]"
++ "void JSC::FTL::(anonymous namespace)::LowerDFGToB3::compileGetMapIndexImpl() [MapOrSet = JSC::JSSet]"
++ "void JSC::FTL::(anonymous namespace)::LowerDFGToB3::compileMapIteratorKey()"
++ "void JSC::FTL::(anonymous namespace)::LowerDFGToB3::compileMapIteratorNext()"
++ "void JSC::FTL::(anonymous namespace)::LowerDFGToB3::compileMapKeyIndex()"
++ "void JSC::FTL::(anonymous namespace)::LowerDFGToB3::compileMapStorage()"
++ "void JSC::MarkedVector<JSC::JSValue, 32, WTF::RecordOverflow>::appendWithCrashOnOverflow(T) [T = JSC::JSValue, passedInlineCapacity = 32, OverflowHandler = WTF::RecordOverflow]"
++ "void JSC::Safepoint::begin(bool)"
++ "void WTF::ThreadSafeWeakHashSet<JSC::DeferredWorkTimer::TicketData>::add(const U &) [T = JSC::DeferredWorkTimer::TicketData, U = JSC::DeferredWorkTimer::TicketData]"
++ "} // namespace WebCore"
++ "};"
+- "./runtime/HashMapImplInlines.h"
+- "/AppleInternal/Library/BuildRoots/8808857c-3f9c-11ef-8de3-b60714381f84/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.1.Internal.sdk/usr/local/include/wtf/Assertions.h"
+- "/AppleInternal/Library/BuildRoots/8808857c-3f9c-11ef-8de3-b60714381f84/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.1.Internal.sdk/usr/local/include/wtf/ConcurrentPtrHashSet.h"
+- "/AppleInternal/Library/BuildRoots/8808857c-3f9c-11ef-8de3-b60714381f84/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.1.Internal.sdk/usr/local/include/wtf/Deque.h"
+- "/AppleInternal/Library/BuildRoots/8808857c-3f9c-11ef-8de3-b60714381f84/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.1.Internal.sdk/usr/local/include/wtf/IndexMap.h"
+- "/AppleInternal/Library/BuildRoots/8808857c-3f9c-11ef-8de3-b60714381f84/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.1.Internal.sdk/usr/local/include/wtf/JSONValues.h"
+- "/AppleInternal/Library/BuildRoots/8808857c-3f9c-11ef-8de3-b60714381f84/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.1.Internal.sdk/usr/local/include/wtf/LazyRef.h"
+- "/AppleInternal/Library/BuildRoots/8808857c-3f9c-11ef-8de3-b60714381f84/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.1.Internal.sdk/usr/local/include/wtf/LazyUniqueRef.h"
+- "/AppleInternal/Library/BuildRoots/8808857c-3f9c-11ef-8de3-b60714381f84/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.1.Internal.sdk/usr/local/include/wtf/Liveness.h"
+- "/AppleInternal/Library/BuildRoots/8808857c-3f9c-11ef-8de3-b60714381f84/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.1.Internal.sdk/usr/local/include/wtf/LockAlgorithmInlines.h"
+- "/AppleInternal/Library/BuildRoots/8808857c-3f9c-11ef-8de3-b60714381f84/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.1.Internal.sdk/usr/local/include/wtf/NaturalLoops.h"
+- "/AppleInternal/Library/BuildRoots/8808857c-3f9c-11ef-8de3-b60714381f84/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.1.Internal.sdk/usr/local/include/wtf/ObjectIdentifier.h"
+- "/AppleInternal/Library/BuildRoots/8808857c-3f9c-11ef-8de3-b60714381f84/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.1.Internal.sdk/usr/local/include/wtf/RedBlackTree.h"
+- "/AppleInternal/Library/BuildRoots/8808857c-3f9c-11ef-8de3-b60714381f84/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.1.Internal.sdk/usr/local/include/wtf/SinglyLinkedListWithTail.h"
+- "/AppleInternal/Library/BuildRoots/8808857c-3f9c-11ef-8de3-b60714381f84/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.1.Internal.sdk/usr/local/include/wtf/StdLibExtras.h"
+- "/AppleInternal/Library/BuildRoots/8808857c-3f9c-11ef-8de3-b60714381f84/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.1.Internal.sdk/usr/local/include/wtf/ThreadSafeWeakHashSet.h"
+- "/AppleInternal/Library/BuildRoots/8808857c-3f9c-11ef-8de3-b60714381f84/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.1.Internal.sdk/usr/local/include/wtf/ThreadSpecific.h"
+- "/AppleInternal/Library/BuildRoots/8808857c-3f9c-11ef-8de3-b60714381f84/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.1.Internal.sdk/usr/local/include/wtf/TrailingArray.h"
+- "/AppleInternal/Library/BuildRoots/8808857c-3f9c-11ef-8de3-b60714381f84/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.1.Internal.sdk/usr/local/include/wtf/text/StringBuilder.h"
+- "/AppleInternal/Library/BuildRoots/8808857c-3f9c-11ef-8de3-b60714381f84/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.1.Internal.sdk/usr/local/include/wtf/text/StringConcatenate.h"
+- "/AppleInternal/Library/BuildRoots/8808857c-3f9c-11ef-8de3-b60714381f84/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.1.Internal.sdk/usr/local/include/wtf/text/StringImpl.h"
+- "/Library/Caches/com.apple.xbs/Sources/JavaScriptCore/Source/JavaScriptCore/runtime/HashMapImplInlines.h"
+- "GetMapBucket"
+- "GetMapBucketHead"
+- "GetMapBucketNext"
+- "HashMapBucket"
+- "HashMapBucket_key"
+- "HashMapBucket_next"
+- "HashMapBucket_prev"
+- "HashMapBucket_value"
+- "HashMapImpl_buffer"
+- "HashMapImpl_capacity"
+- "HashMapImpl_deleteCount"
+- "HashMapImpl_head"
+- "HashMapImpl_keyCount"
+- "HashMapImpl_tail"
+- "IsoSpace JSMap::BucketType"
+- "IsoSpace JSSet::BucketType"
+- "JSMapBucketHeadIntrinsic"
+- "JSMapBucketKeyIntrinsic"
+- "JSMapBucketNextIntrinsic"
+- "JSMapBucketValueIntrinsic"
+- "JSSetBucketHeadIntrinsic"
+- "JSSetBucketKeyIntrinsic"
+- "JSSetBucketNextIntrinsic"
+- "LValue JSC::FTL::(anonymous namespace)::LowerDFGToB3::emitCodeBasedOnEndiannessBranch(LValue, const F1 &, const F2 &) [F1 = (lambda at /Library/Caches/com.apple.xbs/Sources/JavaScriptCore/Source/JavaScriptCore/ftl/FTLLowerDFGToB3.cpp:18053:45), F2 = (lambda at /Library/Caches/com.apple.xbs/Sources/JavaScriptCore/Source/JavaScriptCore/ftl/FTLLowerDFGToB3.cpp:18059:42)]"
+- "LValue JSC::FTL::(anonymous namespace)::LowerDFGToB3::emitCodeBasedOnEndiannessBranch(LValue, const F1 &, const F2 &) [F1 = (lambda at /Library/Caches/com.apple.xbs/Sources/JavaScriptCore/Source/JavaScriptCore/ftl/FTLLowerDFGToB3.cpp:18090:49), F2 = (lambda at /Library/Caches/com.apple.xbs/Sources/JavaScriptCore/Source/JavaScriptCore/ftl/FTLLowerDFGToB3.cpp:18093:46)]"
+- "LValue JSC::FTL::(anonymous namespace)::LowerDFGToB3::emitCodeBasedOnEndiannessBranch(LValue, const F1 &, const F2 &) [F1 = (lambda at /Library/Caches/com.apple.xbs/Sources/JavaScriptCore/Source/JavaScriptCore/ftl/FTLLowerDFGToB3.cpp:18113:45), F2 = (lambda at /Library/Caches/com.apple.xbs/Sources/JavaScriptCore/Source/JavaScriptCore/ftl/FTLLowerDFGToB3.cpp:18117:42)]"
+- "LValue JSC::FTL::(anonymous namespace)::LowerDFGToB3::emitCodeBasedOnEndiannessBranch(LValue, const F1 &, const F2 &) [F1 = (lambda at /Library/Caches/com.apple.xbs/Sources/JavaScriptCore/Source/JavaScriptCore/ftl/FTLLowerDFGToB3.cpp:18142:45), F2 = (lambda at /Library/Caches/com.apple.xbs/Sources/JavaScriptCore/Source/JavaScriptCore/ftl/FTLLowerDFGToB3.cpp:18146:42)]"
+- "LoadKeyFromMapBucket"
+- "LoadValueFromMapBucket"
+- "OOB + UAF"
+- "auto JSC::FTL::(anonymous namespace)::LowerDFGToB3::compileCallOrConstructVarargsSpread()::(anonymous class)::operator()(auto, Node *) const [self:auto = std::reference_wrapper<const WTF::RecursableLambda<(lambda at /Library/Caches/com.apple.xbs/Sources/JavaScriptCore/Source/JavaScriptCore/ftl/FTLLowerDFGToB3.cpp:11842:70)>>]"
+- "auto JSC::FTL::(anonymous namespace)::LowerDFGToB3::compileForwardVarargsWithSpread()::(anonymous class)::operator()(auto, Node *, LValue) const [self:auto = std::reference_wrapper<const WTF::RecursableLambda<(lambda at /Library/Caches/com.apple.xbs/Sources/JavaScriptCore/Source/JavaScriptCore/ftl/FTLLowerDFGToB3.cpp:12872:47)>>]"
+- "bool JSC::LLInt::jitCompileSIMDFunction(Wasm::LLIntCallee *, Wasm::Instance *)"
+- "bool JSC::disableProfilerWithRespectToCount(unsigned int &, const Func &) [Func = (lambda at ./runtime/VM.cpp:1258:32)]"
+- "bool JSC::disableProfilerWithRespectToCount(unsigned int &, const Func &) [Func = (lambda at ./runtime/VM.cpp:1277:39)]"
+- "mapBucketHead"
+- "mapBucketKey"
+- "mapBucketNext"
+- "mapBucketValue"
+- "mapIteratorFieldMapBucket"
+- "out-of-bounds"
+- "sentinelMapBucket"
+- "sentinelSetBucket"
+- "setBucketHead"
+- "setBucketKey"
+- "setBucketNext"
+- "setIteratorFieldSetBucket"
+- "static ElementType *JSC::LazyProperty<JSC::JSGlobalObject, JSC::GetterSetter>::callFunc(const Initializer &) [OwnerType = JSC::JSGlobalObject, ElementType = JSC::GetterSetter, Func = (lambda at ./runtime/JSGlobalObject.cpp:924:9)]"
+- "static ElementType *JSC::LazyProperty<JSC::JSGlobalObject, JSC::IntlCollator>::callFunc(const Initializer &) [OwnerType = JSC::JSGlobalObject, ElementType = JSC::IntlCollator, Func = (lambda at ./runtime/JSGlobalObject.cpp:1354:9)]"
+- "static ElementType *JSC::LazyProperty<JSC::JSGlobalObject, JSC::IntlNumberFormat>::callFunc(const Initializer &) [OwnerType = JSC::JSGlobalObject, ElementType = JSC::IntlNumberFormat, Func = (lambda at ./runtime/JSGlobalObject.cpp:1365:9)]"
+- "static ElementType *JSC::LazyProperty<JSC::JSGlobalObject, JSC::JSCell>::callFunc(const Initializer &) [OwnerType = JSC::JSGlobalObject, ElementType = JSC::JSCell, Func = (lambda at ./runtime/JSGlobalObject.cpp:1503:5)]"
+- "static ElementType *JSC::LazyProperty<JSC::JSGlobalObject, JSC::JSCell>::callFunc(const Initializer &) [OwnerType = JSC::JSGlobalObject, ElementType = JSC::JSCell, Func = (lambda at ./runtime/JSGlobalObject.cpp:1515:81)]"
+- "static ElementType *JSC::LazyProperty<JSC::JSGlobalObject, JSC::JSCell>::callFunc(const Initializer &) [OwnerType = JSC::JSGlobalObject, ElementType = JSC::JSCell, Func = (lambda at ./runtime/JSGlobalObject.cpp:1518:81)]"
+- "static ElementType *JSC::LazyProperty<JSC::JSGlobalObject, JSC::JSCell>::callFunc(const Initializer &) [OwnerType = JSC::JSGlobalObject, ElementType = JSC::JSCell, Func = (lambda at ./runtime/JSGlobalObject.cpp:1521:91)]"
+- "static ElementType *JSC::LazyProperty<JSC::JSGlobalObject, JSC::JSCell>::callFunc(const Initializer &) [OwnerType = JSC::JSGlobalObject, ElementType = JSC::JSCell, Func = (lambda at ./runtime/JSGlobalObject.cpp:1524:91)]"
+- "static ElementType *JSC::LazyProperty<JSC::JSGlobalObject, JSC::JSCell>::callFunc(const Initializer &) [OwnerType = JSC::JSGlobalObject, ElementType = JSC::JSCell, Func = (lambda at ./runtime/JSGlobalObject.cpp:1527:90)]"
+- "static ElementType *JSC::LazyProperty<JSC::JSGlobalObject, JSC::JSCell>::callFunc(const Initializer &) [OwnerType = JSC::JSGlobalObject, ElementType = JSC::JSCell, Func = (lambda at ./runtime/JSGlobalObject.cpp:1530:92)]"
+- "static ElementType *JSC::LazyProperty<JSC::JSGlobalObject, JSC::JSCell>::callFunc(const Initializer &) [OwnerType = JSC::JSGlobalObject, ElementType = JSC::JSCell, Func = (lambda at ./runtime/JSGlobalObject.cpp:1533:91)]"
+- "static ElementType *JSC::LazyProperty<JSC::JSGlobalObject, JSC::JSCell>::callFunc(const Initializer &) [OwnerType = JSC::JSGlobalObject, ElementType = JSC::JSCell, Func = (lambda at ./runtime/JSGlobalObject.cpp:1536:91)]"
+- "static ElementType *JSC::LazyProperty<JSC::JSGlobalObject, JSC::JSCell>::callFunc(const Initializer &) [OwnerType = JSC::JSGlobalObject, ElementType = JSC::JSCell, Func = (lambda at ./runtime/JSGlobalObject.cpp:1539:90)]"
+- "static ElementType *JSC::LazyProperty<JSC::JSGlobalObject, JSC::JSCell>::callFunc(const Initializer &) [OwnerType = JSC::JSGlobalObject, ElementType = JSC::JSCell, Func = (lambda at ./runtime/JSGlobalObject.cpp:1542:86)]"
+- "static ElementType *JSC::LazyProperty<JSC::JSGlobalObject, JSC::JSCell>::callFunc(const Initializer &) [OwnerType = JSC::JSGlobalObject, ElementType = JSC::JSCell, Func = (lambda at ./runtime/JSGlobalObject.cpp:1546:90)]"
+- "static ElementType *JSC::LazyProperty<JSC::JSGlobalObject, JSC::JSCell>::callFunc(const Initializer &) [OwnerType = JSC::JSGlobalObject, ElementType = JSC::JSCell, Func = (lambda at ./runtime/JSGlobalObject.cpp:1549:96)]"
+- "static ElementType *JSC::LazyProperty<JSC::JSGlobalObject, JSC::JSCell>::callFunc(const Initializer &) [OwnerType = JSC::JSGlobalObject, ElementType = JSC::JSCell, Func = (lambda at ./runtime/JSGlobalObject.cpp:1552:89)]"
+- "static ElementType *JSC::LazyProperty<JSC::JSGlobalObject, JSC::JSCell>::callFunc(const Initializer &) [OwnerType = JSC::JSGlobalObject, ElementType = JSC::JSCell, Func = (lambda at ./runtime/JSGlobalObject.cpp:1555:88)]"
+- "static ElementType *JSC::LazyProperty<JSC::JSGlobalObject, JSC::JSCell>::callFunc(const Initializer &) [OwnerType = JSC::JSGlobalObject, ElementType = JSC::JSCell, Func = (lambda at ./runtime/JSGlobalObject.cpp:1559:91)]"
+- "static ElementType *JSC::LazyProperty<JSC::JSGlobalObject, JSC::JSCell>::callFunc(const Initializer &) [OwnerType = JSC::JSGlobalObject, ElementType = JSC::JSCell, Func = (lambda at ./runtime/JSGlobalObject.cpp:1562:92)]"
+- "static ElementType *JSC::LazyProperty<JSC::JSGlobalObject, JSC::JSCell>::callFunc(const Initializer &) [OwnerType = JSC::JSGlobalObject, ElementType = JSC::JSCell, Func = (lambda at ./runtime/JSGlobalObject.cpp:1566:94)]"
+- "static ElementType *JSC::LazyProperty<JSC::JSGlobalObject, JSC::JSCell>::callFunc(const Initializer &) [OwnerType = JSC::JSGlobalObject, ElementType = JSC::JSCell, Func = (lambda at ./runtime/JSGlobalObject.cpp:1569:110)]"
+- "static ElementType *JSC::LazyProperty<JSC::JSGlobalObject, JSC::JSCell>::callFunc(const Initializer &) [OwnerType = JSC::JSGlobalObject, ElementType = JSC::JSCell, Func = (lambda at ./runtime/JSGlobalObject.cpp:1572:99)]"
+- "static ElementType *JSC::LazyProperty<JSC::JSGlobalObject, JSC::JSCell>::callFunc(const Initializer &) [OwnerType = JSC::JSGlobalObject, ElementType = JSC::JSCell, Func = (lambda at ./runtime/JSGlobalObject.cpp:1575:94)]"
+- "static ElementType *JSC::LazyProperty<JSC::JSGlobalObject, JSC::JSCell>::callFunc(const Initializer &) [OwnerType = JSC::JSGlobalObject, ElementType = JSC::JSCell, Func = (lambda at ./runtime/JSGlobalObject.cpp:1578:100)]"
+- "static ElementType *JSC::LazyProperty<JSC::JSGlobalObject, JSC::JSCell>::callFunc(const Initializer &) [OwnerType = JSC::JSGlobalObject, ElementType = JSC::JSCell, Func = (lambda at ./runtime/JSGlobalObject.cpp:1581:119)]"
+- "static ElementType *JSC::LazyProperty<JSC::JSGlobalObject, JSC::JSCell>::callFunc(const Initializer &) [OwnerType = JSC::JSGlobalObject, ElementType = JSC::JSCell, Func = (lambda at ./runtime/JSGlobalObject.cpp:1584:96)]"
+- "static ElementType *JSC::LazyProperty<JSC::JSGlobalObject, JSC::JSCell>::callFunc(const Initializer &) [OwnerType = JSC::JSGlobalObject, ElementType = JSC::JSCell, Func = (lambda at ./runtime/JSGlobalObject.cpp:1587:91)]"
+- "static ElementType *JSC::LazyProperty<JSC::JSGlobalObject, JSC::JSCell>::callFunc(const Initializer &) [OwnerType = JSC::JSGlobalObject, ElementType = JSC::JSCell, Func = (lambda at ./runtime/JSGlobalObject.cpp:1590:88)]"
+- "static ElementType *JSC::LazyProperty<JSC::JSGlobalObject, JSC::JSCell>::callFunc(const Initializer &) [OwnerType = JSC::JSGlobalObject, ElementType = JSC::JSCell, Func = (lambda at ./runtime/JSGlobalObject.cpp:1593:93)]"
+- "static ElementType *JSC::LazyProperty<JSC::JSGlobalObject, JSC::JSCell>::callFunc(const Initializer &) [OwnerType = JSC::JSGlobalObject, ElementType = JSC::JSCell, Func = (lambda at ./runtime/JSGlobalObject.cpp:1596:102)]"
+- "static ElementType *JSC::LazyProperty<JSC::JSGlobalObject, JSC::JSCell>::callFunc(const Initializer &) [OwnerType = JSC::JSGlobalObject, ElementType = JSC::JSCell, Func = (lambda at ./runtime/JSGlobalObject.cpp:1599:88)]"
+- "static ElementType *JSC::LazyProperty<JSC::JSGlobalObject, JSC::JSCell>::callFunc(const Initializer &) [OwnerType = JSC::JSGlobalObject, ElementType = JSC::JSCell, Func = (lambda at ./runtime/JSGlobalObject.cpp:1602:88)]"
+- "static ElementType *JSC::LazyProperty<JSC::JSGlobalObject, JSC::JSCell>::callFunc(const Initializer &) [OwnerType = JSC::JSGlobalObject, ElementType = JSC::JSCell, Func = (lambda at ./runtime/JSGlobalObject.cpp:1605:93)]"
+- "static ElementType *JSC::LazyProperty<JSC::JSGlobalObject, JSC::JSCell>::callFunc(const Initializer &) [OwnerType = JSC::JSGlobalObject, ElementType = JSC::JSCell, Func = (lambda at ./runtime/JSGlobalObject.cpp:1608:81)]"
+- "static ElementType *JSC::LazyProperty<JSC::JSGlobalObject, JSC::JSCell>::callFunc(const Initializer &) [OwnerType = JSC::JSGlobalObject, ElementType = JSC::JSCell, Func = (lambda at ./runtime/JSGlobalObject.cpp:1611:93)]"
+- "static ElementType *JSC::LazyProperty<JSC::JSGlobalObject, JSC::JSCell>::callFunc(const Initializer &) [OwnerType = JSC::JSGlobalObject, ElementType = JSC::JSCell, Func = (lambda at ./runtime/JSGlobalObject.cpp:1614:89)]"
+- "static ElementType *JSC::LazyProperty<JSC::JSGlobalObject, JSC::JSCell>::callFunc(const Initializer &) [OwnerType = JSC::JSGlobalObject, ElementType = JSC::JSCell, Func = (lambda at ./runtime/JSGlobalObject.cpp:1617:90)]"
+- "static ElementType *JSC::LazyProperty<JSC::JSGlobalObject, JSC::JSCell>::callFunc(const Initializer &) [OwnerType = JSC::JSGlobalObject, ElementType = JSC::JSCell, Func = (lambda at ./runtime/JSGlobalObject.cpp:1620:90)]"
+- "static ElementType *JSC::LazyProperty<JSC::JSGlobalObject, JSC::JSCell>::callFunc(const Initializer &) [OwnerType = JSC::JSGlobalObject, ElementType = JSC::JSCell, Func = (lambda at ./runtime/JSGlobalObject.cpp:1623:105)]"
+- "static ElementType *JSC::LazyProperty<JSC::JSGlobalObject, JSC::JSCell>::callFunc(const Initializer &) [OwnerType = JSC::JSGlobalObject, ElementType = JSC::JSCell, Func = (lambda at ./runtime/JSGlobalObject.cpp:1626:93)]"
+- "static ElementType *JSC::LazyProperty<JSC::JSGlobalObject, JSC::JSCell>::callFunc(const Initializer &) [OwnerType = JSC::JSGlobalObject, ElementType = JSC::JSCell, Func = (lambda at ./runtime/JSGlobalObject.cpp:1629:91)]"
+- "static ElementType *JSC::LazyProperty<JSC::JSGlobalObject, JSC::JSCell>::callFunc(const Initializer &) [OwnerType = JSC::JSGlobalObject, ElementType = JSC::JSCell, Func = (lambda at ./runtime/JSGlobalObject.cpp:1632:90)]"
+- "static ElementType *JSC::LazyProperty<JSC::JSGlobalObject, JSC::JSCell>::callFunc(const Initializer &) [OwnerType = JSC::JSGlobalObject, ElementType = JSC::JSCell, Func = (lambda at ./runtime/JSGlobalObject.cpp:1635:89)]"
+- "static ElementType *JSC::LazyProperty<JSC::JSGlobalObject, JSC::JSCell>::callFunc(const Initializer &) [OwnerType = JSC::JSGlobalObject, ElementType = JSC::JSCell, Func = (lambda at ./runtime/JSGlobalObject.cpp:1638:97)]"
+- "static ElementType *JSC::LazyProperty<JSC::JSGlobalObject, JSC::JSCell>::callFunc(const Initializer &) [OwnerType = JSC::JSGlobalObject, ElementType = JSC::JSCell, Func = (lambda at ./runtime/JSGlobalObject.cpp:1641:87)]"
+- "static ElementType *JSC::LazyProperty<JSC::JSGlobalObject, JSC::JSCell>::callFunc(const Initializer &) [OwnerType = JSC::JSGlobalObject, ElementType = JSC::JSCell, Func = (lambda at ./runtime/JSGlobalObject.cpp:1644:96)]"
+- "static ElementType *JSC::LazyProperty<JSC::JSGlobalObject, JSC::JSCell>::callFunc(const Initializer &) [OwnerType = JSC::JSGlobalObject, ElementType = JSC::JSCell, Func = (lambda at ./runtime/JSGlobalObject.cpp:1647:103)]"
+- "static ElementType *JSC::LazyProperty<JSC::JSGlobalObject, JSC::JSCell>::callFunc(const Initializer &) [OwnerType = JSC::JSGlobalObject, ElementType = JSC::JSCell, Func = (lambda at ./runtime/JSGlobalObject.cpp:1650:97)]"
+- "static ElementType *JSC::LazyProperty<JSC::JSGlobalObject, JSC::JSCell>::callFunc(const Initializer &) [OwnerType = JSC::JSGlobalObject, ElementType = JSC::JSCell, Func = (lambda at ./runtime/JSGlobalObject.cpp:1653:86)]"
+- "static ElementType *JSC::LazyProperty<JSC::JSGlobalObject, JSC::JSCell>::callFunc(const Initializer &) [OwnerType = JSC::JSGlobalObject, ElementType = JSC::JSCell, Func = (lambda at ./runtime/JSGlobalObject.cpp:1658:90)]"
+- "static ElementType *JSC::LazyProperty<JSC::JSGlobalObject, JSC::JSCell>::callFunc(const Initializer &) [OwnerType = JSC::JSGlobalObject, ElementType = JSC::JSCell, Func = (lambda at ./runtime/JSGlobalObject.cpp:1661:86)]"
+- "static ElementType *JSC::LazyProperty<JSC::JSGlobalObject, JSC::JSCell>::callFunc(const Initializer &) [OwnerType = JSC::JSGlobalObject, ElementType = JSC::JSCell, Func = (lambda at ./runtime/JSGlobalObject.cpp:1664:93)]"
+- "static ElementType *JSC::LazyProperty<JSC::JSGlobalObject, JSC::JSCell>::callFunc(const Initializer &) [OwnerType = JSC::JSGlobalObject, ElementType = JSC::JSCell, Func = (lambda at ./runtime/JSGlobalObject.cpp:1667:94)]"
+- "static ElementType *JSC::LazyProperty<JSC::JSGlobalObject, JSC::JSCell>::callFunc(const Initializer &) [OwnerType = JSC::JSGlobalObject, ElementType = JSC::JSCell, Func = (lambda at ./runtime/JSGlobalObject.cpp:1670:93)]"
+- "static ElementType *JSC::LazyProperty<JSC::JSGlobalObject, JSC::JSCell>::callFunc(const Initializer &) [OwnerType = JSC::JSGlobalObject, ElementType = JSC::JSCell, Func = (lambda at ./runtime/JSGlobalObject.cpp:1673:92)]"
+- "static ElementType *JSC::LazyProperty<JSC::JSGlobalObject, JSC::JSCell>::callFunc(const Initializer &) [OwnerType = JSC::JSGlobalObject, ElementType = JSC::JSCell, Func = (lambda at ./runtime/JSGlobalObject.cpp:1678:100)]"
+- "static ElementType *JSC::LazyProperty<JSC::JSGlobalObject, JSC::JSCell>::callFunc(const Initializer &) [OwnerType = JSC::JSGlobalObject, ElementType = JSC::JSCell, Func = (lambda at ./runtime/JSGlobalObject.cpp:1681:99)]"
+- "static ElementType *JSC::LazyProperty<JSC::JSGlobalObject, JSC::JSCell>::callFunc(const Initializer &) [OwnerType = JSC::JSGlobalObject, ElementType = JSC::JSCell, Func = (lambda at ./runtime/JSGlobalObject.cpp:1684:93)]"
+- "static ElementType *JSC::LazyProperty<JSC::JSGlobalObject, JSC::JSCell>::callFunc(const Initializer &) [OwnerType = JSC::JSGlobalObject, ElementType = JSC::JSCell, Func = (lambda at ./runtime/JSGlobalObject.cpp:1689:110)]"
+- "static ElementType *JSC::LazyProperty<JSC::JSGlobalObject, JSC::JSCell>::callFunc(const Initializer &) [OwnerType = JSC::JSGlobalObject, ElementType = JSC::JSCell, Func = (lambda at ./runtime/JSGlobalObject.cpp:1693:102)]"
+- "static ElementType *JSC::LazyProperty<JSC::JSGlobalObject, JSC::JSCell>::callFunc(const Initializer &) [OwnerType = JSC::JSGlobalObject, ElementType = JSC::JSCell, Func = (lambda at ./runtime/JSGlobalObject.cpp:1697:110)]"
+- "static ElementType *JSC::LazyProperty<JSC::JSGlobalObject, JSC::JSCell>::callFunc(const Initializer &) [OwnerType = JSC::JSGlobalObject, ElementType = JSC::JSCell, Func = (lambda at ./runtime/JSGlobalObject.cpp:1702:97)]"
+- "static ElementType *JSC::LazyProperty<JSC::JSGlobalObject, JSC::JSCell>::callFunc(const Initializer &) [OwnerType = JSC::JSGlobalObject, ElementType = JSC::JSCell, Func = (lambda at ./runtime/JSGlobalObject.cpp:1707:87)]"
+- "static ElementType *JSC::LazyProperty<JSC::JSGlobalObject, JSC::JSCell>::callFunc(const Initializer &) [OwnerType = JSC::JSGlobalObject, ElementType = JSC::JSCell, Func = (lambda at ./runtime/JSGlobalObject.cpp:1710:91)]"
+- "static ElementType *JSC::LazyProperty<JSC::JSGlobalObject, JSC::JSCell>::callFunc(const Initializer &) [OwnerType = JSC::JSGlobalObject, ElementType = JSC::JSCell, Func = (lambda at ./runtime/JSGlobalObject.cpp:1715:98)]"
+- "static ElementType *JSC::LazyProperty<JSC::JSGlobalObject, JSC::JSCell>::callFunc(const Initializer &) [OwnerType = JSC::JSGlobalObject, ElementType = JSC::JSCell, Func = (lambda at ./runtime/JSGlobalObject.cpp:1718:94)]"
+- "static ElementType *JSC::LazyProperty<JSC::JSGlobalObject, JSC::JSCell>::callFunc(const Initializer &) [OwnerType = JSC::JSGlobalObject, ElementType = JSC::JSCell, Func = (lambda at ./runtime/JSGlobalObject.cpp:1724:113)]"
+- "static ElementType *JSC::LazyProperty<JSC::JSGlobalObject, JSC::JSCell>::callFunc(const Initializer &) [OwnerType = JSC::JSGlobalObject, ElementType = JSC::JSCell, Func = (lambda at ./runtime/JSGlobalObject.cpp:1727:117)]"
+- "static ElementType *JSC::LazyProperty<JSC::JSGlobalObject, JSC::JSCell>::callFunc(const Initializer &) [OwnerType = JSC::JSGlobalObject, ElementType = JSC::JSCell, Func = (lambda at ./runtime/JSGlobalObject.cpp:1732:105)]"
+- "static ElementType *JSC::LazyProperty<JSC::JSGlobalObject, JSC::JSCell>::callFunc(const Initializer &) [OwnerType = JSC::JSGlobalObject, ElementType = JSC::JSCell, Func = (lambda at ./runtime/JSGlobalObject.cpp:896:93)]"
+- "static ElementType *JSC::LazyProperty<JSC::JSGlobalObject, JSC::JSCell>::callFunc(const Initializer &) [OwnerType = JSC::JSGlobalObject, ElementType = JSC::JSCell, Func = (lambda at ./runtime/JSGlobalObject.cpp:960:5)]"
+- "static ElementType *JSC::LazyProperty<JSC::JSGlobalObject, JSC::JSFunction>::callFunc(const Initializer &) [OwnerType = JSC::JSGlobalObject, ElementType = JSC::JSFunction, Func = (lambda at ./runtime/JSGlobalObject.cpp:1091:9)]"
+- "static ElementType *JSC::LazyProperty<JSC::JSGlobalObject, JSC::JSFunction>::callFunc(const Initializer &) [OwnerType = JSC::JSGlobalObject, ElementType = JSC::JSFunction, Func = (lambda at ./runtime/JSGlobalObject.cpp:1095:9)]"
+- "static ElementType *JSC::LazyProperty<JSC::JSGlobalObject, JSC::JSFunction>::callFunc(const Initializer &) [OwnerType = JSC::JSGlobalObject, ElementType = JSC::JSFunction, Func = (lambda at ./runtime/JSGlobalObject.cpp:874:9)]"
+- "static ElementType *JSC::LazyProperty<JSC::JSGlobalObject, JSC::JSFunction>::callFunc(const Initializer &) [OwnerType = JSC::JSGlobalObject, ElementType = JSC::JSFunction, Func = (lambda at ./runtime/JSGlobalObject.cpp:878:9)]"
+- "static ElementType *JSC::LazyProperty<JSC::JSGlobalObject, JSC::JSFunction>::callFunc(const Initializer &) [OwnerType = JSC::JSGlobalObject, ElementType = JSC::JSFunction, Func = (lambda at ./runtime/JSGlobalObject.cpp:882:9)]"
+- "static ElementType *JSC::LazyProperty<JSC::JSGlobalObject, JSC::JSFunction>::callFunc(const Initializer &) [OwnerType = JSC::JSGlobalObject, ElementType = JSC::JSFunction, Func = (lambda at ./runtime/JSGlobalObject.cpp:887:9)]"
+- "static ElementType *JSC::LazyProperty<JSC::JSGlobalObject, JSC::JSFunction>::callFunc(const Initializer &) [OwnerType = JSC::JSGlobalObject, ElementType = JSC::JSFunction, Func = (lambda at ./runtime/JSGlobalObject.cpp:892:9)]"
+- "static ElementType *JSC::LazyProperty<JSC::JSGlobalObject, JSC::JSInternalPromise>::callFunc(const Initializer &) [OwnerType = JSC::JSGlobalObject, ElementType = JSC::JSInternalPromise, Func = (lambda at ./runtime/JSGlobalObject.cpp:1441:9)]"
+- "static ElementType *JSC::LazyProperty<JSC::JSGlobalObject, JSC::JSModuleLoader>::callFunc(const Initializer &) [OwnerType = JSC::JSGlobalObject, ElementType = JSC::JSModuleLoader, Func = (lambda at ./runtime/JSGlobalObject.cpp:1435:9)]"
+- "static ElementType *JSC::LazyProperty<JSC::JSGlobalObject, JSC::JSTypedArrayViewConstructor>::callFunc(const Initializer &) [OwnerType = JSC::JSGlobalObject, ElementType = JSC::JSTypedArrayViewConstructor, Func = (lambda at ./runtime/JSGlobalObject.cpp:937:9)]"
+- "static ElementType *JSC::LazyProperty<JSC::JSGlobalObject, JSC::JSTypedArrayViewPrototype>::callFunc(const Initializer &) [OwnerType = JSC::JSGlobalObject, ElementType = JSC::JSTypedArrayViewPrototype, Func = (lambda at ./runtime/JSGlobalObject.cpp:930:9)]"
+- "static ElementType *JSC::LazyProperty<JSC::JSGlobalObject, JSC::Structure>::callFunc(const Initializer &) [OwnerType = JSC::JSGlobalObject, ElementType = JSC::Structure, Func = (lambda at ./runtime/JSGlobalObject.cpp:1004:9)]"
+- "static ElementType *JSC::LazyProperty<JSC::JSGlobalObject, JSC::Structure>::callFunc(const Initializer &) [OwnerType = JSC::JSGlobalObject, ElementType = JSC::Structure, Func = (lambda at ./runtime/JSGlobalObject.cpp:1008:9)]"
+- "static ElementType *JSC::LazyProperty<JSC::JSGlobalObject, JSC::Structure>::callFunc(const Initializer &) [OwnerType = JSC::JSGlobalObject, ElementType = JSC::Structure, Func = (lambda at ./runtime/JSGlobalObject.cpp:1014:9)]"
+- "static ElementType *JSC::LazyProperty<JSC::JSGlobalObject, JSC::Structure>::callFunc(const Initializer &) [OwnerType = JSC::JSGlobalObject, ElementType = JSC::Structure, Func = (lambda at ./runtime/JSGlobalObject.cpp:1018:9)]"
+- "static ElementType *JSC::LazyProperty<JSC::JSGlobalObject, JSC::Structure>::callFunc(const Initializer &) [OwnerType = JSC::JSGlobalObject, ElementType = JSC::Structure, Func = (lambda at ./runtime/JSGlobalObject.cpp:1064:9)]"
+- "static ElementType *JSC::LazyProperty<JSC::JSGlobalObject, JSC::Structure>::callFunc(const Initializer &) [OwnerType = JSC::JSGlobalObject, ElementType = JSC::Structure, Func = (lambda at ./runtime/JSGlobalObject.cpp:1068:9)]"
+- "static ElementType *JSC::LazyProperty<JSC::JSGlobalObject, JSC::Structure>::callFunc(const Initializer &) [OwnerType = JSC::JSGlobalObject, ElementType = JSC::Structure, Func = (lambda at ./runtime/JSGlobalObject.cpp:1072:9)]"
+- "static ElementType *JSC::LazyProperty<JSC::JSGlobalObject, JSC::Structure>::callFunc(const Initializer &) [OwnerType = JSC::JSGlobalObject, ElementType = JSC::Structure, Func = (lambda at ./runtime/JSGlobalObject.cpp:1076:9)]"
+- "static ElementType *JSC::LazyProperty<JSC::JSGlobalObject, JSC::Structure>::callFunc(const Initializer &) [OwnerType = JSC::JSGlobalObject, ElementType = JSC::Structure, Func = (lambda at ./runtime/JSGlobalObject.cpp:1081:9)]"
+- "static ElementType *JSC::LazyProperty<JSC::JSGlobalObject, JSC::Structure>::callFunc(const Initializer &) [OwnerType = JSC::JSGlobalObject, ElementType = JSC::Structure, Func = (lambda at ./runtime/JSGlobalObject.cpp:1086:9)]"
+- "static ElementType *JSC::LazyProperty<JSC::JSGlobalObject, JSC::Structure>::callFunc(const Initializer &) [OwnerType = JSC::JSGlobalObject, ElementType = JSC::Structure, Func = (lambda at ./runtime/JSGlobalObject.cpp:1267:9)]"
+- "static ElementType *JSC::LazyProperty<JSC::JSGlobalObject, JSC::Structure>::callFunc(const Initializer &) [OwnerType = JSC::JSGlobalObject, ElementType = JSC::Structure, Func = (lambda at ./runtime/JSGlobalObject.cpp:1271:9)]"
+- "static ElementType *JSC::LazyProperty<JSC::JSGlobalObject, JSC::Structure>::callFunc(const Initializer &) [OwnerType = JSC::JSGlobalObject, ElementType = JSC::Structure, Func = (lambda at ./runtime/JSGlobalObject.cpp:1275:9)]"
+- "static ElementType *JSC::LazyProperty<JSC::JSGlobalObject, JSC::Structure>::callFunc(const Initializer &) [OwnerType = JSC::JSGlobalObject, ElementType = JSC::Structure, Func = (lambda at ./runtime/JSGlobalObject.cpp:1280:9)]"
+- "static ElementType *JSC::LazyProperty<JSC::JSGlobalObject, JSC::Structure>::callFunc(const Initializer &) [OwnerType = JSC::JSGlobalObject, ElementType = JSC::Structure, Func = (lambda at ./runtime/JSGlobalObject.cpp:1286:9)]"
+- "static ElementType *JSC::LazyProperty<JSC::JSGlobalObject, JSC::Structure>::callFunc(const Initializer &) [OwnerType = JSC::JSGlobalObject, ElementType = JSC::Structure, Func = (lambda at ./runtime/JSGlobalObject.cpp:1292:9)]"
+- "static ElementType *JSC::LazyProperty<JSC::JSGlobalObject, JSC::Structure>::callFunc(const Initializer &) [OwnerType = JSC::JSGlobalObject, ElementType = JSC::Structure, Func = (lambda at ./runtime/JSGlobalObject.cpp:1298:9)]"
+- "static ElementType *JSC::LazyProperty<JSC::JSGlobalObject, JSC::Structure>::callFunc(const Initializer &) [OwnerType = JSC::JSGlobalObject, ElementType = JSC::Structure, Func = (lambda at ./runtime/JSGlobalObject.cpp:1304:9)]"
+- "static ElementType *JSC::LazyProperty<JSC::JSGlobalObject, JSC::Structure>::callFunc(const Initializer &) [OwnerType = JSC::JSGlobalObject, ElementType = JSC::Structure, Func = (lambda at ./runtime/JSGlobalObject.cpp:1310:9)]"
+- "static ElementType *JSC::LazyProperty<JSC::JSGlobalObject, JSC::Structure>::callFunc(const Initializer &) [OwnerType = JSC::JSGlobalObject, ElementType = JSC::Structure, Func = (lambda at ./runtime/JSGlobalObject.cpp:1316:9)]"
+- "static ElementType *JSC::LazyProperty<JSC::JSGlobalObject, JSC::Structure>::callFunc(const Initializer &) [OwnerType = JSC::JSGlobalObject, ElementType = JSC::Structure, Func = (lambda at ./runtime/JSGlobalObject.cpp:1322:9)]"
+- "static ElementType *JSC::LazyProperty<JSC::JSGlobalObject, JSC::Structure>::callFunc(const Initializer &) [OwnerType = JSC::JSGlobalObject, ElementType = JSC::Structure, Func = (lambda at ./runtime/JSGlobalObject.cpp:1328:9)]"
+- "static ElementType *JSC::LazyProperty<JSC::JSGlobalObject, JSC::Structure>::callFunc(const Initializer &) [OwnerType = JSC::JSGlobalObject, ElementType = JSC::Structure, Func = (lambda at ./runtime/JSGlobalObject.cpp:1334:9)]"
+- "static ElementType *JSC::LazyProperty<JSC::JSGlobalObject, JSC::Structure>::callFunc(const Initializer &) [OwnerType = JSC::JSGlobalObject, ElementType = JSC::Structure, Func = (lambda at ./runtime/JSGlobalObject.cpp:1380:13)]"
+- "static ElementType *JSC::LazyProperty<JSC::JSGlobalObject, JSC::Structure>::callFunc(const Initializer &) [OwnerType = JSC::JSGlobalObject, ElementType = JSC::Structure, Func = (lambda at ./runtime/JSGlobalObject.cpp:1387:13)]"
+- "static ElementType *JSC::LazyProperty<JSC::JSGlobalObject, JSC::Structure>::callFunc(const Initializer &) [OwnerType = JSC::JSGlobalObject, ElementType = JSC::Structure, Func = (lambda at ./runtime/JSGlobalObject.cpp:1394:13)]"
+- "static ElementType *JSC::LazyProperty<JSC::JSGlobalObject, JSC::Structure>::callFunc(const Initializer &) [OwnerType = JSC::JSGlobalObject, ElementType = JSC::Structure, Func = (lambda at ./runtime/JSGlobalObject.cpp:1401:13)]"
+- "static ElementType *JSC::LazyProperty<JSC::JSGlobalObject, JSC::Structure>::callFunc(const Initializer &) [OwnerType = JSC::JSGlobalObject, ElementType = JSC::Structure, Func = (lambda at ./runtime/JSGlobalObject.cpp:1408:13)]"
+- "static ElementType *JSC::LazyProperty<JSC::JSGlobalObject, JSC::Structure>::callFunc(const Initializer &) [OwnerType = JSC::JSGlobalObject, ElementType = JSC::Structure, Func = (lambda at ./runtime/JSGlobalObject.cpp:1415:13)]"
+- "static ElementType *JSC::LazyProperty<JSC::JSGlobalObject, JSC::Structure>::callFunc(const Initializer &) [OwnerType = JSC::JSGlobalObject, ElementType = JSC::Structure, Func = (lambda at ./runtime/JSGlobalObject.cpp:1422:13)]"
+- "static ElementType *JSC::LazyProperty<JSC::JSGlobalObject, JSC::Structure>::callFunc(const Initializer &) [OwnerType = JSC::JSGlobalObject, ElementType = JSC::Structure, Func = (lambda at ./runtime/JSGlobalObject.cpp:1768:13)]"
+- "static ElementType *JSC::LazyProperty<JSC::JSGlobalObject, JSC::Structure>::callFunc(const Initializer &) [OwnerType = JSC::JSGlobalObject, ElementType = JSC::Structure, Func = (lambda at ./runtime/JSGlobalObject.cpp:1772:13)]"
+- "static ElementType *JSC::LazyProperty<JSC::JSGlobalObject, JSC::Structure>::callFunc(const Initializer &) [OwnerType = JSC::JSGlobalObject, ElementType = JSC::Structure, Func = (lambda at ./runtime/JSGlobalObject.cpp:1776:13)]"
+- "static ElementType *JSC::LazyProperty<JSC::JSGlobalObject, JSC::Structure>::callFunc(const Initializer &) [OwnerType = JSC::JSGlobalObject, ElementType = JSC::Structure, Func = (lambda at ./runtime/JSGlobalObject.cpp:854:9)]"
+- "static ElementType *JSC::LazyProperty<JSC::JSGlobalObject, JSC::Structure>::callFunc(const Initializer &) [OwnerType = JSC::JSGlobalObject, ElementType = JSC::Structure, Func = (lambda at ./runtime/JSGlobalObject.cpp:858:9)]"
+- "static ElementType *JSC::LazyProperty<JSC::JSGlobalObject, JSC::Structure>::callFunc(const Initializer &) [OwnerType = JSC::JSGlobalObject, ElementType = JSC::Structure, Func = (lambda at ./runtime/JSGlobalObject.cpp:862:9)]"
+- "static ElementType *JSC::LazyProperty<JSC::JSGlobalObject, JSC::Structure>::callFunc(const Initializer &) [OwnerType = JSC::JSGlobalObject, ElementType = JSC::Structure, Func = (lambda at ./runtime/JSGlobalObject.cpp:866:9)]"
+- "static ElementType *JSC::LazyProperty<JSC::JSGlobalObject, JSC::Structure>::callFunc(const Initializer &) [OwnerType = JSC::JSGlobalObject, ElementType = JSC::Structure, Func = (lambda at ./runtime/JSGlobalObject.cpp:960:5)]"
+- "static ElementType *JSC::LazyProperty<JSC::JSGlobalObject, JSC::Structure>::callFunc(const Initializer &) [OwnerType = JSC::JSGlobalObject, ElementType = JSC::Structure, Func = (lambda at ./runtime/JSGlobalObject.cpp:971:9)]"
+- "static ElementType *JSC::LazyProperty<JSC::JSGlobalObject, JSC::Structure>::callFunc(const Initializer &) [OwnerType = JSC::JSGlobalObject, ElementType = JSC::Structure, Func = (lambda at ./runtime/JSGlobalObject.cpp:978:9)]"
+- "static ElementType *JSC::LazyProperty<JSC::JSGlobalObject, JSC::Structure>::callFunc(const Initializer &) [OwnerType = JSC::JSGlobalObject, ElementType = JSC::Structure, Func = (lambda at ./runtime/JSGlobalObject.cpp:982:9)]"
+- "static ElementType *JSC::LazyProperty<JSC::JSGlobalObject, JSC::Structure>::callFunc(const Initializer &) [OwnerType = JSC::JSGlobalObject, ElementType = JSC::Structure, Func = (lambda at ./runtime/JSGlobalObject.cpp:986:9)]"
+- "static ElementType *JSC::LazyProperty<JSC::JSGlobalObject, JSC::Structure>::callFunc(const Initializer &) [OwnerType = JSC::JSGlobalObject, ElementType = JSC::Structure, Func = (lambda at ./runtime/JSGlobalObject.cpp:990:9)]"
+- "static ElementType *JSC::LazyProperty<JSC::JSGlobalObject, JSC::Structure>::callFunc(const Initializer &) [OwnerType = JSC::JSGlobalObject, ElementType = JSC::Structure, Func = (lambda at ./runtime/JSGlobalObject.cpp:997:9)]"
+- "static T *WTF::LazyRef<JSC::VM, JSC::Watchdog>::callFunc(OwnerType &, LazyRef<OwnerType, T> &) [OwnerType = JSC::VM, T = JSC::Watchdog, Func = (lambda at ./runtime/VM.cpp:264:30)]"
+- "static T *WTF::LazyUniqueRef<JSC::VM, JSC::HasOwnPropertyCache>::callFunc(OwnerType &, LazyUniqueRef<OwnerType, T> &) [OwnerType = JSC::VM, T = JSC::HasOwnPropertyCache, Func = (lambda at ./runtime/VM.cpp:244:41)]"
+- "static T *WTF::LazyUniqueRef<JSC::VM, JSC::HeapProfiler>::callFunc(OwnerType &, LazyUniqueRef<OwnerType, T> &) [OwnerType = JSC::VM, T = JSC::HeapProfiler, Func = (lambda at ./runtime/VM.cpp:256:34)]"
+- "static T *WTF::LazyUniqueRef<JSC::VM, JSC::MegamorphicCache>::callFunc(OwnerType &, LazyUniqueRef<OwnerType, T> &) [OwnerType = JSC::VM, T = JSC::MegamorphicCache, Func = (lambda at ./runtime/VM.cpp:248:38)]"
+- "static T *WTF::LazyUniqueRef<JSC::VM, JSC::ShadowChicken>::callFunc(OwnerType &, LazyUniqueRef<OwnerType, T> &) [OwnerType = JSC::VM, T = JSC::ShadowChicken, Func = (lambda at ./runtime/VM.cpp:252:35)]"
+- "static T *WTF::LazyUniqueRef<JSC::VM, WTF::AdaptiveStringSearcherTables>::callFunc(OwnerType &, LazyUniqueRef<OwnerType, T> &) [OwnerType = JSC::VM, T = WTF::AdaptiveStringSearcherTables, Func = (lambda at ./runtime/VM.cpp:260:42)]"
+- "use-after-free"
+- "value->child(0)->type() == toB3Type(Wasm::simdScalarType(value->asSIMDValue()->simdLane()))"
+- "value->child(1)->type() == toB3Type(Wasm::simdScalarType(value->asSIMDValue()->simdLane()))"
+- "value->type() == toB3Type(Wasm::simdScalarType(value->asSIMDValue()->simdLane()))"
+- "void JSC::DFG::SpeculativeJIT::compileGetMapBucketHead(Node *)"
+- "void JSC::DFG::clobberize(Graph &, Node *, const ReadFunctor &, const WriteFunctor &, const DefFunctor &, const ClobberTopFunctor &) [ReadFunctor = (lambda at /Library/Caches/com.apple.xbs/Sources/JavaScriptCore/Source/JavaScriptCore/dfg/DFGSpeculativeJIT.cpp:2540:43), WriteFunctor = (lambda at /Library/Caches/com.apple.xbs/Sources/JavaScriptCore/Source/JavaScriptCore/dfg/DFGSpeculativeJIT.cpp:2540:61), DefFunctor = (lambda at /Library/Caches/com.apple.xbs/Sources/JavaScriptCore/Source/JavaScriptCore/dfg/DFGSpeculativeJIT.cpp:2540:79), ClobberTopFunctor = (lambda at /Library/Caches/com.apple.xbs/Sources/JavaScriptCore/Source/JavaScriptCore/dfg/DFGSpeculativeJIT.cpp:2531:35)]"
+- "void JSC::DFG::clobberize(Graph &, Node *, const ReadFunctor &, const WriteFunctor &, const DefFunctor &, const ClobberTopFunctor &) [ReadFunctor = (lambda at /Library/Caches/com.apple.xbs/Sources/JavaScriptCore/Source/JavaScriptCore/dfg/DFGSpeculativeJIT.cpp:2583:66), WriteFunctor = (lambda at /Library/Caches/com.apple.xbs/Sources/JavaScriptCore/Source/JavaScriptCore/dfg/DFGSpeculativeJIT.cpp:2583:84), DefFunctor = (lambda at /Library/Caches/com.apple.xbs/Sources/JavaScriptCore/Source/JavaScriptCore/dfg/DFGSpeculativeJIT.cpp:2583:102), ClobberTopFunctor = (lambda at /Library/Caches/com.apple.xbs/Sources/JavaScriptCore/Source/JavaScriptCore/dfg/DFGSpeculativeJIT.cpp:2579:39)]"
+- "void JSC::DFG::clobberize(Graph &, Node *, const ReadFunctor &, const WriteFunctor &, const DefFunctor &, const ClobberTopFunctor &) [ReadFunctor = (lambda at /Library/Caches/com.apple.xbs/Sources/JavaScriptCore/Source/JavaScriptCore/ftl/FTLLowerDFGToB3.cpp:1843:41), WriteFunctor = (lambda at /Library/Caches/com.apple.xbs/Sources/JavaScriptCore/Source/JavaScriptCore/ftl/FTLLowerDFGToB3.cpp:1843:59), DefFunctor = (lambda at /Library/Caches/com.apple.xbs/Sources/JavaScriptCore/Source/JavaScriptCore/ftl/FTLLowerDFGToB3.cpp:1843:77), ClobberTopFunctor = (lambda at /Library/Caches/com.apple.xbs/Sources/JavaScriptCore/Source/JavaScriptCore/ftl/FTLLowerDFGToB3.cpp:1839:39)]"
+- "void JSC::FTL::(anonymous namespace)::LowerDFGToB3::compare(const IntFunctor &, const DoubleFunctor &, C_JITOperation_TT, C_JITOperation_B_GJssJss, S_JITOperation_GJJ) [IntFunctor = (lambda at /Library/Caches/com.apple.xbs/Sources/JavaScriptCore/Source/JavaScriptCore/ftl/FTLLowerDFGToB3.cpp:11241:13), DoubleFunctor = (lambda at /Library/Caches/com.apple.xbs/Sources/JavaScriptCore/Source/JavaScriptCore/ftl/FTLLowerDFGToB3.cpp:11244:13)]"
+- "void JSC::FTL::(anonymous namespace)::LowerDFGToB3::compare(const IntFunctor &, const DoubleFunctor &, C_JITOperation_TT, C_JITOperation_B_GJssJss, S_JITOperation_GJJ) [IntFunctor = (lambda at /Library/Caches/com.apple.xbs/Sources/JavaScriptCore/Source/JavaScriptCore/ftl/FTLLowerDFGToB3.cpp:11255:13), DoubleFunctor = (lambda at /Library/Caches/com.apple.xbs/Sources/JavaScriptCore/Source/JavaScriptCore/ftl/FTLLowerDFGToB3.cpp:11258:13)]"
+- "void JSC::FTL::(anonymous namespace)::LowerDFGToB3::compare(const IntFunctor &, const DoubleFunctor &, C_JITOperation_TT, C_JITOperation_B_GJssJss, S_JITOperation_GJJ) [IntFunctor = (lambda at /Library/Caches/com.apple.xbs/Sources/JavaScriptCore/Source/JavaScriptCore/ftl/FTLLowerDFGToB3.cpp:11269:13), DoubleFunctor = (lambda at /Library/Caches/com.apple.xbs/Sources/JavaScriptCore/Source/JavaScriptCore/ftl/FTLLowerDFGToB3.cpp:11272:13)]"
+- "void JSC::FTL::(anonymous namespace)::LowerDFGToB3::compare(const IntFunctor &, const DoubleFunctor &, C_JITOperation_TT, C_JITOperation_B_GJssJss, S_JITOperation_GJJ) [IntFunctor = (lambda at /Library/Caches/com.apple.xbs/Sources/JavaScriptCore/Source/JavaScriptCore/ftl/FTLLowerDFGToB3.cpp:11283:13), DoubleFunctor = (lambda at /Library/Caches/com.apple.xbs/Sources/JavaScriptCore/Source/JavaScriptCore/ftl/FTLLowerDFGToB3.cpp:11286:13)]"
+- "void JSC::FTL::(anonymous namespace)::LowerDFGToB3::compileGetMapBucket()"
+- "void JSC::FTL::(anonymous namespace)::LowerDFGToB3::compileGetMapBucketHead()"
+- "void JSC::HashMapImpl<JSC::HashMapBucket<JSC::HashMapBucketDataKey>>::finishCreation(JSGlobalObject *, VM &, HashMapImpl<HashMapBucketType> *) [HashMapBucketType = JSC::HashMapBucket<JSC::HashMapBucketDataKey>]"
+- "void JSC::HashMapImpl<JSC::HashMapBucket<JSC::HashMapBucketDataKey>>::rehash(JSGlobalObject *, RehashMode) [HashMapBucketType = JSC::HashMapBucket<JSC::HashMapBucketDataKey>]"
+- "void JSC::HashMapImpl<JSC::HashMapBucket<JSC::HashMapBucketDataKeyValue>>::finishCreation(JSGlobalObject *, VM &, HashMapImpl<HashMapBucketType> *) [HashMapBucketType = JSC::HashMapBucket<JSC::HashMapBucketDataKeyValue>]"
+- "void JSC::HashMapImpl<JSC::HashMapBucket<JSC::HashMapBucketDataKeyValue>>::rehash(JSGlobalObject *, RehashMode) [HashMapBucketType = JSC::HashMapBucket<JSC::HashMapBucketDataKeyValue>]"
+- "void JSC::Safepoint::begin()"
+
+```

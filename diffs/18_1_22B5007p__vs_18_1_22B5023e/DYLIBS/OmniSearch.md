@@ -1,0 +1,338 @@
+## OmniSearch
+
+> `/System/Library/PrivateFrameworks/OmniSearch.framework/OmniSearch`
+
+```diff
+
+-3400.80.2.0.0
+-  __TEXT.__text: 0x251138
+-  __TEXT.__auth_stubs: 0x3b10
++3401.5.1.0.0
++  __TEXT.__text: 0x24fd18
++  __TEXT.__auth_stubs: 0x3b00
+   __TEXT.__objc_methlist: 0x78
+-  __TEXT.__const: 0xb538
+-  __TEXT.__cstring: 0x4f11
+-  __TEXT.__oslogstring: 0x44ca
+-  __TEXT.__swift5_typeref: 0x3b69
+-  __TEXT.__swift5_fieldmd: 0x3d58
+-  __TEXT.__constg_swiftt: 0x2f0c
+-  __TEXT.__swift5_reflstr: 0x2a9c
++  __TEXT.__const: 0xb658
++  __TEXT.__cstring: 0x5561
++  __TEXT.__oslogstring: 0x45ba
++  __TEXT.__swift5_typeref: 0x3b9d
++  __TEXT.__swift5_fieldmd: 0x3d98
++  __TEXT.__constg_swiftt: 0x2f40
++  __TEXT.__swift5_reflstr: 0x2afc
+   __TEXT.__swift5_builtin: 0x78
+   __TEXT.__swift5_capture: 0xbf4
+   __TEXT.__swift5_assocty: 0x848
+   __TEXT.__swift5_protos: 0x78
+-  __TEXT.__swift5_proto: 0xb48
+-  __TEXT.__swift5_types: 0x364
++  __TEXT.__swift5_proto: 0xb54
++  __TEXT.__swift5_types: 0x368
+   __TEXT.__swift5_mpenum: 0x8
+-  __TEXT.__unwind_info: 0x6400
+-  __TEXT.__eh_frame: 0x8c4c
++  __TEXT.__unwind_info: 0x6420
++  __TEXT.__eh_frame: 0x897c
+   __TEXT.__objc_classname: 0x8f
+   __TEXT.__objc_methname: 0x1658
+   __TEXT.__objc_methtype: 0x26e
+-  __DATA_CONST.__got: 0xf88
+-  __DATA_CONST.__const: 0xdc8
++  __DATA_CONST.__got: 0xfa0
++  __DATA_CONST.__const: 0xe20
+   __DATA_CONST.__objc_classlist: 0xd0
+   __DATA_CONST.__objc_protolist: 0x80
+   __DATA_CONST.__objc_imageinfo: 0x8
+   __DATA_CONST.__objc_selrefs: 0x830
+   __DATA_CONST.__objc_protorefs: 0x40
+-  __AUTH_CONST.__auth_got: 0x1d88
+-  __AUTH_CONST.__auth_ptr: 0xf10
+-  __AUTH_CONST.__const: 0x7ea8
+-  __AUTH_CONST.__objc_const: 0x21b0
++  __AUTH_CONST.__auth_got: 0x1d80
++  __AUTH_CONST.__auth_ptr: 0xf18
++  __AUTH_CONST.__const: 0x7fb8
++  __AUTH_CONST.__objc_const: 0x21f0
+   __AUTH.__objc_data: 0x420
+-  __AUTH.__data: 0x3270
+-  __DATA.__data: 0x3da8
++  __AUTH.__data: 0x3290
++  __DATA.__data: 0x3dc0
+   __DATA.__common: 0x2c8
+-  __DATA.__bss: 0x14e30
++  __DATA.__bss: 0x14fb0
+   - /System/Library/Frameworks/Accelerate.framework/Accelerate
+   - /System/Library/Frameworks/AppIntents.framework/AppIntents
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+
+   - /usr/lib/swift/libswiftUniformTypeIdentifiers.dylib
+   - /usr/lib/swift/libswiftVideoToolbox.dylib
+   - /usr/lib/swift/libswiftXPC.dylib
++  - /usr/lib/swift/libswift_Builtin_float.dylib
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswift_StringProcessing.dylib
++  - /usr/lib/swift/libswift_errno.dylib
++  - /usr/lib/swift/libswift_math.dylib
++  - /usr/lib/swift/libswift_signal.dylib
++  - /usr/lib/swift/libswift_stdio.dylib
++  - /usr/lib/swift/libswift_time.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  Functions: 10164
+-  Symbols:   15875
+-  CStrings:  1282
++  - /usr/lib/swift/libswiftsys_time.dylib
++  - /usr/lib/swift/libswiftunistd.dylib
++  Functions: 10167
++  Symbols:   15923
++  CStrings:  1294
+ 
+Symbols:
++ _$s10OmniSearch0B8ToolMCQUV11currentTimeSSSgvM
++ _$s10OmniSearch0B8ToolMCQUV11currentTimeSSSgvg
++ _$s10OmniSearch0B8ToolMCQUV11currentTimeSSSgvpMV
++ _$s10OmniSearch0B8ToolMCQUV11currentTimeSSSgvs
++ _$s10OmniSearch0B8ToolMCQUV12$currentTime10AppIntents15IntentParameterCySSSgGvg
++ _$s10OmniSearch0B8ToolMCQUV12$currentTime10AppIntents15IntentParameterCySSSgGvpMV
++ _$s10OmniSearch0aB7ServiceC25parseWithMemoryCreationQU_13originatorPID9jsonParse11personNames03petN011currentTimeAA10LLMQUParseCSS_SiSgSSSgSaySSGSgAoMtYaKFZTj
++ _$s10OmniSearch0aB7ServiceC25parseWithMemoryCreationQU_13originatorPID9jsonParse11personNames03petN011currentTimeAA10LLMQUParseCSS_SiSgSSSgSaySSGSgAoMtYaKFZTjTu
++ _$s10OmniSearch0aB7ServiceC25parseWithMemoryCreationQU_13originatorPID9jsonParse11personNames03petN011currentTimeAA10LLMQUParseCSS_SiSgSSSgSaySSGSgAoMtYaKFZTq
++ _$s10OmniSearch25MemoryCreationQueryParserC21enumerateParseResults3for10completionySSSg_ySo18NSAttributedStringCSgctF
++ _$s10OmniSearch25MemoryCreationQueryParserC21enumerateParseResults3for10completionySSSg_ySo18NSAttributedStringCSgctFTj
++ _$s10OmniSearch25MemoryCreationQueryParserC21enumerateParseResults3for10completionySSSg_ySo18NSAttributedStringCSgctFTq
++ _$s10OmniSearch25MemoryCreationQueryParserC6parserSo07QPQueryF7ManagerCvg
++ _$s10OmniSearch25MemoryCreationQueryParserC6parserSo07QPQueryF7ManagerCvpMV
++ _$s10OmniSearch25MemoryCreationQueryParserC6parserSo07QPQueryF7ManagerCvpWvd
++ _$s10OmniSearch25MemoryCreationQueryParserCAA0cdeF8ProtocolAAMc
++ _$s10OmniSearch25MemoryCreationQueryParserCAA0cdeF8ProtocolAAWP
++ _$s10OmniSearch25MemoryCreationQueryParserCACycfC
++ _$s10OmniSearch25MemoryCreationQueryParserCACycfCTj
++ _$s10OmniSearch25MemoryCreationQueryParserCACycfCTq
++ _$s10OmniSearch25MemoryCreationQueryParserCACycfc
++ _$s10OmniSearch25MemoryCreationQueryParserCMa
++ _$s10OmniSearch25MemoryCreationQueryParserCMm
++ _$s10OmniSearch25MemoryCreationQueryParserCMn
++ _$s10OmniSearch25MemoryCreationQueryParserCMo
++ _$s10OmniSearch25MemoryCreationQueryParserCMu
++ _$s10OmniSearch25MemoryCreationQueryParserCN
++ _$s10OmniSearch25MemoryCreationQueryParserCfD
++ _$s10OmniSearch25MemoryCreationQueryParserCfd
++ _$s10OmniSearch26MemoryCreationQUControllerC11queryParserAA0cd5QueryG8Protocol_pvM
++ _$s10OmniSearch26MemoryCreationQUControllerC11queryParserAA0cd5QueryG8Protocol_pvMTj
++ _$s10OmniSearch26MemoryCreationQUControllerC11queryParserAA0cd5QueryG8Protocol_pvMTq
++ _$s10OmniSearch26MemoryCreationQUControllerC11queryParserAA0cd5QueryG8Protocol_pvg
++ _$s10OmniSearch26MemoryCreationQUControllerC11queryParserAA0cd5QueryG8Protocol_pvgTj
++ _$s10OmniSearch26MemoryCreationQUControllerC11queryParserAA0cd5QueryG8Protocol_pvgTq
++ _$s10OmniSearch26MemoryCreationQUControllerC11queryParserAA0cd5QueryG8Protocol_pvpMV
++ _$s10OmniSearch26MemoryCreationQUControllerC11queryParserAA0cd5QueryG8Protocol_pvpWvd
++ _$s10OmniSearch26MemoryCreationQUControllerC11queryParserAA0cd5QueryG8Protocol_pvs
++ _$s10OmniSearch26MemoryCreationQUControllerC11queryParserAA0cd5QueryG8Protocol_pvsTj
++ _$s10OmniSearch26MemoryCreationQUControllerC11queryParserAA0cd5QueryG8Protocol_pvsTq
++ _$s10OmniSearch26MemoryCreationQUControllerC12isParseEmpty33_3A20DC2A334A97F2E47A7FB8702E9546LLySb0aB5Types0cD7QUParseCFZ
++ _$s10OmniSearch26MemoryCreationQUControllerC19llmQUNetworkService9ecrClient11queryParserAcA0cdgH8Protocol_p_AA09ECRClientM0_pSgAA0cd5QuerylM0_ptcfC
++ _$s10OmniSearch26MemoryCreationQUControllerC19llmQUNetworkService9ecrClient11queryParserAcA0cdgH8Protocol_p_AA09ECRClientM0_pSgAA0cd5QuerylM0_ptcfCTj
++ _$s10OmniSearch26MemoryCreationQUControllerC19llmQUNetworkService9ecrClient11queryParserAcA0cdgH8Protocol_p_AA09ECRClientM0_pSgAA0cd5QuerylM0_ptcfCTq
++ _$s10OmniSearch26MemoryCreationQUControllerC19llmQUNetworkService9ecrClient11queryParserAcA0cdgH8Protocol_p_AA09ECRClientM0_pSgAA0cd5QuerylM0_ptcfc
++ _$s10OmniSearch26MemoryCreationQUControllerC19llmQUNetworkService9ecrClient11queryParserAcA0cdgH8Protocol_p_AA09ECRClientM0_pSgAA0cd5QuerylM0_ptcfcfA0_
++ _$s10OmniSearch26MemoryCreationQUControllerC19llmQUNetworkService9ecrClient11queryParserAcA0cdgH8Protocol_p_AA09ECRClientM0_pSgAA0cd5QuerylM0_ptcfcfA1_
++ _$s10OmniSearch26MemoryCreationQUControllerC19llmQUNetworkService9ecrClient11queryParserAcA0cdgH8Protocol_p_AA09ECRClientM0_pSgAA0cd5QuerylM0_ptcfcfA_
++ _$s10OmniSearch26MemoryCreationQUControllerC22isQUModelResponseEmpty33_3A20DC2A334A97F2E47A7FB8702E9546LLySbAA0cdgH0VFZ
++ _$s10OmniSearch26MemoryCreationQUControllerC30isParseEmptyDueToHallucination5parse10quResponseSb0aB5Types0cD7QUParseC_AA0cd7QUModelN0VtFZ
++ _$s10OmniSearch26MemoryCreationQUControllerC30isParseEmptyDueToHallucination5parse10quResponseSb0aB5Types0cD7QUParseC_AA0cd7QUModelN0VtFZTj
++ _$s10OmniSearch26MemoryCreationQUControllerC30isParseEmptyDueToHallucination5parse10quResponseSb0aB5Types0cD7QUParseC_AA0cd7QUModelN0VtFZTq
++ _$s10OmniSearch26MemoryCreationQUControllerC5parse_11personNames03petH011currentTime13originatorPIDAA10LLMQUParseCSS_SaySSGAKSSSgSiSgtYaKF
++ _$s10OmniSearch26MemoryCreationQUControllerC5parse_11personNames03petH011currentTime13originatorPIDAA10LLMQUParseCSS_SaySSGAKSSSgSiSgtYaKFTj
++ _$s10OmniSearch26MemoryCreationQUControllerC5parse_11personNames03petH011currentTime13originatorPIDAA10LLMQUParseCSS_SaySSGAKSSSgSiSgtYaKFTjTu
++ _$s10OmniSearch26MemoryCreationQUControllerC5parse_11personNames03petH011currentTime13originatorPIDAA10LLMQUParseCSS_SaySSGAKSSSgSiSgtYaKFTq
++ _$s10OmniSearch26MemoryCreationQUControllerC5parse_11personNames03petH011currentTime13originatorPIDAA10LLMQUParseCSS_SaySSGAKSSSgSiSgtYaKFTu
++ _$s10OmniSearch26MemoryCreationQUControllerC9sortOrder10prediction0aB5Types0cd11QUParseSortG0OAA0cD15QUModelResponseV_tF
++ _$s10OmniSearch26MemoryCreationQUControllerC9sortOrder10prediction0aB5Types0cd11QUParseSortG0OAA0cD15QUModelResponseV_tFTj
++ _$s10OmniSearch26MemoryCreationQUControllerC9sortOrder10prediction0aB5Types0cd11QUParseSortG0OAA0cD15QUModelResponseV_tFTq
++ _$s10OmniSearch29MemoryCreationQUModelResponseV3who4what4when5where5music4mood10sort_order4trip8all_timeACSDySSSaySSGGSg_A3oA0cdeF5MusicVSgA2OSSSgAStcfC
++ _$s10OmniSearch30MemoryCreationQUNetworkServiceC11formatNames06personH003petH0SSSaySSG_AGtF
++ _$s10OmniSearch30MemoryCreationQUNetworkServiceC11parseHelper_11personNames03petJ011currentTime7quModelAA0cD15QUModelResponseVSS_SaySSGAKSS15TokenGeneration0R9GeneratorCtYaKF
++ _$s10OmniSearch30MemoryCreationQUNetworkServiceC11parseHelper_11personNames03petJ011currentTime7quModelAA0cD15QUModelResponseVSS_SaySSGAKSS15TokenGeneration0R9GeneratorCtYaKFTu
++ _$s10OmniSearch30MemoryCreationQUNetworkServiceC12modelVersionSivM
++ _$s10OmniSearch30MemoryCreationQUNetworkServiceC12modelVersionSivg
++ _$s10OmniSearch30MemoryCreationQUNetworkServiceC12modelVersionSivpMV
++ _$s10OmniSearch30MemoryCreationQUNetworkServiceC12modelVersionSivpWvd
++ _$s10OmniSearch30MemoryCreationQUNetworkServiceC12modelVersionSivs
++ _$s10OmniSearch30MemoryCreationQUNetworkServiceC14generatePrompt7version14promptBindingsSSSi_SDyS2SGtF
++ _$s10OmniSearch30MemoryCreationQUNetworkServiceC14namesPromptKeySSvau
++ _$s10OmniSearch30MemoryCreationQUNetworkServiceC14namesPromptKeySSvgZ
++ _$s10OmniSearch30MemoryCreationQUNetworkServiceC14namesPromptKeySSvpZ
++ _$s10OmniSearch30MemoryCreationQUNetworkServiceC16promptTemplateIDSSvM
++ _$s10OmniSearch30MemoryCreationQUNetworkServiceC16promptTemplateIDSSvg
++ _$s10OmniSearch30MemoryCreationQUNetworkServiceC16promptTemplateIDSSvpMV
++ _$s10OmniSearch30MemoryCreationQUNetworkServiceC16promptTemplateIDSSvpWvd
++ _$s10OmniSearch30MemoryCreationQUNetworkServiceC16promptTemplateIDSSvs
++ _$s10OmniSearch30MemoryCreationQUNetworkServiceC20currentTimePromptKeySSvau
++ _$s10OmniSearch30MemoryCreationQUNetworkServiceC20currentTimePromptKeySSvgZ
++ _$s10OmniSearch30MemoryCreationQUNetworkServiceC20currentTimePromptKeySSvpZ
++ _$s10OmniSearch30MemoryCreationQUNetworkServiceC21prewarmReturningModel13originatorPID15TokenGeneration0L9GeneratorCSi_tF
++ _$s10OmniSearch30MemoryCreationQUNetworkServiceC24fallbackPromptTemplateV2s12StaticStringVvau
++ _$s10OmniSearch30MemoryCreationQUNetworkServiceC24fallbackPromptTemplateV2s12StaticStringVvgZ
++ _$s10OmniSearch30MemoryCreationQUNetworkServiceC24fallbackPromptTemplateV2s12StaticStringVvpZ
++ _$s10OmniSearch30MemoryCreationQUNetworkServiceC24fallbackPromptTemplateV3s12StaticStringVvau
++ _$s10OmniSearch30MemoryCreationQUNetworkServiceC24fallbackPromptTemplateV3s12StaticStringVvgZ
++ _$s10OmniSearch30MemoryCreationQUNetworkServiceC24fallbackPromptTemplateV3s12StaticStringVvpZ
++ _$s10OmniSearch30MemoryCreationQUNetworkServiceC5parse_11personNames03petI011currentTime13originatorPIDAA0cD15QUModelResponseVSS_SaySSGAKSSSgSiSgtYaKF
++ _$s10OmniSearch30MemoryCreationQUNetworkServiceC5parse_11personNames03petI011currentTime13originatorPIDAA0cD15QUModelResponseVSS_SaySSGAKSSSgSiSgtYaKFTu
++ _$s10OmniSearch30MemoryCreationQUNetworkServiceC7modelIDSSvM
++ _$s10OmniSearch30MemoryCreationQUNetworkServiceC7modelIDSSvs
++ _$s10OmniSearch31MemoryCreationQUControllerErrorO2eeoiySbAC_ACtFZ
++ _$s10OmniSearch31MemoryCreationQUControllerErrorO31emptyResponseDueToHallucinationyA2CmFWC
++ _$s10OmniSearch31MemoryCreationQUControllerErrorO4hash4intoys6HasherVz_tF
++ _$s10OmniSearch31MemoryCreationQUControllerErrorO9hashValueSivg
++ _$s10OmniSearch31MemoryCreationQUControllerErrorO9hashValueSivpMV
++ _$s10OmniSearch31MemoryCreationQUControllerErrorOMa
++ _$s10OmniSearch31MemoryCreationQUControllerErrorOMn
++ _$s10OmniSearch31MemoryCreationQUControllerErrorON
++ _$s10OmniSearch31MemoryCreationQUControllerErrorOSHAAMc
++ _$s10OmniSearch31MemoryCreationQUControllerErrorOSQAAMc
++ _$s10OmniSearch31MemoryCreationQUControllerErrorOs0F0AAMc
++ _$s10OmniSearch33MemoryCreationQueryParserProtocolMp
++ _$s10OmniSearch33MemoryCreationQueryParserProtocolP21enumerateParseResults3for10completionySSSg_ySo18NSAttributedStringCSgctFTj
++ _$s10OmniSearch33MemoryCreationQueryParserProtocolP21enumerateParseResults3for10completionySSSg_ySo18NSAttributedStringCSgctFTq
++ _$s10OmniSearch33MemoryCreationQueryParserProtocolTL
++ _$s10OmniSearch34MemoryCreationQUControllerProtocolP5parse_11personNames03petI011currentTime13originatorPIDAA10LLMQUParseCSS_SaySSGAKSSSgSiSgtYaKFTj
++ _$s10OmniSearch34MemoryCreationQUControllerProtocolP5parse_11personNames03petI011currentTime13originatorPIDAA10LLMQUParseCSS_SaySSGAKSSSgSiSgtYaKFTjTu
++ _$s10OmniSearch34MemoryCreationQUControllerProtocolP5parse_11personNames03petI011currentTime13originatorPIDAA10LLMQUParseCSS_SaySSGAKSSSgSiSgtYaKFTq
++ _$s10OmniSearch38MemoryCreationQUNetworkServiceProtocolP5parse_11personNames03petJ011currentTime13originatorPIDAA0cD15QUModelResponseVSS_SaySSGAKSSSgSiSgtYaKFTj
++ _$s10OmniSearch38MemoryCreationQUNetworkServiceProtocolP5parse_11personNames03petJ011currentTime13originatorPIDAA0cD15QUModelResponseVSS_SaySSGAKSSSgSiSgtYaKFTjTu
++ _$s10OmniSearch38MemoryCreationQUNetworkServiceProtocolP5parse_11personNames03petJ011currentTime13originatorPIDAA0cD15QUModelResponseVSS_SaySSGAKSSSgSiSgtYaKFTq
++ _$s12ModelCatalog0B0O8ResourceO3LLMO7AdapterO42PhotosMemoriesCreationQueryUnderstandingV3AA10LLMAdapter_pyFZ
++ _$s15OmniSearchTypes21MemoryCreationQUParseC9sortOrderAA0def4SortH0Ovg
++ _$s15OmniSearchTypes30MemoryCreationQUParseSortOrderOSYAAMc
++ _$sSS10OmniSearchE20substringFromNSRangeySSSgSo01_E0VF
++ _$sScG8IteratorV4next9isolationxSgScA_pSgYi_tYaF
++ _$sScG8IteratorV4next9isolationxSgScA_pSgYi_tYaFTu
++ _$sSn10FoundationSS5IndexVRszrlE_2inSnyACGSgSo8_NSRangeV_SShtcfC
++ _$ss12StaticStringVMn
++ _$ss13withTaskGroup2of9returning9isolation4bodyq_xm_q_mScA_pSgYiq_ScGyxGzYaXEtYas8SendableRzr0_lF
++ _$ss13withTaskGroup2of9returning9isolation4bodyq_xm_q_mScA_pSgYiq_ScGyxGzYaXEtYas8SendableRzr0_lFTu
++ _$ss21withThrowingTaskGroup2of9returning9isolation4bodyq_xm_q_mScA_pSgYiq_Scgyxs5Error_pGzYaKXEtYaKs8SendableRzr0_lF
++ _$ss21withThrowingTaskGroup2of9returning9isolation4bodyq_xm_q_mScA_pSgYiq_Scgyxs5Error_pGzYaKXEtYaKs8SendableRzr0_lFTu
++ _$ss23withCheckedContinuation9isolation8function_xScA_pSgYi_SSyScCyxs5NeverOGXEtYalF
++ _$ss23withCheckedContinuation9isolation8function_xScA_pSgYi_SSyScCyxs5NeverOGXEtYalFTu
++ _$ss31withCheckedThrowingContinuation9isolation8function_xScA_pSgYi_SSyScCyxs5Error_pGXEtYaKlF
++ _$ss31withCheckedThrowingContinuation9isolation8function_xScA_pSgYi_SSyScCyxs5Error_pGXEtYaKlFTu
++ __swift_FORCE_LOAD_$_swift_Builtin_float
++ __swift_FORCE_LOAD_$_swift_errno
++ __swift_FORCE_LOAD_$_swift_math
++ __swift_FORCE_LOAD_$_swift_signal
++ __swift_FORCE_LOAD_$_swift_stdio
++ __swift_FORCE_LOAD_$_swift_time
++ __swift_FORCE_LOAD_$_swiftsys_time
++ __swift_FORCE_LOAD_$_swiftunistd
+- _$s10OmniSearch0aB7ServiceC25parseWithMemoryCreationQU_13originatorPID9jsonParseAA10LLMQUParseCSS_SiSgSSSgtYaKFZTj
+- _$s10OmniSearch0aB7ServiceC25parseWithMemoryCreationQU_13originatorPID9jsonParseAA10LLMQUParseCSS_SiSgSSSgtYaKFZTjTu
+- _$s10OmniSearch0aB7ServiceC25parseWithMemoryCreationQU_13originatorPID9jsonParseAA10LLMQUParseCSS_SiSgSSSgtYaKFZTq
+- _$s10OmniSearch17PhotosQueryParserC21enumerateParseResults3for10completionySSSg_ySo18NSAttributedStringCSgctF
+- _$s10OmniSearch17PhotosQueryParserC21enumerateParseResults3for10completionySSSg_ySo18NSAttributedStringCSgctFTj
+- _$s10OmniSearch17PhotosQueryParserC21enumerateParseResults3for10completionySSSg_ySo18NSAttributedStringCSgctFTq
+- _$s10OmniSearch17PhotosQueryParserC6parserSo07QPQueryE7ManagerCvg
+- _$s10OmniSearch17PhotosQueryParserC6parserSo07QPQueryE7ManagerCvpMV
+- _$s10OmniSearch17PhotosQueryParserC6parserSo07QPQueryE7ManagerCvpWvd
+- _$s10OmniSearch17PhotosQueryParserCAA0dE8ProtocolAAMc
+- _$s10OmniSearch17PhotosQueryParserCAA0dE8ProtocolAAWP
+- _$s10OmniSearch17PhotosQueryParserCACycfC
+- _$s10OmniSearch17PhotosQueryParserCACycfCTj
+- _$s10OmniSearch17PhotosQueryParserCACycfCTq
+- _$s10OmniSearch17PhotosQueryParserCACycfc
+- _$s10OmniSearch17PhotosQueryParserCMa
+- _$s10OmniSearch17PhotosQueryParserCMm
+- _$s10OmniSearch17PhotosQueryParserCMn
+- _$s10OmniSearch17PhotosQueryParserCMo
+- _$s10OmniSearch17PhotosQueryParserCMu
+- _$s10OmniSearch17PhotosQueryParserCN
+- _$s10OmniSearch17PhotosQueryParserCfD
+- _$s10OmniSearch17PhotosQueryParserCfd
+- _$s10OmniSearch19QueryParserProtocolMp
+- _$s10OmniSearch19QueryParserProtocolP21enumerateParseResults3for10completionySSSg_ySo18NSAttributedStringCSgctFTj
+- _$s10OmniSearch19QueryParserProtocolP21enumerateParseResults3for10completionySSSg_ySo18NSAttributedStringCSgctFTq
+- _$s10OmniSearch19QueryParserProtocolTL
+- _$s10OmniSearch26MemoryCreationQUControllerC11queryParserAA05QueryG8Protocol_pvM
+- _$s10OmniSearch26MemoryCreationQUControllerC11queryParserAA05QueryG8Protocol_pvMTj
+- _$s10OmniSearch26MemoryCreationQUControllerC11queryParserAA05QueryG8Protocol_pvMTq
+- _$s10OmniSearch26MemoryCreationQUControllerC11queryParserAA05QueryG8Protocol_pvg
+- _$s10OmniSearch26MemoryCreationQUControllerC11queryParserAA05QueryG8Protocol_pvgTj
+- _$s10OmniSearch26MemoryCreationQUControllerC11queryParserAA05QueryG8Protocol_pvgTq
+- _$s10OmniSearch26MemoryCreationQUControllerC11queryParserAA05QueryG8Protocol_pvpMV
+- _$s10OmniSearch26MemoryCreationQUControllerC11queryParserAA05QueryG8Protocol_pvpWvd
+- _$s10OmniSearch26MemoryCreationQUControllerC11queryParserAA05QueryG8Protocol_pvs
+- _$s10OmniSearch26MemoryCreationQUControllerC11queryParserAA05QueryG8Protocol_pvsTj
+- _$s10OmniSearch26MemoryCreationQUControllerC11queryParserAA05QueryG8Protocol_pvsTq
+- _$s10OmniSearch26MemoryCreationQUControllerC19llmQUNetworkService9ecrClient11queryParserAcA0cdgH8Protocol_p_AA09ECRClientM0_pSgAA05QuerylM0_ptcfC
+- _$s10OmniSearch26MemoryCreationQUControllerC19llmQUNetworkService9ecrClient11queryParserAcA0cdgH8Protocol_p_AA09ECRClientM0_pSgAA05QuerylM0_ptcfCTj
+- _$s10OmniSearch26MemoryCreationQUControllerC19llmQUNetworkService9ecrClient11queryParserAcA0cdgH8Protocol_p_AA09ECRClientM0_pSgAA05QuerylM0_ptcfCTq
+- _$s10OmniSearch26MemoryCreationQUControllerC19llmQUNetworkService9ecrClient11queryParserAcA0cdgH8Protocol_p_AA09ECRClientM0_pSgAA05QuerylM0_ptcfc
+- _$s10OmniSearch26MemoryCreationQUControllerC19llmQUNetworkService9ecrClient11queryParserAcA0cdgH8Protocol_p_AA09ECRClientM0_pSgAA05QuerylM0_ptcfcfA0_
+- _$s10OmniSearch26MemoryCreationQUControllerC19llmQUNetworkService9ecrClient11queryParserAcA0cdgH8Protocol_p_AA09ECRClientM0_pSgAA05QuerylM0_ptcfcfA1_
+- _$s10OmniSearch26MemoryCreationQUControllerC19llmQUNetworkService9ecrClient11queryParserAcA0cdgH8Protocol_p_AA09ECRClientM0_pSgAA05QuerylM0_ptcfcfA_
+- _$s10OmniSearch26MemoryCreationQUControllerC5parse_13originatorPIDAA10LLMQUParseCSS_SiSgtYaKF
+- _$s10OmniSearch26MemoryCreationQUControllerC5parse_13originatorPIDAA10LLMQUParseCSS_SiSgtYaKFTj
+- _$s10OmniSearch26MemoryCreationQUControllerC5parse_13originatorPIDAA10LLMQUParseCSS_SiSgtYaKFTjTu
+- _$s10OmniSearch26MemoryCreationQUControllerC5parse_13originatorPIDAA10LLMQUParseCSS_SiSgtYaKFTq
+- _$s10OmniSearch26MemoryCreationQUControllerC5parse_13originatorPIDAA10LLMQUParseCSS_SiSgtYaKFTu
+- _$s10OmniSearch26MemoryCreationQUControllerC9sortOrder33_3A20DC2A334A97F2E47A7FB8702E9546LL10prediction0aB5Types0cd11QUParseSortG0OAA0cD15QUModelResponseV_tF
+- _$s10OmniSearch29MemoryCreationQUModelResponseV3who4what4when5where5music4mood4trip8all_timeACSDySSSaySSGGSg_A3nA0cdeF5MusicVSgANSSSgARtcfC
+- _$s10OmniSearch30MemoryCreationQUNetworkServiceC16promptTemplateIDSSvau
+- _$s10OmniSearch30MemoryCreationQUNetworkServiceC16promptTemplateIDSSvgZ
+- _$s10OmniSearch30MemoryCreationQUNetworkServiceC16promptTemplateIDSSvpZ
+- _$s10OmniSearch30MemoryCreationQUNetworkServiceC22fallbackPromptTemplates12StaticStringVvau
+- _$s10OmniSearch30MemoryCreationQUNetworkServiceC22fallbackPromptTemplates12StaticStringVvgZ
+- _$s10OmniSearch30MemoryCreationQUNetworkServiceC22fallbackPromptTemplates12StaticStringVvpZ
+- _$s10OmniSearch30MemoryCreationQUNetworkServiceC5parse_13originatorPIDAA0cD15QUModelResponseVSS_SiSgtYaKF
+- _$s10OmniSearch30MemoryCreationQUNetworkServiceC5parse_13originatorPIDAA0cD15QUModelResponseVSS_SiSgtYaKFTu
+- _$s10OmniSearch34MemoryCreationQUControllerProtocolP5parse_13originatorPIDAA10LLMQUParseCSS_SiSgtYaKFTj
+- _$s10OmniSearch34MemoryCreationQUControllerProtocolP5parse_13originatorPIDAA10LLMQUParseCSS_SiSgtYaKFTjTu
+- _$s10OmniSearch34MemoryCreationQUControllerProtocolP5parse_13originatorPIDAA10LLMQUParseCSS_SiSgtYaKFTq
+- _$s10OmniSearch38MemoryCreationQUNetworkServiceProtocolP5parse_13originatorPIDAA0cD15QUModelResponseVSS_SiSgtYaKFTj
+- _$s10OmniSearch38MemoryCreationQUNetworkServiceProtocolP5parse_13originatorPIDAA0cD15QUModelResponseVSS_SiSgtYaKFTjTu
+- _$s10OmniSearch38MemoryCreationQUNetworkServiceProtocolP5parse_13originatorPIDAA0cD15QUModelResponseVSS_SiSgtYaKFTq
+- _$sSS10OmniSearchE20substringFromNSRangeySSSo01_E0VF
+- _$sScC12continuation8functionScCyxq_GSccyxq_G_SStcfC
+- _$sScG22awaitAllRemainingTasksyyYaF
+- _$sScG22awaitAllRemainingTasksyyYaFTu
+- _$sScI4next7ElementQzSgyYaKFTj
+- _$sScI4next7ElementQzSgyYaKFTjTu
+- _$sScg22awaitAllRemainingTasksyyYaF
+- _$sScg22awaitAllRemainingTasksyyYaFTu
+- _swift_continuation_await
+- _swift_continuation_init
+- _swift_taskGroup_destroy
+- _swift_taskGroup_initialize
+- _swift_willThrowTypedImpl
+CStrings:
++ "Calling LLM QU parse with model version %!l(MISSING)d"
++ "Calling LLM QU to parse query: %!s(MISSING), personNames: %!s(MISSING), petNames: %!s(MISSING), currentTime: %!s(MISSING)"
++ "Checking to see if standardized string: %!s(MISSING), contains standardized key: %!s(MISSING)"
++ "Error while calling LLM QU parse with model version %!l(MISSING)d: %!@(MISSING)"
++ "Memory Creation QU prompt bindings: %!s(MISSING)"
++ "SearchTool Memory Creation QU perform() with query: %!s(MISSING), personNames: %!s(MISSING), petNames: %!s(MISSING), currentTime: %!s(MISSING)"
++ "String representing the current time. Only use this if you want to explicity inject a time into memory creation prompt. Otherwise, the current time will be set by SearchTool as the current system time"
++ "_TtC10OmniSearch25MemoryCreationQueryParser"
++ "com.apple.photos.memoryCreation.QueryUnderstanding.v3"
++ "modelVersion"
++ "promptTemplateID"
++ "specialToken.chat.component.turnEnd"
++ "specialToken.chat.role.assistant"
++ "specialToken.chat.role.system"
++ "specialToken.chat.role.system.default"
++ "specialToken.chat.role.user"
++ "system<n>A conversation between a user and a helpful assistant."
++ "{{ specialToken.chat.role.system }}You are an expert in query understanding for a photo library. Your task is to transform the given natural language prompt into a structured JSON format. You must follow the instructions below:<n> - Ensure music artist names are specifically marked as a music artist, not simply as a \"who\".<n> - Identify named locations like landmarks, business addresses, cities, and countries, and tag them as a \"where\" rather than a \"what\".<n> - Annotate any mention of a holiday or festival name immediately followed by a year as a \"when\".<n> - Restrict \"what\" categories to only the following options: Anniversary, Birthday, Breakfast, Concert, Dinner, Diving, Hiking, Holiday Event, Lunch, Wedding.<n> - Please treat all queries as case-insensitive and provide the same response if the meaning of the queries is the same.<n> - The photo library contains a list of names for reference: [{{ names }}]. The query may include names that are not in this list.{{ specialToken.chat.component.turnEnd }}{{ specialToken.chat.role.user }}{{ userPrompt }}{{ specialToken.chat.component.turnEnd }}{{ specialToken.chat.role.assistant }}"
+- "<turn_end> assistant<n>"
+- "Model is already prewarmed for PID %!l(MISSING)d, using cached model"
+- "No cached model for PID %!l(MISSING)d, using creating new TokenGenerator instance"
+- "SearchTool Memory Creation QU perform() with query: %!s(MISSING)"
+- "_TtC10OmniSearch17PhotosQueryParser"
+- "system<n>A conversation between a user and a helpful assistant.<turn_end> user<n> "
+
+```

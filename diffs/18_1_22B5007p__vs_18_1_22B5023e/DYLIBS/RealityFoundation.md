@@ -1,0 +1,338 @@
+## RealityFoundation
+
+> `/System/Library/Frameworks/RealityFoundation.framework/RealityFoundation`
+
+```diff
+
+-366.0.16.0.3
+-  __TEXT.__text: 0x51efc4
+-  __TEXT.__auth_stubs: 0xed00
++366.0.22.0.4
++  __TEXT.__text: 0x52b2f4
++  __TEXT.__auth_stubs: 0xedc0
+   __TEXT.__objc_methlist: 0x434
+-  __TEXT.__const: 0x3dd08
+-  __TEXT.__cstring: 0x15d85
+-  __TEXT.__swift5_typeref: 0x102ce
+-  __TEXT.__swift5_capture: 0x7bac
+-  __TEXT.__constg_swiftt: 0x15b80
++  __TEXT.__const: 0x3e388
++  __TEXT.__cstring: 0x16075
++  __TEXT.__constg_swiftt: 0x15e18
++  __TEXT.__swift5_typeref: 0x1059a
+   __TEXT.__swift5_builtin: 0x1018
+-  __TEXT.__swift5_reflstr: 0xd1ab
+-  __TEXT.__swift5_fieldmd: 0x136c8
+-  __TEXT.__swift5_assocty: 0x2ee8
+-  __TEXT.__swift5_proto: 0x2b7c
+-  __TEXT.__swift5_types: 0x189c
+-  __TEXT.__oslogstring: 0x2ba8
++  __TEXT.__swift5_reflstr: 0xd2cb
++  __TEXT.__swift5_fieldmd: 0x13840
++  __TEXT.__swift5_assocty: 0x2fe8
++  __TEXT.__swift5_proto: 0x2bbc
++  __TEXT.__swift5_types: 0x18c4
++  __TEXT.__swift5_capture: 0x7e90
++  __TEXT.__oslogstring: 0x2998
+   __TEXT.__swift5_mpenum: 0x224
+   __TEXT.__swift5_protos: 0x1f4
+   __TEXT.__swift5_types2: 0x4
+-  __TEXT.__unwind_info: 0x13ca0
+-  __TEXT.__eh_frame: 0x131bc
++  __TEXT.__unwind_info: 0x140e8
++  __TEXT.__eh_frame: 0x13884
+   __TEXT.__objc_classname: 0xce
+   __TEXT.__objc_methname: 0x2e11
+   __TEXT.__objc_methtype: 0x1c2a
+-  __DATA_CONST.__got: 0x1600
+-  __DATA_CONST.__const: 0x3118
+-  __DATA_CONST.__objc_classlist: 0x810
++  __DATA_CONST.__got: 0x1628
++  __DATA_CONST.__const: 0x31b0
++  __DATA_CONST.__objc_classlist: 0x818
+   __DATA_CONST.__objc_protolist: 0xf0
+   __DATA_CONST.__objc_imageinfo: 0x8
+   __DATA_CONST.__objc_selrefs: 0x640
+   __DATA_CONST.__objc_protorefs: 0x78
+-  __AUTH_CONST.__auth_got: 0x7680
+-  __AUTH_CONST.__auth_ptr: 0x2ea0
+-  __AUTH_CONST.__const: 0x82638
+-  __AUTH_CONST.__objc_const: 0x11180
++  __AUTH_CONST.__auth_got: 0x76e0
++  __AUTH_CONST.__auth_ptr: 0x2e88
++  __AUTH_CONST.__const: 0x82c68
++  __AUTH_CONST.__objc_const: 0x113a8
+   __AUTH.__objc_data: 0x528
+-  __AUTH.__data: 0x163e8
+-  __DATA.__data: 0xc628
+-  __DATA.__bss: 0x46890
++  __AUTH.__data: 0x16508
++  __DATA.__data: 0xc8f8
++  __DATA.__bss: 0x47090
+   __DATA.__common: 0x368
+   __DATA_DIRTY.__objc_data: 0x80
+-  __DATA_DIRTY.__data: 0x208
++  __DATA_DIRTY.__data: 0x348
+   - /System/Library/Frameworks/ARKit.framework/ARKit
+   - /System/Library/Frameworks/AVFAudio.framework/AVFAudio
+   - /System/Library/Frameworks/Combine.framework/Combine
+
+   - /usr/lib/swift/libswiftSpriteKit.dylib
+   - /usr/lib/swift/libswiftUniformTypeIdentifiers.dylib
+   - /usr/lib/swift/libswiftXPC.dylib
++  - /usr/lib/swift/libswift_Builtin_float.dylib
+   - /usr/lib/swift/libswift_Concurrency.dylib
++  - /usr/lib/swift/libswift_errno.dylib
++  - /usr/lib/swift/libswift_math.dylib
++  - /usr/lib/swift/libswift_signal.dylib
++  - /usr/lib/swift/libswift_stdio.dylib
++  - /usr/lib/swift/libswift_time.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  Functions: 33931
+-  Symbols:   53713
+-  CStrings:  3108
++  - /usr/lib/swift/libswiftsys_time.dylib
++  - /usr/lib/swift/libswiftunistd.dylib
++  Functions: 34315
++  Symbols:   54238
++  CStrings:  3118
+ 
+Symbols:
++ _$s10RealityKit18AnchoringComponentV0A10FoundationE05ImageC6SourceV_12physicalSizeAF0E03URLV_s5SIMD2VySfGtcfC
++ _$s10RealityKit6EntityC12ComponentSetV0A10FoundationE7IndicesV10startIndexAeFE0I0Vvg
++ _$s10RealityKit6EntityC12ComponentSetV0A10FoundationE7IndicesV10startIndexAeFE0I0VvpMV
++ _$s10RealityKit6EntityC12ComponentSetV0A10FoundationE7IndicesV5index5afterAeFE5IndexVAL_tF
++ _$s10RealityKit6EntityC12ComponentSetV0A10FoundationE7IndicesV7indicesAHvg
++ _$s10RealityKit6EntityC12ComponentSetV0A10FoundationE7IndicesV7indicesAHvpMV
++ _$s10RealityKit6EntityC12ComponentSetV0A10FoundationE7IndicesV8distance4from2toSiAeFE5IndexV_AMtF
++ _$s10RealityKit6EntityC12ComponentSetV0A10FoundationE7IndicesV8endIndexAeFE0I0Vvg
++ _$s10RealityKit6EntityC12ComponentSetV0A10FoundationE7IndicesV8endIndexAeFE0I0VvpMV
++ _$s10RealityKit6EntityC12ComponentSetV0A10FoundationE7IndicesV9formIndex5afteryAeFE0I0Vz_tF
++ _$s10RealityKit6EntityC12ComponentSetV0A10FoundationE7IndicesVMa
++ _$s10RealityKit6EntityC12ComponentSetV0A10FoundationE7IndicesVMn
++ _$s10RealityKit6EntityC12ComponentSetV0A10FoundationE7IndicesVN
++ _$s10RealityKit6EntityC12ComponentSetV0A10FoundationE7IndicesVSTAFMc
++ _$s10RealityKit6EntityC12ComponentSetV0A10FoundationE7IndicesVSlAFMc
++ _$s10RealityKit6EntityC12ComponentSetV0A10FoundationE7IndicesVyAHSnyAeFE5IndexVGcig
++ _$s10RealityKit6EntityC12ComponentSetV0A10FoundationE7IndicesVyAHSnyAeFE5IndexVGcipMV
++ _$s10RealityKit6EntityC12ComponentSetV0A10FoundationE7IndicesVyAeFE5IndexVAJcig
++ _$s10RealityKit6EntityC12ComponentSetV0A10FoundationE7IndicesVyAeFE5IndexVAJcipMV
++ _$s10RealityKit6EntityC12ComponentSetV0A10FoundationE7indicesAeFE7IndicesVvg
++ _$s10RealityKit6EntityC12ComponentSetV0A10FoundationE7indicesAeFE7IndicesVvpMV
++ _$s10RealityKit6EntityC12ComponentSetV0A10FoundationE8distance4from2toSiAeFE5IndexV_AKtF
++ _$s17RealityFoundation11MeshBuffersO10IdentifierV12isBlendShapeSbvg
++ _$s17RealityFoundation11MeshBuffersO10IdentifierV12isBlendShapeSbvpMV
++ _$s17RealityFoundation11MeshBuffersO17blendShapeOffsets5namedAC8SemanticVy_s5SIMD3VySfGGSS_tFZ
++ _$s17RealityFoundation14MeshDefinitionC12setAttribute_17blendShapeOffsets4nameyAA0cF10DescriptorC_Says5SIMD3VySfGGSStF
++ _$s17RealityFoundation15BillboardActionV12transitionIn0E3OutA2C10TransitionV_AGtcfC
++ _$s17RealityFoundation15PlayAudioActionV12targetEntity17audioResourceName4gain21useControlledPlaybackAcA0eG10ResolutionO_SSSdSbtcfC
++ _$s17RealityFoundation15PlayAudioActionV21useControlledPlaybackSbvM
++ _$s17RealityFoundation15PlayAudioActionV21useControlledPlaybackSbvg
++ _$s17RealityFoundation15PlayAudioActionV21useControlledPlaybackSbvpMV
++ _$s17RealityFoundation15PlayAudioActionV21useControlledPlaybackSbvs
++ _$s17RealityFoundation17OrbitEntityActionV05pivotD011revolutions11orbitalAxis16isOrientedToPath0J8AdditiveAcA0eD10ResolutionO_Sfs5SIMD3VySfGS2btcfC
++ _$s17RealityFoundation17OrbitEntityActionV16isOrientedToPathSbvM
++ _$s17RealityFoundation17OrbitEntityActionV16isOrientedToPathSbvg
++ _$s17RealityFoundation17OrbitEntityActionV16isOrientedToPathSbvpMV
++ _$s17RealityFoundation17OrbitEntityActionV16isOrientedToPathSbvs
++ _$s17RealityFoundation19MeshBufferContainerPAAE15blendShapeNamesSaySSGvg
++ _$s17RealityFoundation19MeshBufferContainerPAAE15blendShapeNamesSaySSGvpMV
++ _$s17RealityFoundation19MeshBufferContainerPAAE17blendShapeOffsets5namedAA0cD0Vys5SIMD3VySfGGSgSS_tF
++ _$s17RealityFoundation19MeshBufferContainerPAAE20setBlendShapeOffsets5named6bufferySS_AA0cD0Vys5SIMD3VySfGGSgtF
++ _$s17RealityFoundation19PlayAnimationActionV13animationName12targetEntity18transitionDuration10blendLayer21separateAnimatedValue22useParentedControllers11handoffTypeACSS_AA0eI10ResolutionOSdSiS2bAA0d7HandoffU0VtcfC
++ _$s17RealityFoundation19PlayAnimationActionV22useParentedControllersSbvM
++ _$s17RealityFoundation19PlayAnimationActionV22useParentedControllersSbvg
++ _$s17RealityFoundation19PlayAnimationActionV22useParentedControllersSbvpMV
++ _$s17RealityFoundation19PlayAnimationActionV22useParentedControllersSbvs
++ _$s17RealityFoundation20PhysicsDistanceJointV9toleranceSfvM
++ _$s17RealityFoundation20PhysicsDistanceJointV9toleranceSfvg
++ _$s17RealityFoundation20PhysicsDistanceJointV9toleranceSfvpMV
++ _$s17RealityFoundation20PhysicsDistanceJointV9toleranceSfvs
++ _$s17RealityFoundation21AudioLibraryComponentV17dictionaryLiteralACSS_0A3Kit0C8ResourceCtd_tcfC
++ _$s17RealityFoundation21AudioLibraryComponentVs30ExpressibleByDictionaryLiteralAAMc
++ _$s17RealityFoundation22SetEntityEnabledActionV02isE0SbvM
++ _$s17RealityFoundation22SetEntityEnabledActionV02isE0Sbvg
++ _$s17RealityFoundation22SetEntityEnabledActionV02isE0SbvpMV
++ _$s17RealityFoundation22SetEntityEnabledActionV02isE0Sbvs
++ _$s17RealityFoundation22SetEntityEnabledActionV06targetD002isE0AcA0fD10ResolutionO_SbtcfC
++ _$s17RealityFoundation22SpatialTrackingSessionC7autoRunyAC23UnavailableCapabilitiesVSgAC13ConfigurationVYaF
++ _$s17RealityFoundation22SpatialTrackingSessionC7autoRunyAC23UnavailableCapabilitiesVSgAC13ConfigurationVYaFTu
++ _$s17RealityFoundation22SpatialTrackingSessionC8autoStopyyYaF
++ _$s17RealityFoundation22SpatialTrackingSessionC8autoStopyyYaFTu
++ _$s17RealityFoundation23MeshAttributeDescriptorC16blendShapeOffsetACvgZ
++ _$s17RealityFoundation25AnimationLibraryComponentV0C10CollectionV10startIndexAE0H0Vvg
++ _$s17RealityFoundation25AnimationLibraryComponentV0C10CollectionV10startIndexAE0H0VvpMV
++ _$s17RealityFoundation25AnimationLibraryComponentV0C10CollectionV12makeIteratorAE0H0VyF
++ _$s17RealityFoundation25AnimationLibraryComponentV0C10CollectionV17dictionaryLiteralAESS_0A3Kit0C8ResourceCtd_tcfC
++ _$s17RealityFoundation25AnimationLibraryComponentV0C10CollectionV5IndexV1loiySbAG_AGtFZ
++ _$s17RealityFoundation25AnimationLibraryComponentV0C10CollectionV5IndexV2eeoiySbAG_AGtFZ
++ _$s17RealityFoundation25AnimationLibraryComponentV0C10CollectionV5IndexV4hash4intoys6HasherVz_tF
++ _$s17RealityFoundation25AnimationLibraryComponentV0C10CollectionV5IndexV9hashValueSivg
++ _$s17RealityFoundation25AnimationLibraryComponentV0C10CollectionV5IndexV9hashValueSivpMV
++ _$s17RealityFoundation25AnimationLibraryComponentV0C10CollectionV5IndexVMa
++ _$s17RealityFoundation25AnimationLibraryComponentV0C10CollectionV5IndexVMn
++ _$s17RealityFoundation25AnimationLibraryComponentV0C10CollectionV5IndexVN
++ _$s17RealityFoundation25AnimationLibraryComponentV0C10CollectionV5IndexVSHAAMc
++ _$s17RealityFoundation25AnimationLibraryComponentV0C10CollectionV5IndexVSLAAMc
++ _$s17RealityFoundation25AnimationLibraryComponentV0C10CollectionV5IndexVSQAAMc
++ _$s17RealityFoundation25AnimationLibraryComponentV0C10CollectionV5countSivg
++ _$s17RealityFoundation25AnimationLibraryComponentV0C10CollectionV5countSivpMV
++ _$s17RealityFoundation25AnimationLibraryComponentV0C10CollectionV5index5afterAE5IndexVAI_tF
++ _$s17RealityFoundation25AnimationLibraryComponentV0C10CollectionV7isEmptySbvg
++ _$s17RealityFoundation25AnimationLibraryComponentV0C10CollectionV7isEmptySbvpMV
++ _$s17RealityFoundation25AnimationLibraryComponentV0C10CollectionV8IteratorV4nextSS3key_0A3Kit0C8ResourceC5valuetSgyF
++ _$s17RealityFoundation25AnimationLibraryComponentV0C10CollectionV8IteratorVMa
++ _$s17RealityFoundation25AnimationLibraryComponentV0C10CollectionV8IteratorVMn
++ _$s17RealityFoundation25AnimationLibraryComponentV0C10CollectionV8IteratorVN
++ _$s17RealityFoundation25AnimationLibraryComponentV0C10CollectionV8IteratorVStAAMc
++ _$s17RealityFoundation25AnimationLibraryComponentV0C10CollectionV8endIndexAE0H0Vvg
++ _$s17RealityFoundation25AnimationLibraryComponentV0C10CollectionV8endIndexAE0H0VvpMV
++ _$s17RealityFoundation25AnimationLibraryComponentV0C10CollectionV9formIndex5afteryAE0H0Vz_tF
++ _$s17RealityFoundation25AnimationLibraryComponentV0C10CollectionVMa
++ _$s17RealityFoundation25AnimationLibraryComponentV0C10CollectionVMn
++ _$s17RealityFoundation25AnimationLibraryComponentV0C10CollectionVN
++ _$s17RealityFoundation25AnimationLibraryComponentV0C10CollectionVSTAAMc
++ _$s17RealityFoundation25AnimationLibraryComponentV0C10CollectionVSlAAMc
++ _$s17RealityFoundation25AnimationLibraryComponentV0C10CollectionVy0A3Kit0C8ResourceCSgSSciM
++ _$s17RealityFoundation25AnimationLibraryComponentV0C10CollectionVy0A3Kit0C8ResourceCSgSScig
++ _$s17RealityFoundation25AnimationLibraryComponentV0C10CollectionVy0A3Kit0C8ResourceCSgSScipMV
++ _$s17RealityFoundation25AnimationLibraryComponentV0C10CollectionVy0A3Kit0C8ResourceCSgSScis
++ _$s17RealityFoundation25AnimationLibraryComponentV0C10CollectionVySS3key_0A3Kit0C8ResourceC5valuetAE5IndexVcig
++ _$s17RealityFoundation25AnimationLibraryComponentV0C10CollectionVySS3key_0A3Kit0C8ResourceC5valuetAE5IndexVcipMV
++ _$s17RealityFoundation25AnimationLibraryComponentV0C10CollectionVys5SliceVyAEGSnyAE5IndexVGcig
++ _$s17RealityFoundation25AnimationLibraryComponentV0C10CollectionVys5SliceVyAEGSnyAE5IndexVGcipMV
++ _$s17RealityFoundation25AnimationLibraryComponentV10animationsAC0C10CollectionVvM
++ _$s17RealityFoundation25AnimationLibraryComponentV10animationsAC0C10CollectionVvg
++ _$s17RealityFoundation25AnimationLibraryComponentV10animationsAC0C10CollectionVvpMV
++ _$s17RealityFoundation25AnimationLibraryComponentV10animationsAC0C10CollectionVvs
++ _$s17RealityFoundation25AnimationLibraryComponentV10animationsACSDySS0A3Kit0C8ResourceCG_tcfC
++ _$s8Geometry24triangulateByEarClipping6points29accumuluatedOutlineIndexCount21triangleVertexIndicesySays5SIMD2VySdGG_Says6UInt32VGSo20OS_geom_collection_uCztF
++ _$sSD5IndexV4hash4intoys6HasherVz_tF
++ _$sSD5IndexV8_VariantOMn
++ _$sSo20OS_geom_collection_dC8Geometry0D10CollectionACMc
++ _$sSo21OS_geom_collection_2dC8Geometry0D10CollectionACMc
++ _$sSo21OS_geom_collection_2dCSl8GeometryMc
++ _$sSo26OS_geom_inset_evaluator_2dC8GeometryE6points28accumulatedOutlineIndexCountABSays5SIMD2VySdGG_Says6UInt32VGtcfC
++ _$ss21withThrowingTaskGroup2of9returning9isolation4bodyq_xm_q_mScA_pSgYiq_Scgyxs5Error_pGzYaKXEtYaKs8SendableRzr0_lF
++ _$ss21withThrowingTaskGroup2of9returning9isolation4bodyq_xm_q_mScA_pSgYiq_Scgyxs5Error_pGzYaKXEtYaKs8SendableRzr0_lFTu
++ _$ss23withCheckedContinuation9isolation8function_xScA_pSgYi_SSyScCyxs5NeverOGXEtYalF
++ _$ss23withCheckedContinuation9isolation8function_xScA_pSgYi_SSyScCyxs5NeverOGXEtYalFTu
++ _$ss31withCheckedThrowingContinuation9isolation8function_xScA_pSgYi_SSyScCyxs5Error_pGXEtYaKlF
++ _$ss31withCheckedThrowingContinuation9isolation8function_xScA_pSgYi_SSyScCyxs5Error_pGXEtYaKlFTu
++ _CGAffineTransformMakeScale
++ _OBJC_CLASS_$_OS_geom_collection_2d
++ _OBJC_CLASS_$_OS_geom_collection_d
++ _OBJC_CLASS_$_OS_geom_inset_evaluator_2d
++ _REAnchoringComponentGetTrackingImageHeight
++ _REAnchoringComponentGetTrackingImageWidth
++ _REIkParametersComponentEnsureSolversInit
++ _REMeshAssetGetBlendShapeDefinitionCountForPart
++ _REMeshAssetGetBlendShapeDefinitionNameForPart
++ _REMeshAssetGetBlendShapeOffsetsForPart
++ _REMeshAttributeDescriptorCopyBlendShapeOffsetsToBuffer
++ _REPhysicsJointDefinitionDistanceJointGetTolerance
++ _RERemoteEffectsComponentSetVersion
++ _RETimelineEventGetDefaultSourceSkeletalPoseJointValue
++ _RIOPxrUsdEditTargetCreateWithLayer
++ _RIOPxrUsdStageCopySessionLayer
++ _RIOPxrUsdStageSetEditTarget
++ __simd_orient_pd2
++ __swift_FORCE_LOAD_$_swift_Builtin_float
++ __swift_FORCE_LOAD_$_swift_errno
++ __swift_FORCE_LOAD_$_swift_math
++ __swift_FORCE_LOAD_$_swift_signal
++ __swift_FORCE_LOAD_$_swift_stdio
++ __swift_FORCE_LOAD_$_swift_time
++ __swift_FORCE_LOAD_$_swiftsys_time
++ __swift_FORCE_LOAD_$_swiftunistd
++ _dlclose
++ _dlopen
++ _geom_collection_data_2d
++ _geom_collection_size_d
++ _geom_create_collection_2d
++ _geom_create_collection_d
++ _geom_cubic_bezier_tangent_at_2d
++ _geom_inset_evaluator_advance_inset_to_2d
++ _geom_inset_evaluator_extract_joiner_mesh_2d
++ _geom_inset_evaluator_extract_offset_curve_2d
++ _geom_inset_evaluator_get_computed_inset_distance_2d
++ _geom_quadratic_bezier_tangent_at_2d
++ _kREMeshAttributeDescriptorBlendShapeOffsetFloat3
+- _$s10RealityKit15AnimationEventsO0A10FoundationE26SkeletalPoseUpdateCompleteV06activeA28RendererSceneGroupIdentifiers6UInt64Vvg
+- _$s10RealityKit15AnimationEventsO0A10FoundationE26SkeletalPoseUpdateCompleteV06activeA28RendererSceneGroupIdentifiers6UInt64VvpMV
+- _$s10RealityKit15AnimationEventsO0A10FoundationE26SkeletalPoseUpdateCompleteV24systemsArePausedInEditorSbvg
+- _$s10RealityKit15AnimationEventsO0A10FoundationE26SkeletalPoseUpdateCompleteV24systemsArePausedInEditorSbvpMV
+- _$s10RealityKit18AnchoringComponentV0A10FoundationE05ImageC6SourceVyAF0E03URLVcfC
+- _$s17RealityFoundation12PhysicsJointP15addToSimulation0A3Kit6EntityCyKFTj
+- _$s17RealityFoundation12PhysicsJointP15addToSimulation0A3Kit6EntityCyKFTq
+- _$s17RealityFoundation25AnimationLibraryComponentV13dynamicMember0A3Kit0C8ResourceCSgSS_tcig
+- _$s17RealityFoundation25AnimationLibraryComponentV13dynamicMember0A3Kit0C8ResourceCSgSS_tcipMV
+- _$s17RealityFoundation25AnimationLibraryComponentV18animationResourcesACSDySS0A3Kit0C8ResourceCG_tcfC
+- _$s17RealityFoundation25AnimationLibraryComponentV5countSivg
+- _$s17RealityFoundation25AnimationLibraryComponentV5countSivpMV
+- _$s17RealityFoundation25AnimationLibraryComponentV7isEmptySbvg
+- _$s17RealityFoundation25AnimationLibraryComponentV7isEmptySbvpMV
+- _$s7Combine0A10IdentifierVMa
+- _$s8Geometry24triangulateByEarClipping6points29accumuluatedOutlineIndexCount21triangleVertexIndicesySays5SIMD2VySfGG_Says6UInt32VGSo20OS_geom_collection_uCztF
+- _$sScC12continuation8functionScCyxq_GSccyxq_G_SStcfC
+- _$sScg22awaitAllRemainingTasksyyYaF
+- _$sScg22awaitAllRemainingTasksyyYaFTu
+- _$sScg9cancelAllyyF
+- _$sSo20OS_geom_collection_fC8Geometry0D10CollectionACMc
+- _$sSo21OS_geom_collection_2fC8Geometry0D10CollectionACMc
+- _$sSo21OS_geom_collection_2fCSl8GeometryMc
+- _$sSo26OS_geom_inset_evaluator_2fC8GeometryE6points28accumulatedOutlineIndexCountABSays5SIMD2VySfGG_Says6UInt32VGtcfC
+- _OBJC_CLASS_$_OS_geom_collection_2f
+- _OBJC_CLASS_$_OS_geom_collection_f
+- _OBJC_CLASS_$_OS_geom_inset_evaluator_2f
+- __simd_orient_pf2
+- _geom_collection_data_2f
+- _geom_collection_size_f
+- _geom_create_collection_2f
+- _geom_create_collection_f
+- _geom_cubic_bezier_tangent_at_2f
+- _geom_inset_evaluator_advance_inset_to_2f
+- _geom_inset_evaluator_extract_joiner_mesh_2f
+- _geom_inset_evaluator_extract_offset_curve_2f
+- _geom_inset_evaluator_get_computed_inset_distance_2f
+- _geom_quadratic_bezier_tangent_at_2f
+- _swift_taskGroup_destroy
+- _swift_taskGroup_initialize
+CStrings:
++ ". Repeated calls to load the same resource will fail with the same error."
++ "/System/Library/PrivateFrameworks/RealityIO.framework/RealityIO"
++ "Could not load RealityIO."
++ "Failed to load MaterialResource with error: "
++ "Failed to update PhysicallyBasedMaterial program due to error: "
++ "Skipping non-vertex rate blendShape attribute '%!s(MISSING)'"
++ "Skipping unknown element type '%!s(MISSING)'"
++ "_TtCCVE17RealityFoundationC10RealityKit6Entity20ConfigurationCatalog22USDConfigurationReader17CriticalSequencer"
++ "cacheStorage"
++ "com.apple.RealityKit.usd-configuration-sequence-queue-"
++ "continuations"
++ "criticalSequencer"
++ "isOrientedToPath"
++ "loadEntity(into:withConfigurations:loadOptions:)"
++ "pendingLoadTasks"
++ "realityIOHandle"
++ "resourceLoader"
++ "transitionIn"
++ "transitionOut"
++ "useControlledPlayback"
++ "useParentedControllers"
++ "workInProgress"
+- "Failed to retrieve .image target with .bundleName resource type"
+- "Failed to retrieve .image target with .groupName resource type"
+- "Failed to retrieve .image target with .none resource type"
+- "Failed to retrieve .object target with .groupName resource type"
+- "Failed to retrieve .object target with .none resource type"
+- "Failed to unwrap url for .image target with .URL resource type"
+- "Object Anchoring with bundleName is unavailable on non visionOS platforms"
+- "Object Anchoring with url is unavailable on non visionOS platforms"
+- "Unknown resource type for .image target"
+- "Unknown resource type for .object target"
+- "forwardDirection"
+- "parentControllers"
+
+```

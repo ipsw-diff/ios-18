@@ -1,0 +1,145 @@
+## SiriInformationSearch
+
+> `/System/Library/PrivateFrameworks/SiriInformationSearch.framework/SiriInformationSearch`
+
+```diff
+
+-3406.11.1.0.0
+-  __TEXT.__text: 0x23336c
++3406.13.1.0.0
++  __TEXT.__text: 0x233e38
+   __TEXT.__auth_stubs: 0x84c0
+   __TEXT.__objc_methlist: 0x924
+   __TEXT.__const: 0x2ec84
+-  __TEXT.__cstring: 0x9791
++  __TEXT.__cstring: 0x97c1
+   __TEXT.__swift5_typeref: 0x3f0e
+-  __TEXT.__swift5_capture: 0x1108
+-  __TEXT.__swift5_fieldmd: 0x3900
++  __TEXT.__swift5_capture: 0x1138
++  __TEXT.__swift5_fieldmd: 0x390c
+   __TEXT.__constg_swiftt: 0x53d0
+   __TEXT.__swift5_builtin: 0x190
+-  __TEXT.__swift5_reflstr: 0x3f6a
++  __TEXT.__swift5_reflstr: 0x3f7a
+   __TEXT.__swift5_assocty: 0x480
+   __TEXT.__swift5_protos: 0x9c
+   __TEXT.__swift5_proto: 0x424
+   __TEXT.__swift5_types: 0x37c
+-  __TEXT.__oslogstring: 0x103ab
++  __TEXT.__oslogstring: 0x1041b
+   __TEXT.__swift_as_entry: 0xd8
+   __TEXT.__swift_as_ret: 0xac
+   __TEXT.__swift5_mpenum: 0x28
+-  __TEXT.__unwind_info: 0x4b90
+-  __TEXT.__eh_frame: 0x6828
++  __TEXT.__unwind_info: 0x4b98
++  __TEXT.__eh_frame: 0x6868
+   __TEXT.__objc_classname: 0x166
+   __TEXT.__objc_methname: 0x3a3f
+   __TEXT.__objc_methtype: 0xc36
+
+   __DATA_CONST.__objc_protorefs: 0x90
+   __DATA_CONST.__objc_superrefs: 0x8
+   __AUTH_CONST.__auth_got: 0x4260
+-  __AUTH_CONST.__const: 0x81e8
+-  __AUTH_CONST.__objc_const: 0xdec0
++  __AUTH_CONST.__const: 0x82e0
++  __AUTH_CONST.__objc_const: 0xdee0
+   __AUTH.__objc_data: 0xb80
+   __AUTH.__data: 0x2930
+   __DATA.__objc_ivar: 0x4
+-  __DATA.__data: 0x1e40
++  __DATA.__data: 0x1e50
+   __DATA.__bss: 0x5010
+   __DATA.__common: 0x2c0
+   __DATA_DIRTY.__objc_data: 0x718
+-  __DATA_DIRTY.__data: 0x5610
++  __DATA_DIRTY.__data: 0x5630
+   __DATA_DIRTY.__bss: 0xf80
+   __DATA_DIRTY.__common: 0x1f8
+   - /System/Library/Frameworks/AppIntents.framework/AppIntents
+
+   - /usr/lib/swift/libswiftsimd.dylib
+   - /usr/lib/swift/libswiftsys_time.dylib
+   - /usr/lib/swift/libswiftunistd.dylib
+-  UUID: 1FCCD173-FB1D-37F1-96C9-40B7FFC0A90C
+-  Functions: 7538
+-  Symbols:   23337
+-  CStrings:  2809
++  UUID: 7BB0F858-18D5-301C-BB35-DA9347C9A367
++  Functions: 7548
++  Symbols:   23365
++  CStrings:  2812
+ 
+Symbols:
++ _$s21SiriInformationSearch32GMAvailabilityPolicyDataProviderC11serialQueue33_08A3E49518825C9AE48AEB1B519DE8F1LLSo17OS_dispatch_queueCvpWvd
++ _$s21SiriInformationSearch32GMAvailabilityPolicyDataProviderC5fetch3for09assistantF013serviceHelper13dispatchQueueSbSgAA06PommesC7RequestVSg_AA09AssistantF8SnapshotVSgSo026AFRequestDispatcherServiceL0_pSgSo03OS_M6_queueCSgtFAIyXEfU_TA
++ _$s21SiriInformationSearch32GMAvailabilityPolicyDataProviderC5resetyyFyyXEfU_
++ _$s21SiriInformationSearch32GMAvailabilityPolicyDataProviderC5resetyyFyyXEfU_TA
++ _$s21SiriInformationSearch32GMAvailabilityPolicyDataProviderC7prepare13dispatchQueueySo03OS_I6_queueCSg_tFyyXEfU_
++ _$s21SiriInformationSearch32GMAvailabilityPolicyDataProviderC7prepare13dispatchQueueySo03OS_I6_queueCSg_tFyyXEfU_TA
++ _$s21SiriInformationSearch32GMAvailabilityPolicyDataProviderC7prepare13dispatchQueueySo03OS_I6_queueCSg_tFyyXEfU_Tv_r
++ _$s21SiriInformationSearch32GMAvailabilityPolicyDataProviderC7prepare13dispatchQueueySo03OS_I6_queueCSg_tFyyXEfU_y16GenerativeModels0mN12AvailabilityV0O0OYbcfU_
++ _$s21SiriInformationSearch32GMAvailabilityPolicyDataProviderC7prepare13dispatchQueueySo03OS_I6_queueCSg_tFyyXEfU_y16GenerativeModels0mN12AvailabilityV0O0OYbcfU_TA
++ _$s21SiriInformationSearch32GMAvailabilityPolicyDataProviderC7prepare13dispatchQueueySo03OS_I6_queueCSg_tFyyXEfU_y16GenerativeModels0mN12AvailabilityV0O0OYbcfU_Tv_r
++ _$s21SiriInformationSearch32GMAvailabilityPolicyDataProviderC7prepare13dispatchQueueySo03OS_I6_queueCSg_tFyyXEfU_y16GenerativeModels0mN12AvailabilityV0O0OYbcfU_yyYbcfU_
++ _$s21SiriInformationSearch32GMAvailabilityPolicyDataProviderC7prepare13dispatchQueueySo03OS_I6_queueCSg_tFyyXEfU_y16GenerativeModels0mN12AvailabilityV0O0OYbcfU_yyYbcfU_TA
++ _$sIg_Ieg_TRTA.7
++ _block_copy_helper.34
++ _block_descriptor.36
++ _block_destroy_helper.35
++ _symbolic _____ 16GenerativeModels0aB12AvailabilityV
+- _$s21SiriInformationSearch20MediaUserStateCenter_pSgWOc
+- _$s21SiriInformationSearch20MediaUserStateCenter_pSgWOh
+- _$s21SiriInformationSearch23CurareInteractionStream_pSgWOcTm
+- _$s21SiriInformationSearch32GMAvailabilityPolicyDataProviderC7prepare13dispatchQueueySo03OS_I6_queueCSg_tFTv_r
+- _$s21SiriInformationSearch32GMAvailabilityPolicyDataProviderC7prepare13dispatchQueueySo03OS_I6_queueCSg_tFy16GenerativeModels0mN12AvailabilityV0O0OYbcfU_
+- _$s21SiriInformationSearch32GMAvailabilityPolicyDataProviderC7prepare13dispatchQueueySo03OS_I6_queueCSg_tFy16GenerativeModels0mN12AvailabilityV0O0OYbcfU_TA
+- _$s21SiriInformationSearch32GMAvailabilityPolicyDataProviderC7prepare13dispatchQueueySo03OS_I6_queueCSg_tFy16GenerativeModels0mN12AvailabilityV0O0OYbcfU_yyYbcfU_
+- _$s21SiriInformationSearch32GMAvailabilityPolicyDataProviderC7prepare13dispatchQueueySo03OS_I6_queueCSg_tFy16GenerativeModels0mN12AvailabilityV0O0OYbcfU_yyYbcfU_TA
+- _symbolic _____ 16GenerativeModels0aB12AvailabilityV0C0O
+Functions (modified):
+~ _$s21SiriInformationSearch19DataProviderManagerC03ampdE0010queueStatedE007appInfodE0022preferredNavigationAppdE007siriKitnkdE0021profileSliceResolvingdE0011marketplacekdE0012pairedDevicedE0020gmAvailabilityPolicydE0010muxContextF011preferences11environment09assistantD5Cache13serviceHelper0J8CheckingAcA03AnydE0CySayAA09MediaUserI0_pGG_ATy10PegasusAPI013Apple_Parsec_a19_V2alpha_AudioQueueiK0VGATySayAX013Apple_Parsec_a16_V2alpha_ProfileR0VGGA3_A3_A3_SgATyAX013Apple_Parsec_c15_V2_MarketplaceK0VGATySayAX021Useragentpb_CompanionV0VGGATySbGAA016PommesMUXContextF0CSgSo13AFPreferencesC0A9Utilities0A11EnvironmentCAA09AssistantD5CacheCSgSo32AFRequestDispatcherServiceHelper_pSgAA06PommesN8Checking_ptcfcfA7_ : 336 -> 168
+~ _$s21SiriInformationSearch12PegasusProxyC20pegasusClientBuilder15locationManager27networkAvailabilityProvider014pimsEnablementM019instrumentationUtil02rrG004datamJ012contactStore011dialogStateJ0AcA0deG0_pyc_AA22PommesLocationManaging_p0A9Utilities07NetworkL0CAA23PIMSEnablementProviding_pAA0d15InstrumentationQ0C0A19ReferenceResolution27RRReferenceResolverProtocol_pAA04DatamJ0CAA15ContactFetching_pAA0x6DialogwJ0CtcfcfA5_ : 1000 -> 1124
+~ _$s21SiriInformationSearch06PommesC7ServiceC06pommesC019instrumentationUtil17searchToolHandlerAcA0dC0C_AA0d21BridgeInstrumentationH0CAA04SageC0CtcfcfA1_ : 1268 -> 1384
+~ _$s21SiriInformationSearch16SagePegasusProxyC13pegasusClient15locationManager27networkAvailabilityProvider19instrumentationUtil04datamJ012contactStore011dialogStateJ0AC0E3Kit0eF19ForIntelligenceFlowC_AA22PommesLocationManaging_p0A9Utilities07NetworkL0CAA0e15InstrumentationO0CAA04DatamJ0CSgAA15ContactFetching_pAA0y6DialogtJ0CtcfcTf4nennnenn_nAA0yzJ0C_So09CNContactR0CTg5Tf4nnnnnnng_n : 1196 -> 1320
+~ _$s21SiriInformationSearch06PommesC0CACycfC : 2072 -> 2196
+~ _$s21SiriInformationSearch06PommesC0C06pommesC17ForSistoolFactoryACyFZ : 2676 -> 2800
+~ _$s21SiriInformationSearch15AnyDataProviderC8providerACyxGqd___tc10ReturnTypeQyd__RszAA0eF0Rd__lufcyycqd__cfu5_yycfu6_Sb_AA020GMAvailabilityPolicyeF0CTG5TA : 36 -> 44
+~ _$s21SiriInformationSearch19DataProviderManagerC8tearDownyyF : 728 -> 768
+~ _$s21SiriInformationSearch12PegasusProxyC15ampDataProvider010queueStategH007appInfogH0021profileSliceResolvinggH0014pimsEnablementH020pegasusClientBuilder15locationManager019networkAvailabilityH019instrumentationUtil11preferences02rrS012contactStore010muxContextV006dialogjV0AcA03AnygH0CySayAA09MediaUserJ0_pGG_ASy0D3API013Apple_Parsec_a19_V2alpha_AudioQueuejL0VGASySayAW013Apple_Parsec_a16_V2alpha_ProfileN0VGGA2_SgAA23PIMSEnablementProviding_pAA0deS0_pycAA22PommesLocationManaging_p0A9Utilities07NetworkX0CAA0d15InstrumentationZ0CSo13AFPreferencesC0A19ReferenceResolution27RRReferenceResolverProtocol_pAA15ContactFetching_pAA016PommesMUXContextV0CSgAA012PommesDialogjV0CtcfC : 1000 -> 1112
+~ _$s21SiriInformationSearch32GMAvailabilityPolicyDataProviderC4make14gmAvailabilityAA03AnyfG0CySbGAA0D8Protocol_pSg_tFZ : 288 -> 124
+~ _$s21SiriInformationSearch32GMAvailabilityPolicyDataProviderC14gmAvailabilityAcA0D8Protocol_pSg_tcfC : 240 -> 64
+~ _$s21SiriInformationSearch32GMAvailabilityPolicyDataProviderC14gmAvailabilityAcA0D8Protocol_pSg_tcfc : 220 -> 764
+~ _$s21SiriInformationSearch32GMAvailabilityPolicyDataProviderC7prepare13dispatchQueueySo03OS_I6_queueCSg_tF : 1760 -> 388
+~ _$s21SiriInformationSearch32GMAvailabilityPolicyDataProviderC5fetch3for09assistantF013serviceHelper13dispatchQueueSbSgAA06PommesC7RequestVSg_AA09AssistantF8SnapshotVSgSo026AFRequestDispatcherServiceL0_pSgSo03OS_M6_queueCSgtF : 36 -> 116
+~ _$s21SiriInformationSearch32GMAvailabilityPolicyDataProviderC19cancelNotificationsyyF : 88 -> 448
+~ _$s21SiriInformationSearch32GMAvailabilityPolicyDataProviderC5resetyyF : 388 -> 316
+~ _$s21SiriInformationSearch32GMAvailabilityPolicyDataProviderCfd : 116 -> 132
+~ _$s21SiriInformationSearch32GMAvailabilityPolicyDataProviderCfD : 176 -> 192
+~ _$s21SiriInformationSearch32GMAvailabilityPolicyDataProviderCAA0fG0A2aDP5resetyyFTW : 68 -> 76
+~ _$s21SiriInformationSearch32GMAvailabilityPolicyDataProviderCMr : 176 -> 188
+~ _$s21SiriInformationSearch32GMAvailabilityPolicyDataProviderC5resetyyFTj : 36 -> 44
+~ _$s21SiriInformationSearch16SagePegasusProxyC13pegasusClient15locationManager27networkAvailabilityProvider19instrumentationUtil04datamJ012contactStore011dialogStateJ0AC0E3Kit0eF19ForIntelligenceFlowC_AA22PommesLocationManaging_p0A9Utilities07NetworkL0CAA0e15InstrumentationO0CAA04DatamJ0CSgAA15ContactFetching_pAA0y6DialogtJ0CtcfcTf4nennnenn_nTf4nnnnnnng_n : 1236 -> 1376
+
+Functions (added):
++ [5 functions added in block]
++ _$s21SiriInformationSearch32GMAvailabilityPolicyDataProviderC5fetch3for09assistantF013serviceHelper13dispatchQueueSbSgAA06PommesC7RequestVSg_AA09AssistantF8SnapshotVSgSo026AFRequestDispatcherServiceL0_pSgSo03OS_M6_queueCSgtFAIyXEfU_TA
++ _$s21SiriInformationSearch32GMAvailabilityPolicyDataProviderC5resetyyFyyXEfU_
++ _$s21SiriInformationSearch32GMAvailabilityPolicyDataProviderC5resetyyFyyXEfU_TA
++ _$s21SiriInformationSearch32GMAvailabilityPolicyDataProviderC7prepare13dispatchQueueySo03OS_I6_queueCSg_tFyyXEfU_y16GenerativeModels0mN12AvailabilityV0O0OYbcfU_TA
++ [6 functions added in block]
+
+Functions (removed):
+- _$s8Dispatch0A13WorkItemFlagsVACs10SetAlgebraAAWlTm
+- _$s21SiriInformationSearch32GMAvailabilityPolicyDataProviderC7prepare13dispatchQueueySo03OS_I6_queueCSg_tFy16GenerativeModels0mN12AvailabilityV0O0OYbcfU_
+- _$s21SiriInformationSearch32GMAvailabilityPolicyDataProviderC7prepare13dispatchQueueySo03OS_I6_queueCSg_tFy16GenerativeModels0mN12AvailabilityV0O0OYbcfU_TA
+- _$s21SiriInformationSearch20MediaUserStateCenter_pSgWOc
+- _$s21SiriInformationSearch20MediaUserStateCenter_pSgWOh
+CStrings:
++ "GenerativeModelsAvailability: canceling notifications!"
++ "GenerativeModelsAvailability: didChange"
++ "com.apple.siri.siriinformation.gmavailability"
+
+```
