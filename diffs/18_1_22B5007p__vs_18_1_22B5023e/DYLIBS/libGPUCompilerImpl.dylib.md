@@ -1,0 +1,94 @@
+## libGPUCompilerImpl.dylib
+
+> `/System/Library/PrivateFrameworks/GPUCompiler.framework/Libraries/libGPUCompilerImpl.dylib`
+
+```diff
+
+-32023.332.0.0.0
+-  __TEXT.__text: 0x447570
+-  __TEXT.__auth_stubs: 0x4d00
++32023.334.0.0.0
++  __TEXT.__text: 0x44f17c
++  __TEXT.__auth_stubs: 0x4d10
+   __TEXT.__init_offsets: 0x48
+   __TEXT.__const: 0x1b0420
+-  __TEXT.__cstring: 0x324394
++  __TEXT.__cstring: 0x3243a6
+   __TEXT.__oslogstring: 0x47
+-  __TEXT.__unwind_info: 0x4a98
++  __TEXT.__unwind_info: 0x4ad8
+   __DATA_CONST.__got: 0x348
+   __DATA_CONST.__const: 0xb2a60
+-  __AUTH_CONST.__auth_got: 0x2680
++  __AUTH_CONST.__auth_got: 0x2688
+   __AUTH_CONST.__auth_ptr: 0x30
+-  __AUTH_CONST.__const: 0x8cd8
++  __AUTH_CONST.__const: 0x8d80
+   __AUTH.__thread_vars: 0x30
+   __AUTH.__thread_bss: 0x11
+   __DATA.__data: 0x1f
+
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libllvm-flatbuffers.dylib
+   - /usr/lib/libllvm-lmdb.dylib
+-  Functions: 7720
+-  Symbols:   3043
+-  CStrings:  17569
++  Functions: 7739
++  Symbols:   3054
++  CStrings:  17572
+ 
+Symbols:
++ __ZN4llvm3air13MetalFunctionC1ENS0_11MetalModuleENS_9StringRefES3_NS0_16MetalDefinedSymb10SymbolFlagENSt3__110shared_ptrINS0_11MetalSourceEEENS_8ArrayRefIS9_EENSA_IhEERNS_5ErrorE
++ __ZN4llvm3air13MetalFunctionC2ENS0_11MetalModuleENS_9StringRefES3_NS0_16MetalDefinedSymb10SymbolFlagENSt3__110shared_ptrINS0_11MetalSourceEEENS_8ArrayRefIS9_EENSA_IhEERNS_5ErrorE
++ __ZN4llvm3air13MetalVariableC1ENS0_11MetalModuleENS_9StringRefENS0_16MetalDefinedSymb10SymbolFlagENSt3__110shared_ptrINS0_11MetalSourceEEENS_8ArrayRefIS9_EENSA_IhEERNS_5ErrorE
++ __ZN4llvm3air13MetalVariableC2ENS0_11MetalModuleENS_9StringRefENS0_16MetalDefinedSymb10SymbolFlagENSt3__110shared_ptrINS0_11MetalSourceEEENS_8ArrayRefIS9_EENSA_IhEERNS_5ErrorE
++ __ZN4llvm3air14MetalLibCloner5cloneERKNS0_11MetalModuleE
++ __ZN4llvm3air16MetalDefinedSymbC2ENS1_10SymbolKindENS0_11MetalModuleENS_9StringRefES4_NS1_10SymbolFlagENSt3__110shared_ptrINS0_11MetalSourceEEENS_8ArrayRefIS9_EENSA_IhEE
++ __ZN4llvm3air20MetalLibObjectWriter16normalizeModulesEv
++ __ZN4llvm3air20MetalLibObjectWriterC1ENSt3__110unique_ptrINS0_8MetalLibENS2_14default_deleteIS4_EEEERNS_14raw_fd_ostreamE
++ __ZN4llvm3air20MetalLibObjectWriterC1ENSt3__110unique_ptrINS0_8MetalLibENS2_14default_deleteIS4_EEEERNS_17raw_pwrite_streamE
++ __ZN4llvm3air20MetalLibObjectWriterC2ENSt3__110unique_ptrINS0_8MetalLibENS2_14default_deleteIS4_EEEERNS_14raw_fd_ostreamE
++ __ZN4llvm3air20MetalLibObjectWriterC2ENSt3__110unique_ptrINS0_8MetalLibENS2_14default_deleteIS4_EEEERNS_17raw_pwrite_streamE
++ __ZN4llvm3air8MetalLib20reflections_iteratorC1ENSt3__111__wrap_iterIPKNS0_11MetalModuleEEENS4_IPKNS3_10shared_ptrINS0_10ReflectionEEEEE
++ __ZN4llvm3air8MetalLib20reflections_iteratorC1ENSt3__111__wrap_iterIPKNS0_11MetalModuleEEES8_NS4_IPKNS3_10shared_ptrINS0_10ReflectionEEEEESE_RNS_5ErrorE
++ __ZN4llvm3air8MetalLib20reflections_iteratorC2ENSt3__111__wrap_iterIPKNS0_11MetalModuleEEENS4_IPKNS3_10shared_ptrINS0_10ReflectionEEEEE
++ __ZN4llvm3air8MetalLib20reflections_iteratorC2ENSt3__111__wrap_iterIPKNS0_11MetalModuleEEES8_NS4_IPKNS3_10shared_ptrINS0_10ReflectionEEEEESE_RNS_5ErrorE
++ __ZN4llvm3air8MetalLib20reflections_iteratorppEv
++ __ZN4llvm3air9MetalType16getInlinePointerENSt3__110shared_ptrINS_6ModuleEEE
++ __ZN4llvm3air9MetalType16getInlinePointerENSt3__110shared_ptrINS_6ModuleEEENS_9StringRefEPKNS_11PointerTypeE
++ __ZN4llvm3air9MetalType16getInlinePointerENSt3__110shared_ptrINS_6ModuleEEEPKNS0_16AIStructTypeInfoEPKNS_11PointerTypeE
++ __ZN4llvm3air9MetalType8getArrayENSt3__110shared_ptrINS_6ModuleEEEPKNS0_9AICIArrayEPKNS_9ArrayTypeE
++ __ZNK4llvm3air13MetalFunction15getMetalVersionEv
++ __ZNK4llvm3air13MetalFunction29getRenderTargetArrayIndexTypeEv
++ __ZNK4llvm3air13MetalFunction7getKindEv
++ __ZNK4llvm3air13MetalFunction8getPatchEv
++ __ZNK4llvm6object18MetalLibObjectFile13getArchTripleEv
++ __ZTVN4llvm3air13MetalFunctionE
+- __ZN4llvm3air14MetalLibCloner5cloneERKNS_6ModuleE
+- __ZN4llvm3air16MetalDefinedSymbC1ENSt3__110shared_ptrINS_6ModuleEEENS_9StringRefES6_NS1_10SymbolFlagENS3_INS0_11MetalSourceEEENS_8ArrayRefIS9_EENSA_IhEE
+- __ZN4llvm3air16MetalDefinedSymbC2ENSt3__110shared_ptrINS_6ModuleEEENS_9StringRefES6_NS1_10SymbolFlagENS3_INS0_11MetalSourceEEENS_8ArrayRefIS9_EENSA_IhEE
+- __ZN4llvm3air20MetalLibObjectWriterC1ERKNS0_8MetalLibERNS_14raw_fd_ostreamE
+- __ZN4llvm3air20MetalLibObjectWriterC1ERKNS0_8MetalLibERNS_17raw_pwrite_streamE
+- __ZN4llvm3air20MetalLibObjectWriterC2ERKNS0_8MetalLibERNS_14raw_fd_ostreamE
+- __ZN4llvm3air20MetalLibObjectWriterC2ERKNS0_8MetalLibERNS_17raw_pwrite_streamE
+- __ZN4llvm3air9MetalType16getInlinePointerENS_9StringRefEPKNS_11PointerTypeEPKNS_10DataLayoutE
+- __ZN4llvm3air9MetalType16getInlinePointerEPKNS0_16AIStructTypeInfoEPKNS_11PointerTypeEPKNS_10DataLayoutE
+- __ZN4llvm3air9MetalType16getInlinePointerEPKNS_10DataLayoutE
+- __ZN4llvm3air9MetalType8getArrayEPKNS0_9AICIArrayEPKNS_9ArrayTypeEPKNS_10DataLayoutE
+- __ZNK4llvm3air16MetalDefinedSymb13getReflectionEv
+- __ZNK4llvm3air16MetalDefinedSymb15getMetalVersionEv
+- __ZNK4llvm3air16MetalDefinedSymb30ensureModuleReferencesAreAliveEv
+- __ZNK4llvm3air8MetalLib20reflections_iteratordeEv
+CStrings:
++ "' function"
++ "' variable"
++ "32023.334"
++ "cannot creaet '"
++ "cannot create '"
++ "variable"
+- "32023.332"
+- "Cannot materialize function module!"
+- "Expecting function or global variable!"
+
+```
