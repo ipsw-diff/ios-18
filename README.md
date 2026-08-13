@@ -21,7 +21,14 @@ release sequence is implied.
 | `iPhone11,8` | [18.7.6 (22H320) → 18.7.7 (22H340)](diffs/18_7_6_22H320__vs_18_7_7_22H340/README.md) | [provenance](manifests/18_7_6_22H320__vs_18_7_7_22H340.json) |
 | `iPhone11,8` | [18.7.7 (22H333) → 18.7.7 (22H340)](diffs/18_7_7_22H333__vs_18_7_7_22H340/README.md) | [provenance](manifests/18_7_7_22H333__vs_18_7_7_22H340.json) |
 | `iPhone12,1` | [18.3 (22D63) → 18.3 (22D64)](diffs/18_3_22D63__vs_18_3_22D64/README.md) | [provenance](manifests/18_3_22D63__vs_18_3_22D64.json) |
+| `iPhone16,2` | [17.5.1 (21F90) → 18.0 (22A5282m)](diffs/17_5_1_21F90__vs_18_0_22A5282m/TOC.md) | [provenance](manifests/17_5_1_21F90__vs_18_0_22A5282m.json) |
 | `iPhone16,2` | [18.0 (22A3354) → 18.0.1 (22A3370)](diffs/18_0_22A3354__vs_18_0_1_22A3370/README.md) | [provenance](manifests/18_0_22A3354__vs_18_0_1_22A3370.json) |
+| `iPhone16,2` | [18.0 (22A5282m) → 18.0 (22A5297f)](diffs/18_0_22A5282m__vs_18_0_22A5297f/TOC.md) | [provenance](manifests/18_0_22A5282m__vs_18_0_22A5297f.json) |
+| `iPhone16,2` | [18.0 (22A5297f) → 18.0 (22A5307f)](diffs/18_0_22A5297f__vs_18_0_22A5307f/TOC.md) | [provenance](manifests/18_0_22A5297f__vs_18_0_22A5307f.json) |
+| `iPhone16,2` | [18.0 (22A5307f) → 18.0 (22A5307i)](diffs/18_0_22A5307f__vs_18_0_22A5307i/TOC.md) | [provenance](manifests/18_0_22A5307f__vs_18_0_22A5307i.json) |
+| `iPhone16,2` | [18.0 (22A5307i) → 18.0 (22A5316j)](diffs/18_0_22A5307i__vs_18_0_22A5316j/TOC.md) | [provenance](manifests/18_0_22A5307i__vs_18_0_22A5316j.json) |
+| `iPhone16,2` | [18.0 (22A5316k) → 18.0 (22A5326f)](diffs/18_0_22A5316k__vs_18_0_22A5326f/TOC.md) | [provenance](manifests/18_0_22A5316k__vs_18_0_22A5326f.json) |
+| `iPhone16,2` | [18.0 (22A5316k) → 18.1 (22B5007p)](diffs/18_0_22A5316k__vs_18_1_22B5007p/TOC.md) | [provenance](manifests/18_0_22A5316k__vs_18_1_22B5007p.json) |
 | `iPhone16,2` | [18.0 (22A5326f) → 18.0 (22A5338b)](diffs/18_0_22A5326f__vs_18_0_22A5338b/README.md) | [provenance](manifests/18_0_22A5326f__vs_18_0_22A5338b.json) |
 | `iPhone16,2` | [18.0 (22A5338b) → 18.0 (22A5346a)](diffs/18_0_22A5338b__vs_18_0_22A5346a/README.md) | [provenance](manifests/18_0_22A5338b__vs_18_0_22A5346a.json) |
 | `iPhone16,2` | [18.0 (22A5346a) → 18.0 (22A5350a)](diffs/18_0_22A5346a__vs_18_0_22A5350a/README.md) | [provenance](manifests/18_0_22A5346a__vs_18_0_22A5350a.json) |
