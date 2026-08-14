@@ -1,0 +1,15 @@
+{
+  "schema_version": 2,
+  "id": "ios-18",
+  "platform": "iOS",
+  "appledb_platform": "iOS",
+  "device": "iPhone11,8",
+  "major_version": 18,
+  "anchor": {
+    "version": "18.7.7",
+    "build": "22H340",
+    "released": "2026-04-01T00:00:00Z",
+    "beta": false,
+    "rc": false
+  }
+}
