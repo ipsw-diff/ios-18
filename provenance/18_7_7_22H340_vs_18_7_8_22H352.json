@@ -1,0 +1,167 @@
+{
+  "catalog_commit": "7c796028220ff850bf08d253b6b9084f6ff60a96",
+  "discovery": {
+    "anchor": {
+      "appledb_path": "osFiles/iOS/22x - 18.x/22H340.json",
+      "beta": false,
+      "build": "22H340",
+      "rc": false,
+      "released": "2026-04-01T00:00:00Z",
+      "source": {
+        "input": "iPhone11,8_18.7.7_22H340_Restore.ipsw",
+        "sha256": "b9a275ab99c964f653ca8fb306ba2fc692dea0ba75cbc6e08261591026c4f1d5",
+        "size": 8683815954,
+        "url": "https://updates.cdn-apple.com/2026WinterFCS/fullrestores/122-22395/A3200FDD-28E2-410F-B913-912FCB348841/iPhone11,8_18.7.7_22H340_Restore.ipsw"
+      },
+      "version": "18.7.7"
+    },
+    "appledb": {
+      "commit": "b0be63eb7bda7aa2eafbc8770fa7a99950f2bd5b",
+      "repository": "https://github.com/littlebyteorg/appledb"
+    },
+    "appledb_platform": "iOS",
+    "device": "iPhone11,8",
+    "edges": [
+      {
+        "from": {
+          "appledb_path": "osFiles/iOS/22x - 18.x/22H340.json",
+          "beta": false,
+          "build": "22H340",
+          "rc": false,
+          "released": "2026-04-01T00:00:00Z",
+          "source": {
+            "input": "iPhone11,8_18.7.7_22H340_Restore.ipsw",
+            "sha256": "b9a275ab99c964f653ca8fb306ba2fc692dea0ba75cbc6e08261591026c4f1d5",
+            "size": 8683815954,
+            "url": "https://updates.cdn-apple.com/2026WinterFCS/fullrestores/122-22395/A3200FDD-28E2-410F-B913-912FCB348841/iPhone11,8_18.7.7_22H340_Restore.ipsw"
+          },
+          "version": "18.7.7"
+        },
+        "to": {
+          "appledb_path": "osFiles/iOS/22x - 18.x/22H352.json",
+          "beta": false,
+          "build": "22H352",
+          "rc": false,
+          "released": "2026-04-22T00:00:00Z",
+          "source": {
+            "input": "iPhone11,8_18.7.8_22H352_Restore.ipsw",
+            "sha256": "aa6426a40dc3021e32676bad437a60a4e5a7aea0caf80eea1ecd2be4f555d91f",
+            "size": 8683785175,
+            "url": "https://updates.cdn-apple.com/2026WinterFCS/fullrestores/122-58419/209B7F8A-225C-49D6-BFA4-C95F360DDD69/iPhone11,8_18.7.8_22H352_Restore.ipsw"
+          },
+          "version": "18.7.8"
+        }
+      },
+      {
+        "from": {
+          "appledb_path": "osFiles/iOS/22x - 18.x/22H352.json",
+          "beta": false,
+          "build": "22H352",
+          "rc": false,
+          "released": "2026-04-22T00:00:00Z",
+          "source": {
+            "input": "iPhone11,8_18.7.8_22H352_Restore.ipsw",
+            "sha256": "aa6426a40dc3021e32676bad437a60a4e5a7aea0caf80eea1ecd2be4f555d91f",
+            "size": 8683785175,
+            "url": "https://updates.cdn-apple.com/2026WinterFCS/fullrestores/122-58419/209B7F8A-225C-49D6-BFA4-C95F360DDD69/iPhone11,8_18.7.8_22H352_Restore.ipsw"
+          },
+          "version": "18.7.8"
+        },
+        "to": {
+          "appledb_path": "osFiles/iOS/22x - 18.x/22H355.json",
+          "beta": false,
+          "build": "22H355",
+          "rc": false,
+          "released": "2026-05-11T00:00:00Z",
+          "source": {
+            "input": "iPhone11,8_18.7.9_22H355_Restore.ipsw",
+            "sha256": "77d1f41267ec37aea171c1d2b058cd867cec4547422922f6d99efc1fae0f945d",
+            "size": 8683773030,
+            "url": "https://updates.cdn-apple.com/2026WinterFCS/fullrestores/122-34179/047B0DE1-4C17-4CBB-ACA7-1EBBF92EE193/iPhone11,8_18.7.9_22H355_Restore.ipsw"
+          },
+          "version": "18.7.9"
+        }
+      },
+      {
+        "from": {
+          "appledb_path": "osFiles/iOS/22x - 18.x/22H355.json",
+          "beta": false,
+          "build": "22H355",
+          "rc": false,
+          "released": "2026-05-11T00:00:00Z",
+          "source": {
+            "input": "iPhone11,8_18.7.9_22H355_Restore.ipsw",
+            "sha256": "77d1f41267ec37aea171c1d2b058cd867cec4547422922f6d99efc1fae0f945d",
+            "size": 8683773030,
+            "url": "https://updates.cdn-apple.com/2026WinterFCS/fullrestores/122-34179/047B0DE1-4C17-4CBB-ACA7-1EBBF92EE193/iPhone11,8_18.7.9_22H355_Restore.ipsw"
+          },
+          "version": "18.7.9"
+        },
+        "to": {
+          "appledb_path": "osFiles/iOS/22x - 18.x/22H373.json",
+          "beta": false,
+          "build": "22H373",
+          "rc": true,
+          "released": "2026-08-10T00:00:00Z",
+          "source": {
+            "input": "iPhone11,8_18.7.10_22H373_Restore.ipsw",
+            "sha256": "b80b9b0d386314b94cc8c3e57458639df2d5ffc7501fbfc8b1be9fa05f7ab7d0",
+            "size": 8683906441,
+            "url": "https://updates.cdn-apple.com/2026WinterFCS/fullrestores/140-81816/35B400FD-9BBB-4197-9220-A864EC6A3178/iPhone11,8_18.7.10_22H373_Restore.ipsw"
+          },
+          "version": "18.7.10 RC"
+        }
+      }
+    ],
+    "latest": {
+      "appledb_path": "osFiles/iOS/22x - 18.x/22H373.json",
+      "beta": false,
+      "build": "22H373",
+      "rc": true,
+      "released": "2026-08-10T00:00:00Z",
+      "source": {
+        "input": "iPhone11,8_18.7.10_22H373_Restore.ipsw",
+        "sha256": "b80b9b0d386314b94cc8c3e57458639df2d5ffc7501fbfc8b1be9fa05f7ab7d0",
+        "size": 8683906441,
+        "url": "https://updates.cdn-apple.com/2026WinterFCS/fullrestores/140-81816/35B400FD-9BBB-4197-9220-A864EC6A3178/iPhone11,8_18.7.10_22H373_Restore.ipsw"
+      },
+      "version": "18.7.10 RC"
+    },
+    "major_version": 18,
+    "platform": "iOS",
+    "schema_version": 2,
+    "source_inventory": {
+      "observed": 66,
+      "selected": 4
+    },
+    "status": "candidate",
+    "track_id": "ios-18"
+  },
+  "generator": {
+    "name": "ipsw",
+    "version": "Version: 3.1.708, BuildCommit: 84f5d9aef45149840bdd00b7b8e661088c1d6881"
+  },
+  "inputs": [
+    {
+      "role": "previous",
+      "sha256": "b9a275ab99c964f653ca8fb306ba2fc692dea0ba75cbc6e08261591026c4f1d5",
+      "size": 8683815954,
+      "url": "https://updates.cdn-apple.com/2026WinterFCS/fullrestores/122-22395/A3200FDD-28E2-410F-B913-912FCB348841/iPhone11,8_18.7.7_22H340_Restore.ipsw"
+    },
+    {
+      "role": "next",
+      "sha256": "aa6426a40dc3021e32676bad437a60a4e5a7aea0caf80eea1ecd2be4f555d91f",
+      "size": 8683785175,
+      "url": "https://updates.cdn-apple.com/2026WinterFCS/fullrestores/122-58419/209B7F8A-225C-49D6-BFA4-C95F360DDD69/iPhone11,8_18.7.8_22H352_Restore.ipsw"
+    }
+  ],
+  "schema_version": 1,
+  "signatures": {
+    "commit": "81178cfe6c8869612ef092f6471fce3e17d95b20",
+    "repository": "https://github.com/blacktop/symbolicator"
+  },
+  "source_commit": "2669ad9120e2afb326b205493b4256e5d5b7a992",
+  "source_tag": "payload/18_7_7_22H340_vs_18_7_8_22H352",
+  "workflow_commit": "035f9efddbf446ab9c9462f7fe73416483dee5ed",
+  "workflow_run": "https://github.com/ipsw-diff/ios-18/actions/runs/31858228547"
+}
