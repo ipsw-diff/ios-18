@@ -16,7 +16,7 @@ release sequence is implied.
 | `iPhone11,8` | [18.7.1 (22H31) → 18.7.2 (22H124)](diffs/18_7_1_22H31__vs_18_7_2_22H124/README.md) | [provenance](manifests/18_7_1_22H31__vs_18_7_2_22H124.json) |
 | `iPhone11,8` | [18.7.6 (22H320) → 18.7.7 (22H340)](diffs/18_7_6_22H320__vs_18_7_7_22H340/README.md) | [provenance](manifests/18_7_6_22H320__vs_18_7_7_22H340.json) |
 | `iPhone11,8` | [18.7.7 (22H333) → 18.7.7 (22H340)](diffs/18_7_7_22H333__vs_18_7_7_22H340/README.md) | [provenance](manifests/18_7_7_22H333__vs_18_7_7_22H340.json) |
-| `iPhone11,8` | [18.7.7 (22H340) → 18.7.8 (22H352)](diffs/18_7_7_22H340_vs_18_7_8_22H352/README.md) | [provenance](manifests/18_7_7_22H340_vs_18_7_8_22H352.json) |
+| `iPhone11,8` | [18.7.8 (22H352) → 18.7.9 (22H355)](diffs/18_7_8_22H352_vs_18_7_9_22H355/README.md) | [provenance](manifests/18_7_8_22H352_vs_18_7_9_22H355.json) |
 | `iPhone12,1` | [18.3 (22D63) → 18.3 (22D64)](diffs/18_3_22D63__vs_18_3_22D64/README.md) | [provenance](manifests/18_3_22D63__vs_18_3_22D64.json) |
 | `iPhone16,2` | [17.5.1 (21F90) → 18.0 (22A5282m)](diffs/17_5_1_21F90__vs_18_0_22A5282m/TOC.md) | [provenance](manifests/17_5_1_21F90__vs_18_0_22A5282m.json) |
 | `iPhone16,2` | [18.0 (22A3354) → 18.0.1 (22A3370)](diffs/18_0_22A3354__vs_18_0_1_22A3370/README.md) | [provenance](manifests/18_0_22A3354__vs_18_0_1_22A3370.json) |
