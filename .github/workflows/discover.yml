@@ -2,7 +2,7 @@ name: Discover iOS 18 firmware
 
 on:
   schedule:
-    - cron: "48 */6 * * *"
+    - cron: "48 * * * *"
   pull_request:
     paths:
       - .github/workflows/discover.yml
